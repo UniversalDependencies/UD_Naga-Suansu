@@ -982,8 +982,8 @@
 # english = (Why doesn’t Peter speak with Maria?)  Peter has a grudge against Maria
 1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
 2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	nungaikhama	nungai	ADJ	_	Aspect=Perf|Degree=Pos|Polarity=Neg|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	3:cop	SpacesAfter=\n
+3	nungaikhama	nungai	VERB	_	Aspect=Perf|Degree=Pos|Polarity=Neg|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
 
 # sent_id = grammar_BivalTyp_123
 # text = Peter nungnahn thezuate Maria dai
@@ -992,7 +992,7 @@
 2	nungnahn	nung	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
 3	thezuate	thezu	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	Maria	Maria	PROPN	_	Number=Sing	3	obl	3:obl	_
-5	dai	dai	ADP	CAUS	_	4	case	4:case	SpacesAfter=\n
+5	dai	dai	AUX	_	Mood=Jus	3	aux	3:aux	SpacesAfter=\n
 
 # sent_id = grammar_BivalTyp_124
 # text = Peter Mariadi bathanahn nungaima muate
@@ -1187,9 +1187,9 @@
 # text = Tye neodi kathe late
 # english = The little boy is sick.
 1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neodi	neo	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
-3	kathe	kathe	ADJ	_	Degree=Pos	0	root	0:root	_
-4	late	la	AUX	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	3:cop	SpacesAfter=\n
+2	neodi	neo	NOUN	_	Case=Top|Number=Sing	4	nsubj	3:nsubj:xsubj|4:nsubj	_
+3	kathe	kathe	ADJ	_	Degree=Pos	4	xcomp	4:xcomp	_
+4	late	la	AUX	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
 # sent_id = grammar_ValPal_17
 # text = Neo mungdi Jason rele
@@ -1969,7 +1969,7 @@
 # english = Excuse me.
 1	Yoan	yoan	VERB	_	VerbForm=Inf	0	root	0:root	_
 2	ra	ra	AUX	_	Mood=Imp	1	aux	1:aux	_
-3	ga	ga	AUX	_	Mood=Jus	1	aux	1:aux	SpacesAfter=\n
+3	ga	ga	AUX	_	Mood=Hort	1	aux	1:aux	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_10
 # text = Thaima lehnda
@@ -1980,7 +1980,7 @@
 # sent_id = film_BridgeOfSpies_11
 # text = Hai chachanahn kham dai
 # english = Go ahead and park around the corner.
-1	Hai	hai	PRON	_	Number=Plus|Person=1|PronType=Prs	3	nsubj	3:nsubj	_
+1	Hai	hai	PRON	_	Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	_
 2	chachanahn	chachanahn	ADV	_	_	3	advmod	3:advmod	_
 3	kham	kham	VERB	_	VerbForm=Inf	0	root	0:root	_
 4	dai	dai	AUX	_	Mood=Jus	3	aux	3:aux	SpacesAfter=\n
@@ -2074,7 +2074,7 @@
 1	Nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	_
 2	mokruenahn	mokrue	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
 3	dhohnle	dhohn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	7:ccomp	_
-4	reva	re	PART	REP	Case=Gen	3	mark	3:mark	_
+4	reva	reva	ADP	REP	_	3	mark	3:mark	_
 5	hai	hai	PRON	_	Number=Plur|Person=1|PronType=Prs	7	nsubj	7:nsubj	_
 6	pao	pao	NOUN	_	Number=Sing	7	obj	7:obj	_
 7	ruate	ru	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
@@ -2247,7 +2247,7 @@
 1	Tye	tye	PRON	_	Deixis=Remt|Number=Sing|PronType=Dem	2	obj	2:obj	_
 2	thya	thya	VERB	_	VerbForm=Inf	3	xcomp	3:xcomp	_
 3	muma	mu	VERB	NEG	VerbForm=Inf	0	root	0:root	SpacesAfter=\n
-4	rahn	rahn	AUX	_	Aspet=Imp|Mood=Irr	3	aux	3:aux	_
+4	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	3	aux	3:aux	_
 
 # sent_id = film_BridgeOfSpies_42
 # text = "A miszu." Rema i
@@ -2709,7 +2709,7 @@
 # sent_id = film_BridgeOfSpies_79_1
 # text = Wi!
 # english = Well,
-1	Wi	Wi	INTJ	_	_	0	root	0:root	SpaceAfter=No
+1	Wi	wi	INTJ	_	_	0	root	0:root	SpaceAfter=No
 2	!	!	PUNCT	_	_	1	punct	1:punct	_
 
 # sent_id = film_BridgeOfSpies_79_2
@@ -2894,12 +2894,12 @@
 # sent_id = film_BridgeOfSpies_100
 # text = Rigatratrahn lala la, Tom?
 # english = Is everything all right, Tom?
-1	Rigatratrahn	rigatratrahn	NOUN	_	_	0	root	0:root	_
-2	lala	la	AUX	_	Mood=Int|VerbForm=Fin	1	cop	1:cop	_
-3	la	la	AUX	Q	Mood=Int	1	aux	1:aux	SpaceAfter=No
+1	Rigatratrahn	rigatratrahn	NOUN	_	_	2	nsubj	2:nsubj	_
+2	lala	la	AUX	_	Mood=Int|VerbForm=Fin	0	root	0:root	_
+3	la	la	AUX	Q	Mood=Int	2	aux	2:aux	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	5:punct	_
-5	Tom	Tom	PROPN	_	Number=Sing	1	vocative	1:vocative	SpaceAfter=No
-6	?	?	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
+5	Tom	Tom	PROPN	_	Number=Sing	2	vocative	2:vocative	SpaceAfter=No
+6	?	?	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_101
 # text = Nahnvai gookedi Alisonla wisza.
@@ -2923,21 +2923,21 @@
 # english = Something pretty important has come up.
 1	Bathanahn	bathanahn	ADV	_	_	2	advmod	2:advmod	_
 2	thokke	thokke	ADJ	_	Degree=Pos	3	amod	3:amod	_
-3	ska	ska	NUM	_	NumForm=Word|NumType=Card	0	root	0:root	_
-4	lalate	la	AUX	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	3:cop	SpaceAfter=No
-5	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
+3	ska	ska	NUM	_	NumForm=Word|NumType=Card	4	nsubj	4:nsubj	_
+4	lalate	la	AUX	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_104
 # text = Miszu ska nahndi ru rahn re lale.
 # english = Somebody's here to see us.
-1	Miszu	miszu	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+1	Miszu	miszu	NOUN	_	Number=Sing	7	nsubj	7:nsubj	_
 2	ska	ska	NUM	_	NumForm=Word|NumType=Card	1	nummod	1:nummod	_
 3	nahndi	nahn	PRON	_	Case=Top|Number=Sing|Person=2|PronType=Prs	4	obj	4:obj	_
-4	ru	ru	VERB	_	VerbForm=Inf	0	root	0:root	_
+4	ru	ru	VERB	_	VerbForm=Inf	7	advcl	7:advcl	_
 5	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	4	aux	4:aux	_
-6	re	re	ADV	_	_	4	advmod	4:advmod	_
-7	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	4:cop	SpaceAfter=No
-8	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
+6	re	re	ADV	_	_	7	advmod	7:advmod	_
+7	lale	la	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	7:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_105
 # text = Natalienan nahnva coffee samganan lalate.
@@ -2988,20 +2988,20 @@
 # sent_id = film_BridgeOfSpies_112
 # text = Rhuikha gare lala?
 # english = How's the family?
-1	Rhuikha	rhuikha	NOUN	_	Number=Sing	2	nsubj	2:nsubj	_
-2	gare	gare	ADV	_	PronType=Int	0	root	0:root	_
-3	lala	la	AUX	_	Mood=Int|VerbForm=Fin	2	cop	2:cop	SpaceAfter=No
-4	?	?	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
+1	Rhuikha	rhuikha	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	gare	gare	ADV	_	PronType=Int	3	advmod	3:advmod	_
+3	lala	la	AUX	_	Mood=Int|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_113
 # text = Nungainan la, szu rele.
 # english = Great, good.
-1	Nungainan	nungainan	ADV	_	_	0	root	0:root	_
-2	la	la	AUX	_	VerbForm=Inf	1	cop	1:cop	SpaceAfter=No
+1	Nungainan	nungainan	ADV	_	_	2	advmod	2:advmod	_
+2	la	la	AUX	_	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	5:punct	_
 4	szu	szu	ADV	_	_	5	advmod	5:advmod	_
-5	rele	re	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	1:parataxis	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
+5	rele	re	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_114
 # text = Szukhyate
@@ -3011,21 +3011,21 @@
 # sent_id = film_BridgeOfSpies_115
 # text = Annie gare lala?
 # english = How's Annie?
-1	Annie	Annie	PROPN	_	Number=Sing	2	nsubj	2:nsubj	_
-2	gare	gare	ADV	_	PronType=Int	0	root	0:root	_
-3	lala	la	AUX	_	Mood=Int|VerbForm=Fin	2	cop	2:cop	SpaceAfter=No
-4	?	?	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
+1	Annie	Annie	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	gare	gare	ADV	_	PronType=Int	3	advmod	3:advmod	_
+3	lala	la	AUX	_	Mood=Int|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_116
 # text = Miszu mathai mu thatham re lale.
 # english = Homicidal.
 1	Miszu	miszu	NOUN	_	Number=Sing	2	obj	2:obj	_
 2	mathai	mathai	VERB	_	VerbForm=Inf	3	xcomp	3:xcomp	_
-3	mu	mu	VERB	_	VerbForm=Inf	0	root	0:root	_
+3	mu	mu	VERB	_	VerbForm=Inf	6	advcl	6:advcl	_
 4	thatham	thatham	SCONJ	ADV	_	3	mark	3:mark	_
 5	re	re	ADV	_	_	3	advmod	3:advmod	_
-6	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	3:cop	SpaceAfter=No
-7	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
+6	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	6:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_117
 # text = A biwi rhuikha bu holiday kare re.
@@ -3042,7 +3042,7 @@
 # sent_id = film_BridgeOfSpies_118
 # text = Wi, ba thethi khakhahnnan theate regwenan, ba lawyer la reganan la rahnte.
 # english = Well, if she acts on it, she'll have good representation.
-1	Wi	Wi	INTJ	_	_	13	discourse	13:discourse	SpaceAfter=No
+1	Wi	wi	INTJ	_	_	13	discourse	13:discourse	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	_
 4	thethi	thethi	ADV	_	_	6	advmod	6:advmod	_
@@ -3069,7 +3069,7 @@
 # sent_id = film_BridgeOfSpies_120
 # text = Hre, ha...
 # english = Okay, here's the thing.
-1	Hre	Hre	INTJ	_	_	0	root	0:root	SpaceAfter=No
+1	Hre	hre	INTJ	_	_	0	root	0:root	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	3:punct	_
 3	ha	ha	INTJ	_	_	1	discourse	1:discourse	SpaceAfter=No
 4	...	...	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
@@ -3102,7 +3102,7 @@
 # sent_id = film_BridgeOfSpies_123
 # text = Wow.
 # english = Wow.
-1	Wow	Wow	INTJ	_	_	0	root	0:root	SpaceAfter=No
+1	Wow	wow	INTJ	_	_	0	root	0:root	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_124
@@ -3303,7 +3303,7 @@
 2	neo	neo	NOUN	_	Number=Sing	3	reparandum	3:reparandum	_
 3	hadi	hadi	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	6	nsubj	6:nsubj	_
 4	miszu	miszu	NOUN	_	Number=Sing	6	obj	6:obj	_
-5	mazohnnan	mazohn	DET	_	Case=Erg|PronType=Tot	4	det	4:det	_
+5	mazohnnan	mazohn	PRON	_	Case=Erg|PronType=Tot	4	det	4:det	_
 6	matrahnganan	matrahn	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
 7	laha	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pqp|VerbForm=Fin	6	aux	6:aux	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	6:punct	SpacesAfter=\n
@@ -3315,7 +3315,7 @@
 2	adi	a	PRON	_	Case=Top|Number=Sing|Person=1|PronType=Prs	4	obj	4:obj	_
 3	li	li	ADV	ASC	_	1	advmod:emph	1:advmod:emph	_
 4	matrahn	matrahn	VERB	_	VerbForm=Inf	0	root	0:root	_
-5	rahnte	rahnte	AUX	COMPL	Aspect=Perf|Mood=Irr	4	aux	4:aux	_
+5	rahnte	rahn	AUX	COMPL	Aspect=Perf|Mood=Irr	4	aux	4:aux	_
 6	we	we	INTJ	_	_	4	discourse	4:discourse	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
@@ -3350,14 +3350,14 @@
 # sent_id = film_BridgeOfSpies_146
 # text = Evidencedi gare la, a la nanymdanan?
 # english = Suppose I did, what's the evidence look like?
-1	Evidencedi	evidence	NOUN	_	Case=Top|Number=Sing	2	nsubj	2:nsubj	OrigLang=en
-2	gare	gare	ADV	_	PronType=Int	0	root	0:root	_
-3	la	la	AUX	_	VerbForm=Inf	2	cop	2:cop	SpaceAfter=No
+1	Evidencedi	evidence	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	OrigLang=en
+2	gare	gare	ADV	_	PronType=Int	3	advmod	3:advmod	_
+3	la	la	AUX	_	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	6:punct	_
 5	a	a	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	_
-6	la	la	VERB	_	VerbForm=Inf	2	advcl	2:advcl	_
+6	la	la	VERB	_	VerbForm=Inf	3	advcl	3:advcl	_
 7	nanymdanan	nanymda	SCONJ	_	_	6	mark	6:mark	SpaceAfter=No
-8	?	?	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
+8	?	?	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_147
 # text = Matikza drungle.
@@ -3506,7 +3506,7 @@
 4	tye	tye	DET	_	Deixis=Remt|PronType=Dem	5	det	5:det	_
 5	Soviet	Soviet	ADJ	_	Degree=Pos	7	obj	7:obj	OrigLang=en
 6	spy	spy	NOUN	_	Number=Sing	5	flat:foreign	5:flat:foreign	OrigLang=en
-7	re	re	PART	REP	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	5	case	5:case	_
+7	re	re	PART	_	_	5	case	5:case	_
 8	thwa	thyi	VERB	_	VerbForm=Inf	2	parataxis	2:parataxis	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	2:punct	SpacesAfter=\n
 
@@ -3595,7 +3595,7 @@
 1	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
 2	phethe	phethe	VERB	_	VerbForm=Inf	6	ccomp	6:ccomp	_
 3	rai	rai	ADV	COLL	VerbForm=Inf	2	compound:prt	2:compound:prt	_
-4	ga	ga	AUX	_	Mood=Jus	2	aux	2:aux	_
+4	ga	ga	AUX	_	Mood=Hort	2	aux	2:aux	_
 5	re	re	ADV	_	_	2	advmod	2:advmod	_
 6	rung	rung	VERB	_	VerbForm=Inf	7	compound:svc	7:compound:svc	_
 7	wile	wi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
@@ -3615,7 +3615,7 @@
 # sent_id = film_BridgeOfSpies_171
 # text = Ah, garhe, A phahnle, phahnshehnle.
 # english = Yeah, no, I 'm free, completely free.
-1	Ah	Ah	INTJ	_	_	6	discourse	6:discourse	SpaceAfter=No
+1	Ah	ah	INTJ	_	_	6	discourse	6:discourse	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	garhe	garhe	INTJ	_	Polarity=Neg	6	discourse	6:discourse	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	3:punct	_
@@ -3668,7 +3668,7 @@
 # sent_id = film_BridgeOfSpies_175
 # text = Wi, hai trahnpha khaya dyenan shehnnan kahaoma.
 # english = Well, maybe it 's the kind of honor we could do without.
-1	Wi	Wi	INTJ	_	_	8	discourse	8:discourse	SpaceAfter=No
+1	Wi	wi	INTJ	_	_	8	discourse	8:discourse	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	hai	hai	PRON	_	Number=Plur|Person=1|PronType=Prs	8	nsubj	8:nsubj	_
 4	trahnpha	trahn	NOUN	_	Number=Plur	5	nmod	5:nmod	_
@@ -3681,7 +3681,7 @@
 # sent_id = film_BridgeOfSpies_176
 # text = Ala, neorai nahn gare la?
 # english = Hey, honey, what are you doing home?
-1	Ala	a	INTJ	_	_	5	discourse	5:discourse	SpaceAfter=No
+1	Ala	ala	INTJ	_	_	5	discourse	5:discourse	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	neorai	neorai	NOUN	_	Number=Sing	5	vocative	5:vocative	_
 4	nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	_
@@ -3699,7 +3699,7 @@
 # sent_id = film_BridgeOfSpies_178
 # text = Wi, didi ay re mumate.
 # english = Well, that 's despicable.
-1	Wi	Wi	INTJ	_	_	6	discourse	6:discourse	SpaceAfter=No
+1	Wi	wi	INTJ	_	_	6	discourse	6:discourse	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	didi	didi	PRON	_	Deixis=Remt|Number=Sing|PronType=Dem	4	obj	4:obj	_
 4	ay	ay	INTJ	_	ExtPos=VERB|Polarity=Pos	6	xcomp	6:xcomp	_
@@ -3877,8 +3877,8 @@
 1	Abeldi	Abel	PROPN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
 2	theyikke	theyikke	NOUN	_	Aspect=Imp|Number=Sing|VerbForm=Vnoun	4	obl	4:obl	_
 3	re	re	ADV	_	_	2	advmod	2:advmod	_
-4	phehnszuma	phehn	ADJ	MOD-NEG	Degree=Pos|Modal=Perm|Polarity=Neg|VerbForm=Inf	0	root	0:root	_
-5	la	la	AUX	_	VerbForm=Inf	4	cop	4:cop	_
+4	phehnszuma	phehn	VERB	MOD-NEG	Degree=Pos|Modal=Perm|Polarity=Neg|VerbForm=Inf	0	root	0:root	_
+5	la	la	AUX	_	VerbForm=Inf	4	aux	4:aux	_
 6	gu	gu	AUX	_	Evident=Fh	4	aux	4:aux	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
@@ -3968,12 +3968,12 @@
 # sent_id = film_BridgeOfSpies_203
 # text = Miszudi amahn thok la gu.
 # english = Every person matters.
-1	Miszudi	miszu	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
-2	amahn	a	VERB	_	Degree=Cmp	3	obl	3:obl	_
-3	thok	thok	ADJ	_	Degree=Pos	0	root	0:root	_
-4	la	la	AUX	_	VerbForm=Inf	3	cop	3:cop	_
-5	gu	gu	AUX	_	Evident=Fh	3	aux	3:aux	SpaceAfter=No
-6	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
+1	Miszudi	miszu	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
+2	amahn	a	VERB	_	Degree=Cmp	4	obl	4:obl	_
+3	thok	thok	ADJ	_	Degree=Pos	4	xcomp	4:xcomp	_
+4	la	la	AUX	_	VerbForm=Inf	0	root	0:root	_
+5	gu	gu	AUX	_	Evident=Fh	4	aux	4:aux	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_204
 # text = Jim, ragu haidi miszu garhe la?
@@ -4062,9 +4062,9 @@
 # text = Mwetheda Adi thai mazohndi the geraha la?
 # english = Why do I have to do all the work?
 1	Mwetheda	mwetheda	ADV	_	PronType=Int	5	advmod	5:advmod	_
-2	Adi	a	PRON	_	Case=Top|Number=Sing|Person=Sing|PronType=Prs	5	nsubj	5:nsubj	_
+2	Adi	a	PRON	_	Case=Top|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	_
 3	thai	thai	NOUN	_	Number=Sing	5	obj	5:obj	_
-4	mazohndi	mazohn	DET	_	Case=Top|PronType=Tot	3	det	3:det	_
+4	mazohndi	mazohn	PRON	_	Case=Top|PronType=Tot	3	det	3:det	_
 5	the	the	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	geraha	geraha	AUX	MOD	Modal=Obl	5	aux	5:aux	_
 7	la	la	AUX	Q	Mood=Int	5	aux	5:aux	SpaceAfter=No
@@ -4073,7 +4073,7 @@
 # sent_id = film_BridgeOfSpies_212
 # text = Oh!
 # english = Oh!
-1	Oh	Oh	INTJ	_	_	0	root	0:root	SpaceAfter=No
+1	Oh	oh	INTJ	_	_	0	root	0:root	SpaceAfter=No
 2	!	!	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_213
@@ -4164,7 +4164,7 @@
 2	li	li	ADV	ASC	_	1	advmod:emph	1:advmod:emph	_
 3	badi	ba	PRON	_	Case=Top|Number=Sing|Person=3|PronType=Prs	4	obj	4:obj	_
 4	ay	ay	INTJ	_	ExtPos=VERB|Polarity=Pos	0	root	0:root	_
-5	rema	re	VERB	_	Polarity=Neg	4	fixed	4:fixed	SpaceAfter=No
+5	rema	re	PART	_	Polarity=Neg	4	fixed	4:fixed	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_222
@@ -4207,7 +4207,7 @@
 # sent_id = film_BridgeOfSpies_223_2
 # text = Reda court of law ra
 # english = which is why they call it a court of law.
-1	Reda	reda	ADV	_	Case=Abl|PronType=Int	5	nsubj	5:nsubj	_
+1	Reda	reda	ADV	_	PronType=Int	5	nsubj	5:nsubj	_
 2	court	court	X	_	Foreign=Yes	5	obj	5:obj	OrigLang=en
 3	of	of	X	_	Foreign=Yes	2	flat:foreign	2:flat:foreign	OrigLang=en
 4	law	law	X	_	Foreign=Yes	2	flat:foreign	2:flat:foreign	OrigLang=en
@@ -4282,7 +4282,7 @@
 4	,	,	PUNCT	_	_	6	punct	6:punct	_
 5	haida	hai	PRON	_	Case=Abl|Number=Plur|Person=1|PronType=Prs	6	obl	6:obl	_
 6	phethe	phethe	VERB	_	VerbForm=Inf	1	parataxis	1:parataxis	_
-7	ga	ga	AUX	Jus	Mood=Jus	1	aux	1:aux	SpaceAfter=No
+7	ga	ga	AUX	Jus	Mood=Hort	1	aux	1:aux	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_232
@@ -4348,7 +4348,7 @@
 # sent_id = film_BridgeOfSpies_238
 # text = Amen.
 # english = Amen.
-1	Amen	Amen	INTJ	_	_	0	root	0:root	SpaceAfter=No
+1	Amen	amen	INTJ	_	_	0	root	0:root	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_239
@@ -4396,7 +4396,7 @@
 # text = 1941da Adi New York Bar membersnahn kappra thohn.
 # english = I was admitted to the New York Bar in 1941.
 1	1941da	1941	NUM	_	Case=Abl|NumForm=Digit|NumType=Card	7	obl	7:obl	_
-2	Adi	a	PRON	_	Case=Top|Number=Sing|Person=Sing|PronType=Prs	7	nsubj	7:nsubj	_
+2	Adi	a	PRON	_	Case=Top|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	_
 3	New	New	PROPN	_	Number=Sing	7	obj	7:obj	_
 4	York	York	PROPN	_	Number=Sing	3	flat:name	3:flat:name	_
 5	Bar	Bar	PROPN	_	Number=Sing	3	flat:name	3:flat:name	_
@@ -4503,7 +4503,7 @@
 5	katohn	katohn	VERB	_	VerbForm=Inf	6	xcomp	6:xcomp	_
 6	mu	mu	VERB	_	VerbForm=Inf	2	conj	2:conj	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	10:punct	_
-8	planeda	plane	PRON	_	Case=Abl|PronType=Int	10	obl	10:obl	OrigLang=en
+8	planeda	plane	NOUN	_	Case=Abl|Number=Sing	10	obl	10:obl	OrigLang=en
 9	kohn	kohn	VERB	_	VerbForm=Inf	10	xcomp	10:xcomp	_
 10	mu	mu	VERB	_	VerbForm=Inf	2	conj	2:conj	SpacesAfter=\n
 
@@ -4513,7 +4513,7 @@
 1	Atra	atra	ADJ	_	Degree=Pos	2	amod	2:amod	_
 2	thahn	thahn	NOUN	_	Number=Sing	5	obl	5:obl	_
 3	kanahn	kanahn	ADV	_	PronType=Int	2	advmod	2:advmod	_
-4	li	li	ADV	ASC	Case=Dat	3	advmod:emph	3:advmod:emph	_
+4	li	li	ADV	ASC	_	3	advmod:emph	3:advmod:emph	_
 5	la	la	VERB	_	VerbForm=Inf	0	root	0:root	_
 6	ve	ve	VERB	_	VerbForm=Inf	5	compound:svc	5:compound:svc	SpacesAfter=\n
 
@@ -4555,7 +4555,7 @@
 # sent_id = film_BridgeOfSpies_257
 # text = Adi question nue
 # english = I was talked to.
-1	Adi	a	PRON	_	Case=Top|Number=Sing|Person=Sing|PronType=Prs	3	nsubj	3:nsubj	_
+1	Adi	a	PRON	_	Case=Top|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	_
 2	question	question	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
 3	nue	nu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
@@ -4572,9 +4572,9 @@
 1	Reganan	reganan	CCONJ	_	_	0	root	0:root	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_260
-# text = Naiva governmentbyahn thaithe tha re offer li the
+# text = Nava governmentbyahn thaithe tha re offer li the
 # english = Offers of employment, to work for your government.
-1	Naiva	nai	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
+1	Nava	na	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
 2	governmentbyahn	government	NOUN	_	Case=Ben|Number=Sing	3	obl	3:obl	OrigLang=en
 3	thaithe	thaithe	VERB	_	VerbForm=Inf	8	advcl	8:advcl	_
 4	tha	tha	AUX	_	Mood=Des	3	aux	3:aux	_
@@ -4595,7 +4595,7 @@
 7	ragu	ragu	SCONJ	_	_	5	mark	5:mark	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	5:punct	_
 9	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	12	obl	12:obl	_
-10	mathaknahn	mathaknahn	ADP	_	_	9	case	9:case	_
+10	mathaknahn	mathak	ADP	_	Case=Loc	9	case	9:case	_
 11	case	case	NOUN	_	Number=Sing	12	obj	12:obj	OrigLang=en
 12	banma	ban	VERB	_	Polarity=Neg|VerbForm=Inf	0	root	0:root	_
 13	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	12	aux	12:aux	_
@@ -4615,7 +4615,7 @@
 # sent_id = film_BridgeOfSpies_263
 # text = Hmm
 # english = Hmm.
-1	Hmm	Hmm	INTJ	_	_	0	root	0:root	SpacesAfter=\n
+1	Hmm	hmm	INTJ	_	_	0	root	0:root	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_264
 # text = Ranan nahn ma rate
@@ -4651,7 +4651,7 @@
 2	nahndi	nahn	PRON	_	Case=Top|Number=Sing|Person=2|PronType=Prs	3	nmod:poss	3:nmod:poss	_
 3	US	US	X	_	Foreign=Yes	6	obj	6:obj	OrigLang=en
 4	government	government	X	_	Foreign=Yes	3	flat:foreign	3:flat:foreign	OrigLang=en
-5	thrinahn	thrinahn	ADP	_	_	3	case	3:case	_
+5	thrinahn	thri	ADP	_	Case=Loc	3	case	3:case	_
 6	thaithe	thaithe	VERB	_	VerbForm=Inf	13	nmod	13:nmod	_
 7	rai	rai	ADV	COLL	VerbForm=Inf	6	compound:prt	6:compound:prt	_
 8	tha	tha	AUX	_	Mood=Des	6	aux	6:aux	_
@@ -4758,11 +4758,11 @@
 # sent_id = film_BridgeOfSpies_278
 # text = Nahn nahnnan thethainahn szu lala
 # english = Are you good at what you do?
-1	Nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	_
+1	Nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	_
 2	nahnnan	nahn	PRON	_	Case=Erg|Number=Sing|Person=2|PronType=Prs	3	nmod	3:nmod	_
-3	thethainahn	thethai	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
-4	szu	szu	ADV	_	_	0	root	0:root	_
-5	lala	la	AUX	_	Mood=Int|VerbForm=Fin	4	cop	4:cop	SpacesAfter=\n
+3	thethainahn	thethai	NOUN	_	Case=Loc|Number=Sing	5	obl	5:obl	_
+4	szu	szu	ADV	_	_	5	advmod	5:advmod	_
+5	lala	la	AUX	_	Mood=Int|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_279
 # text = Ame
@@ -4844,9 +4844,9 @@
 # sent_id = film_BridgeOfSpies_290
 # text = Haida matha ga
 # english = Let 's start here.
-1	Haida	hai	PRON	_	Case=Abl|Deaxis=Prox|Number=Sing|PronType=Dem	2	obl	2:obl	_
+1	Haida	hai	PRON	_	Case=Abl|Deixis=Prox|Number=Sing|PronType=Dem	2	obl	2:obl	_
 2	matha	matha	VERB	_	VerbForm=Inf	0	root	0:root	_
-3	ga	ga	AUX	_	Mood=Jus	2	aux	2:aux	SpacesAfter=\n
+3	ga	ga	AUX	_	Mood=Hort	2	aux	2:aux	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_291
 # text = Nahn US governmentbyahn thaithe rahn redi myate rateragu...
@@ -4888,7 +4888,7 @@
 10	government	government	NOUN	_	Number=Sing	11	nmod	11:nmod	OrigLanf=en
 11	miszuma	miszu	NOUN	_	Polarity=Neg	8	parataxis	8:parataxis	_
 12	government	government	NOUN	_	Number=Sing	11	nmod	11:nmod	OrigLanf=en
-13	miszu	miszu	NOUN	_	Polarity=Neg	11	conj	11:conj	_
+13	miszu	miszu	NOUN	_	_	11	conj	11:conj	_
 14	garhema	garhe	PART	NEG-NEG	Polarity=Neg	13	advmod	13:advmod	_
 
 # sent_id = film_BridgeOfSpies_296
@@ -4992,12 +4992,12 @@
 1	Prehnminan	prehnminan	INTJ	_	_	0	root	0:root	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_308
-# text = Mr. Donovan, naiva yur miszu li A thare theganan laha
+# text = Mr. Donovan, nava yur miszu li A thare theganan laha
 # english = Mr. Donovan, you have men like me doing the same for your country.
 1	Mr.	Mr.	NOUN	_	Number=Sing	10	vocative	10:vocative	SpacesAfter=\n
 2	Donovan	Donovan	PROPN	_	Number=Sing	1	flat	1:flat	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	1:punct	_
-4	naiva	nai	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	nmod:poss	5:nmod:poss	_
+4	nava	na	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	nmod:poss	5:nmod:poss	_
 5	yur	yur	NOUN	_	Number=Sing	6	nmod:poss	6:nmod:poss	_
 6	miszu	miszu	NOUN	_	Number=Sing	10	obl	10:obl	_
 7	li	li	ADV	ASC	_	6	advmod:emph	6:advmod:emph	_
@@ -5029,9 +5029,9 @@
 # text = Nahn mung gare la
 # english = What 's your name?
 1	Nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nmod:poss	2:nmod:poss	_
-2	mung	mung	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
-3	gare	gare	ADV	_	PronType=Int	0	root	0:root	_
-4	la	la	AUX	_	VerbForm=Inf	3	cop	3:cop	SpacesAfter=\n
+2	mung	mung	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	gare	gare	ADV	_	PronType=Int	4	advmod	4:advmod	_
+4	la	la	AUX	_	VerbForm=Inf	0	root	0:root	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_311
 # text = Francis Gary Powers
@@ -5061,13 +5061,13 @@
 # sent_id = film_BridgeOfSpies_314
 # text = Nahn Soviet Unionnahn mari lalama, Lieutenant Powers
 # english = Do you have any association with the Soviet Union, Lieutenant Powers?
-1	Nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	_
+1	Nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	_
 2	Soviet	Soviet	PROPN	_	Number=Sing	4	nmod	4:nmod	_
 3	Unionnahn	Union	PROPN	_	Case=Loc|Number=Sing	2	flat:name	2:flat:name	_
-4	mari	mari	NOUN	_	Number=Sing	0	root	0:root	_
-5	lalama	la	AUX	_	Mood=Int|Polarity=Neg|VerbForm=Fin	4	cop	4:cop	SpaceAfter=No
+4	mari	mari	NOUN	_	Number=Sing	5	obl	5:obl	_
+5	lalama	la	AUX	_	Mood=Int|Polarity=Neg|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	7:punct	_
-7	Lieutenant	Lieutenant	PROPN	_	Number=Sing	4	vocative	4:vocative	_
+7	Lieutenant	Lieutenant	PROPN	_	Number=Sing	5	vocative	5:vocative	_
 8	Powers	Powers	PROPN	_	Number=Sing	7	flat	7:flat	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_315
@@ -5156,7 +5156,7 @@
 # english = No , it 's just " no . "
 1	Phabtama	phabta	VERB	_	Polarity=Neg|VerbForm=Inf	0	root	0:root	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	5:punct	_
-3	ska	ska	NUM	_	ExtPos=Adv||NumForm=Word|NumType=Card	5	advmod	5:advmod	_
+3	ska	ska	NUM	_	ExtPos=ADV|NumForm=Word|NumType=Card	5	advmod	5:advmod	_
 4	li	li	ADV	ASC	_	3	fixed	3:fixed	_
 5	phabtama	phabta	VERB	_	Polarity=Neg|VerbForm=Inf	1	parataxis	1:parataxis	_
 
@@ -5166,12 +5166,12 @@
 1	Ame	ame	INTJ	_	Polarity=Pos	6	discourse	6:discourse	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	_
-4	ska	ska	NUM	_	ExtPos=Adv|NumForm=Word|NumType=Card	6	advmod	6:advmod	_
+4	ska	ska	NUM	_	ExtPos=ADV|NumForm=Word|NumType=Card	6	advmod	6:advmod	_
 5	li	li	ADV	ASC	_	4	flat	4:flat	_
 6	phabtama	phabta	VERB	_	Polarity=Neg|VerbForm=Inf	0	root	0:root	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	11:punct	_
 8	mwetheda	mwetheda	ADV	_	PronType=Int	11	advmod	11:advmod	_
-9	Adi	A	PRON	_	Case=Top|Number=Sing|Person=1|PronType=Prs	11	obj	11:obj	_
+9	Adi	a	PRON	_	Case=Top|Number=Sing|Person=1|PronType=Prs	11	obj	11:obj	_
 10	hano	hano	ADV	_	Deixis=Prox|PronType=Dem	11	advmod	11:advmod	_
 11	thyire	thyi	ADJ	_	Degree=Pos	12	advcl	12:advcl	_
 12	maram	maram	NOUN	_	Number=Sing	6	parataxis	6:parataxis	_
@@ -5245,5 +5245,4 @@
 3	didinan	didi	PRON	_	Case=Erg|Deixis=Remt|PronType=Dem	5	nsubj	5:nsubj	_
 4	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	5	obj	5:obj	_
 5	te	te	VERB	_	VerbForm=Inf	0	root	0:root	SpacesAfter=\n
-
 

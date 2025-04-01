@@ -103,15 +103,15 @@
 # sent_id = grammar_Cairo_10
 # text = Iguazudi country tai ka lama, zazu la?
 # english = Is Iguazu a big or a small country?
-1	Iguazudi	Iguazu	PROPN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
+1	Iguazudi	Iguazu	PROPN	_	Case=Top|Number=Sing	5	nsubj	5:nsubj	_
 2	country	country	NOUN	_	Number=Sing	4	nmod	4:nmod	OrigLang=en
 3	tai	tai	ADJ	_	Degree=Pos	4	amod	4:amod	_
-4	ka	ka	NOUN	_	Number=Sing	0	root	0:root	_
-5	lama	la	AUX	_	Polarity=Neg|VerbForm=Inf	4	cop	4:cop	SpaceAfter=No
+4	ka	ka	NOUN	_	Number=Sing	5	obj	5:obj	_
+5	lama	la	AUX	_	Polarity=Neg|VerbForm=Inf	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	7:punct	_
-7	zazu	zazu	ADJ	_	Degree=Pos	4	conj	4:conj	_
-8	la	la	AUX	Q	Mood=Int	4	aux	4:aux	SpaceAfter=No
-9	?	?	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
+7	zazu	zazu	ADJ	_	Degree=Pos	5	conj	5:conj	_
+8	la	la	AUX	Q	Mood=Int	7	aux	7:aux	SpaceAfter=No
+9	?	?	PUNCT	_	_	5	punct	5:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_11
 # text = Peter Smithdi larateragu Mary Browndi li redi kapralaszuma.
@@ -159,7 +159,7 @@
 5	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	4	aux	4:aux	_
 6	re	re	SCONJ	REP	_	4	mark	4:mark	_
 7	mazok	mazok	VERB	_	VerbForm=Inf	0	root	0:root	_
-8	la	la	AUX	Q	Mood=Int	1	aux	1:aux	SpaceAfter=No
+8	la	la	AUX	Q	Mood=Int	7	aux	7:aux	SpaceAfter=No
 9	?	?	PUNCT	_	_	7	punct	7:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_15
@@ -196,9 +196,9 @@
 4	thea	the	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	geraha	geraha	AUX	MOD	Modal=Obl	4	aux	4:aux	_
 6	riri	riri	CCONJ	_	_	13	cc	13:cc	_
-7	thai	thai	NOUN	_	Number=Sing	13	advcl	13:advcl	_
+7	thai	thai	NOUN	_	Number=Sing	9	nsubj	9:nsubj	_
 8	za	za	DET	_	PronType=Ind	7	det	7:det	_
-9	la	la	AUX	_	VerbForm=Inf	7	cop	7:cop	_
+9	la	la	AUX	_	VerbForm=Inf	13	advcl	13:advcl	_
 10	reganan	reganan	ADV	_	_	13	advmod	13:advmod	_
 11	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	_
 12	dani	dani	ADV	_	_	13	advmod	13:advmod	_
@@ -241,3 +241,4 @@
 5	Franceva	France	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	6:nmod:poss	_
 6	capitalda	capital	NOUN	_	Case=Abl|Number=Sing	2	appos	2:appos	OrigLang=en|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\s\n
+
