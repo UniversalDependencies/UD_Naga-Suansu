@@ -860,8 +860,8 @@
 # sent_id = grammar_BivalTyp_108
 # text = Peter lairak gaswe ska phrei
 # english = Peter read an interesting book.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	lairak	lairak	NOUN	_	Number=Sing	4	obj	4:obj	_
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	lairak	lairak	NOUN	_	Number=Sing	5	obj	5:obj	_
 3	gaswe	gaswe	ADJ	_	Degree=Pos	2	amod	2:amod	_
 4	ska	ska	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
 5	phrei	phre	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
@@ -2199,15 +2199,15 @@
 2	kapiu	kapiu	VERB	_	VerbForm=Inf	0	root	0:root	_
 3	mattresspha	mattress	NOUN	_	Number=Plur	2	obj	2:obj	_
 4	la	la	AUX	_	VerbForm=Inf	2	aux	2:aux	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	7:punct	_
+5	,	,	PUNCT	_	_	6	punct	6:punct	_
 6	bikpha	bik	NOUN	_	Number=Plur	3	conj	2:obj|3:conj	_
-7	la	la	AUX	_	VerbForm=Inf	2	aux	2:aux	SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	10:punct	_
+7	la	la	AUX	_	VerbForm=Inf	6	aux	6:aux	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	9:punct	_
 9	floorboardspha	floorboards	NOUN	_	Number=Plur	3	conj	2:obj|3:conj	OrigLang=en
-10	la	la	AUX	_	VerbForm=Inf	2	aux	2:aux	SpaceAfter=No
-11	,	,	PUNCT	_	_	13	punct	13:punct	_
+10	la	la	AUX	_	VerbForm=Inf	9	aux	9:aux	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	12:punct	_
 12	chokeypha	chokey	NOUN	_	Number=Plur	3	conj	2:obj|3:conj	_
-13	la	la	AUX	_	VerbForm=Inf	2	aux	2:aux	SpacesAfter=\n
+13	la	la	AUX	_	VerbForm=Inf	12	aux	12:aux	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_38
 # text = Nahn tye ashtraynahn thohnmiga la, tye windownahn wienahndi?
@@ -3502,7 +3502,7 @@
 # english = Defending Abel, the Soviet spy.
 1	Abelbyahn	Abel	PROPN	_	Case=Ben|Number=Sing	2	obl	2:obl	_
 2	thungmye	thungmi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-3	,	,	PUNCT	_	_	7	punct	7:punct	_
+3	,	,	PUNCT	_	_	5	punct	5:punct	_
 4	tye	tye	DET	_	Deixis=Remt|PronType=Dem	5	det	5:det	_
 5	Soviet	Soviet	NOUN	_	Number=Sing	8	obj	8:obj	OrigLang=en
 6	spy	spy	NOUN	_	Number=Sing	5	flat	5:flat	OrigLang=en
@@ -3514,7 +3514,7 @@
 # text = Phabta prye.
 # english = I may.
 1	Phabta	phabta	VERB	_	VerbForm=Inf	0	root	0:root	_
-2	prye	prye	ADV	_	Polarity=Neg	1	aux	1:aux	SpaceAfter=No
+2	prye	prye	ADV	_	Polarity=Neg	1	advmod	1:advmod	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = film_BridgeOfSpies_162
@@ -4423,13 +4423,13 @@
 # text = "United States defense and atomic secrets Soviet Unionla miye byahn, secrets zhuinan la byahn, rateragu amung register thema byahn "
 # english = Conspiracy to transmit United States defense and atomic secrets to the Soviet Union, conspiracy to gather secrets, and failing to register as a foreign agent.
 1	"	"	PUNCT	_	_	10	punct	10:punct	SpaceAfter=No
-2	United	United	NOUN	_	Numer=Sing	10	obj	10:obj	OrigLang=en
-3	States	States	NOUN	_	Numer=Sing	2	flat	2:flat	OrigLang=en
-4	defense	defense	NOUN	_	Numer=Sing	2	flat	2:flat	OrigLang=en
-5	and	and	NOUN	_	Numer=Sing	2	flat	2:flat	OrigLang=en
-6	atomic	atomic	NOUN	_	Numer=Sing	2	flat	2:flat	OrigLang=en
-7	secrets	secrets	NOUN	_	Numer=Sing	2	flat	2:flat	OrigLang=en
-8	Soviet	Soviet	PROPN	_	Numer=Sing	10	obl	10:obl	_
+2	United	United	NOUN	_	Number=Sing	10	obj	10:obj	OrigLang=en
+3	States	States	NOUN	_	Number=Sing	2	flat	2:flat	OrigLang=en
+4	defense	defense	NOUN	_	Number=Sing	2	flat	2:flat	OrigLang=en
+5	and	and	NOUN	_	Number=Sing	2	flat	2:flat	OrigLang=en
+6	atomic	atomic	NOUN	_	Number=Sing	2	flat	2:flat	OrigLang=en
+7	secrets	secrets	NOUN	_	Number=Sing	2	flat	2:flat	OrigLang=en
+8	Soviet	Soviet	PROPN	_	Number=Sing	10	obl	10:obl	_
 9	Unionla	Union	PROPN	_	Case=Dat|Number=Sing	8	flat:name	8:flat:name	_
 10	miye	mi	VERB	_	VerbForm=Inf	0	root	0:root	_
 11	byahn	byahn	SCONJ	PURP	_	10	mark	10:mark	SpaceAfter=No
