@@ -2,9 +2,9 @@
 # sent_id = grammar_Cairo_1
 # text = leneonan ba baszuela letter rakke
 # english = The girl wrote a letter to her friend.
-1	leneonan	leneo	NOUN	_	Case=Erg|Number=Sing	2	det	2:det	_
-2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	_
-3	baszuela	baszue	NOUN	_	Case=Dat|Number=Sing	5	obl	5:obl	_
+1	leneonan	leneo	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
+2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	baszuela	baszue	NOUN	_	Case=Dat|Number=Sing	5	iobj	5:iobj	_
 4	letter	letter	NOUN	_	Number=Sing	5	obj	5:obj	OrigLang=en
 5	rakke	rakk	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
@@ -38,7 +38,7 @@
 2	woan	woan	VERB	_	VerbForm=Inf	3	xcomp	3:xcomp	_
 3	mu	mu	VERB	_	VerbForm=Inf	0	root	0:root	_
 4-5	ladi	_	_	_	_	_	_	_	_
-4	la	la	VERB	_	VerbForm=Inf	3	aux	3:aux	_
+4	la	la	AUX	_	VerbForm=Inf	3	aux	3:aux	_
 5	di	di	SCONJ	NMLZ	_	3	mark	3:mark	_
 6	la	la	AUX	Q	Mood=Int	3	aux	3:aux	SpaceAfter=No
 7	?	?	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
@@ -167,7 +167,7 @@
 # english = He bought a car but his brother just a bike.
 1	Ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
 2	car	car	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
-3	lue	lu	VERB	_	Aspect=Imp|Tense=Past|Mood=Ind|VerbForm=Fin	0	root	0:root	_
+3	lue	lu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	riri	riri	CCONJ	DISJ	_	6	cc	6:cc	_
 5	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nmod:poss	6:nmod:poss	_
 6	thaineo	thaineo	NOUN	_	Number=Sing	3	conj	3:conj	_
