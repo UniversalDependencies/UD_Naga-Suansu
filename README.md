@@ -56,6 +56,6 @@ Features: manual native
 Relations: manual native
 Contributors: Ivani, Jessica; Tulchynska Kira
 Contributing: here
-Contact: jessica.ivani@uzh.ch
+Contact: jessica.ivani@uzh.ch; kira.tulchynska@mail.huji.ac.il
 ===============================================================================
 </pre>
