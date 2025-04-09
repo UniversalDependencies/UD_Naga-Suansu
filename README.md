@@ -1,6 +1,6 @@
 # Summary
 
-UD_Naga-Suansu is a Universal Dependencies (UD) treebank for the Suansu. The annotation was performed manually based on glosses. This treebank includes texts from fiction and grammar. The treebank contains **3.1k** tokens, distributed as follows:
+UD_Naga-Suansu is a Universal Dependencies (UD) treebank for Suansu (Glottocode: suan1234), an endangered Tibeto-Burman language spoken on the Indo-Myanmar border. The annotation was performed manually based on glosses. This treebank includes texts from fiction and grammar. The treebank contains **3.1k** tokens, distributed as follows:
 
 - **Training set**: 2945 tokens
 - **Test set**: 157 tokens
@@ -54,7 +54,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Ivani, Jessica; Tulchynska Kira
+Contributors: Ivani, Jessica K.; Tulchynska Kira
 Contributing: here
 Contact: jessica.ivani@uzh.ch; kira.tulchynska@mail.huji.ac.il
 ===============================================================================
