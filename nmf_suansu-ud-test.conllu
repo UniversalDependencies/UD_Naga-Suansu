@@ -2337,7 +2337,7 @@
 1	Anan	a	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	2	nmod	2:nmod	_
 2	runge	runge	NOUN	_	Aspect=Imp|Number=Sing|VerbForm=Vnoun	0	root	0:root	_
 3	point	point	NOUN	_	Number=Sing	2	nmod	2:nmod	_
-4	dinan	dinan	INTJ	_	_	2	discourse	2:discourse	SpaceAfter=No
+4	dinan	dinan	PART	_	_	2	discourse	2:discourse	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	7:punct	_
 6	tye	tye	DET	_	Deixis=Remt|PronType=Dem	7	det	7:det	_
 7	miszu	miszu	NOUN	_	Number=Sing	17	nsubj:outer	11:nsubj|17:nsubj:outer	_
@@ -2443,7 +2443,7 @@
 # text = dahthamdi zahai thathok phangenahndi woanda khakhahnnan rung.
 # english = Tell me the story in a way that makes sense for five things.
 1	dahthamdi	dahtham	NOUN	_	Case=Top|Number=Sing	7	obj	7:obj	_
-2	zahai	zahai	INTJ	_	_	7	discourse	7:discourse	_
+2	zahai	zahai	PART	_	_	7	discourse	7:discourse	_
 3	thathok	thathok	NOUN	_	Number=Sing	1	nmod	1:nmod	_
 4	phangenahndi	phange	NUM	_	Case=LocTop|NumForm=Word|NumType=Card	3	nummod	3:nummod	_
 5	woanda	woanda	ADP	_	_	3	case	3:case	_
@@ -2766,7 +2766,7 @@
 6	.	.	PUNCT	_	_	5	punct	5:punct	SpacesAfter=\n
 
 # sent_id = film_Bridge_89
-# text = Nahn rhui hadi insurance policy $100,000 la ganan, tornadonan thekhia danan, didi rhui ska daichu thekhiaha dai.
+# text = Nahn rhui hadi insurance policy $100,000 laganan, tornadonan thekhia danan, didi rhui ska daichu thekhiaha dai.
 # english = If your house is insured for $100,000 and a tornado carries it away, it carried away one house.
 1	Nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nmod	3:nmod	_
 2	rhui	rhui	NOUN	_	Number=Sing	3	reparandum	3:reparandum	_
@@ -2774,20 +2774,19 @@
 4	insurance	insurance	NOUN	_	Number=Sing	6	nmod	6:nmod	OrigLang=en
 5	policy	policy	NOUN	_	Number=Sing	4	flat	4:flat	OrigLang=en
 6	$100,000	$100,000	NUM	_	NumForm=Word|NumType=Card	7	obj	7:obj	_
-7	la	la	VERB	_	VerbForm=Inf	18	advcl	18:advcl	_
-8	ganan	ganan	SCONJ	_	_	7	mark	7:mark	SpaceAfter=No
-9	,	,	PUNCT	_	_	7	punct	7:punct	_
-10	tornadonan	tornado	NOUN	_	Case=Erg|Number=Sing	11	nsubj	11:nsubj	OrigLang=en
-11	thekhia	thekhia	VERB	_	VerbForm=Inf	6	conj	6:conj	_
-12	danan	danan	ADV	_	_	11	cc	11:cc	SpaceAfter=No
-13	,	,	PUNCT	_	_	11	punct	11:punct	_
-14	didi	didi	PRON	_	Deixis=Remt|Number=Sing|PronType=Dem	15	reparandum	15:reparandum	_
-15	rhui	rhui	NOUN	_	Number=Sing	18	obj	18:obj	_
-16	ska	ska	NUM	_	NumForm=Word|NumType=Card	15	nummod	15:nummod	_
-17	daichu	daichu	ADV	_	_	16	advmod	16:advmod	_
-18	thekhiaha	thekhia	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pqp|VerbForm=Fin	0	root	0:root	_
-19	dai	dai	AUX	_	Mood=Jus	18	aux	18:aux	SpaceAfter=No
-20	.	.	PUNCT	_	_	18	punct	18:punct	SpacesAfter=\n
+7	laganan	la	VERB	_	VerbForm=Conv	17	advcl	17:advcl	_
+8	,	,	PUNCT	_	_	7	punct	7:punct	_
+9	tornadonan	tornado	NOUN	_	Case=Erg|Number=Sing	10	nsubj	10:nsubj	OrigLang=en
+10	thekhia	thekhia	VERB	_	VerbForm=Inf	6	conj	6:conj	_
+11	danan	danan	ADV	_	_	10	cc	10:cc	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	10:punct	_
+13	didi	didi	PRON	_	Deixis=Remt|Number=Sing|PronType=Dem	14	reparandum	14:reparandum	_
+14	rhui	rhui	NOUN	_	Number=Sing	17	obj	17:obj	_
+15	ska	ska	NUM	_	NumForm=Word|NumType=Card	14	nummod	14:nummod	_
+16	daichu	daichu	ADV	_	_	15	advmod	15:advmod	_
+17	thekhiaha	thekhia	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pqp|VerbForm=Fin	0	root	0:root	_
+18	dai	dai	AUX	_	Mood=Jus	17	aux	17:aux	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	17:punct	SpacesAfter=\n
 
 # sent_id = film_Bridge_91
 # text = Nahnnan rungganan ladi didi rungha regwenan, insurance companyva limit lailehnmaha rairenan, insurance business zha rahnte.
@@ -3994,7 +3993,7 @@
 2	haidi	hai	PRON	_	Case=Top|Number=Plur|Person=1|PronType=Prs	4	obj	4:obj	_
 3	gare	gare	ADV	_	PronType=Int	4	advmod	4:advmod	_
 4	mazok	mazok	VERB	_	VerbForm=Inf	0	root	0:root	_
-5	gala	gala	INTJ	_	_	4	discourse	4:discourse	SpaceAfter=No
+5	gala	gala	PART	_	_	4	discourse	4:discourse	SpaceAfter=No
 6	?	?	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
 # sent_id = film_Bridge_206
@@ -4584,23 +4583,22 @@
 8	the	the	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
 # sent_id = film_Bridge_261
-# text = Offerdi lwa ganan thaithe rai rahn ragu, A mathaknahn case banma rahn re.
+# text = Offerdi lwaganan thaithe rai rahn ragu, A mathaknahn case banma rahn re.
 # english = I was told if I cooperated, no further charges would be made against me.
 1	Offerdi	Offer	NOUN	_	Case=Top|Number=Sing	2	obj	2:obj	_
-2	lwa	lwa	VERB	_	VerbForm=Inf	4	advcl	4:advcl	_
-3	ganan	ganan	SCONJ	_	_	2	mark	2:mark	_
-4	thaithe	thaithe	VERB	_	VerbForm=Inf	12	advcl	12:advcl	_
-5	rai	rai	ADV	COLL	VerbForm=Inf	4	compound:prt	4:compound:prt	_
-6	rahn	rahn	AUX	IRR	Aspect=Imp|Mood=Irr	5	aux	5:aux	_
-7	ragu	ragu	SCONJ	_	_	5	mark	5:mark	SpaceAfter=No
-8	,	,	PUNCT	_	_	5	punct	5:punct	_
-9	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	12	obl	12:obl	_
-10	mathaknahn	mathak	ADP	_	Case=Loc	9	case	9:case	_
-11	case	case	NOUN	_	Number=Sing	12	obj	12:obj	OrigLang=en
-12	banma	ban	VERB	_	Polarity=Neg|VerbForm=Inf	0	root	0:root	_
-13	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	12	aux	12:aux	_
-14	re	re	SCONJ	REP	_	12	mark	12:mark	SpaceAfter=No
-15	.	.	PUNCT	_	_	12	punct	12:punct	SpacesAfter=\n
+2	lwaganan	lwa	VERB	_	VerbForm=Conv	3	advcl	3:advcl	_
+3	thaithe	thaithe	VERB	_	VerbForm=Inf	11	advcl	11:advcl	_
+4	rai	rai	ADV	COLL	VerbForm=Inf	3	compound:prt	3:compound:prt	_
+5	rahn	rahn	AUX	IRR	Aspect=Imp|Mood=Irr	4	aux	4:aux	_
+6	ragu	ragu	SCONJ	_	_	4	mark	4:mark	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	4:punct	_
+8	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	11	obl	11:obl	_
+9	mathaknahn	mathak	ADP	_	Case=Loc	8	case	8:case	_
+10	case	case	NOUN	_	Number=Sing	11	obj	11:obj	OrigLang=en
+11	banma	ban	VERB	_	Polarity=Neg|VerbForm=Inf	0	root	0:root	_
+12	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	11	aux	11:aux	_
+13	re	re	SCONJ	REP	_	11	mark	11:mark	SpaceAfter=No
+14	.	.	PUNCT	_	_	11	punct	11:punct	SpacesAfter=\n
 
 # sent_id = film_Bridge_262
 # text = Raganan bya li mi rahn re
@@ -4727,16 +4725,15 @@
 11	reha	re	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pqp|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
 # sent_id = film_Bridge_275
-# text = Nahnnan ay re ganan didi dre la laiteragu
+# text = Nahnnan ay reganan didi dre la laiteragu
 # english = If you accept them as such,
 1	Nahnnan	nahn	NOUN	_	Case=Erg|Number=Sing	2	nsubj	2:nsubj	_
-2	ay	ay	INTJ	_	ExtPos=VERB|Polarity=Pos	7	advcl	7:advcl	_
-3	re	re	PART	REP	_	2	fixed	2:fixed	_
-4	ganan	ga	SCONJ	_	_	2	mark	2:mark	_
-5	didi	didi	PRON	_	Deixis=Remt|Number=Sing|PronType=Dem	7	obj	7:obj	_
-6	dre	dre	ADV	_	_	7	advmod	7:advmod	_
-7	la	la	AUX	_	VerbForm=Inf	0	root	0:root	_
-8	laiteragu	laiteragu	SCONJ	_	_	7	mark	7:mark	_
+2	ay	ay	INTJ	_	ExtPos=VERB|Polarity=Pos	6	advcl	6:advcl	_
+3	reganan	re	PART	REP	VertbForm=Conv	2	fixed	2:fixed	_
+4	didi	didi	PRON	_	Deixis=Remt|Number=Sing|PronType=Dem	6	obj	6:obj	_
+5	dre	dre	ADV	_	_	6	advmod	6:advmod	_
+6	la	la	AUX	_	VerbForm=Inf	0	root	0:root	_
+7	laiteragu	laiteragu	SCONJ	_	_	6	mark	6:mark	_
 
 # sent_id = film_Bridge_276
 # text = A nahnbyahn thai themi geraha
@@ -4946,7 +4943,7 @@
 1	Pokkhanahn	pokkhanahn	VERB	_	VerbForm=Inf	3	xcomp	3:xcomp	_
 2	riri	riri	CCONJ	DISJ	_	3	cc	3:cc	_
 3	kanmi	kanmi	VERB	_	VerbForm=Inf	0	root	0:root	_
-4	gala	gala	INTJ	_	_	3	discourse	3:discourse	SpacesAfter=\n
+4	gala	gala	PART	_	_	3	discourse	3:discourse	SpacesAfter=\n
 
 # sent_id = film_Bridge_302
 # text = A...
