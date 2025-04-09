@@ -26,7 +26,8 @@ The UD\_Naga-Suansu treebank consists of various texts translated into Suansu by
 
 # Acknowledgments
 
-...
+This work was supported by the University of Zurich Global Strategy and Partnerships Funding Scheme (Project Fund Level 3) (https://www.global.uzh.ch).
+We gratefully acknowledge the Suansu-speaking community for their continuous support. We also thank Jason M. Vashum for his generous assistance with translation and annotation.
 
 ## References
 
