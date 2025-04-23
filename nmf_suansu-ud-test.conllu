@@ -4729,7 +4729,7 @@
 # english = If you accept them as such,
 1	Nahnnan	nahn	NOUN	_	Case=Erg|Number=Sing	2	nsubj	2:nsubj	_
 2	ay	ay	INTJ	_	ExtPos=VERB|Polarity=Pos	6	advcl	6:advcl	_
-3	reganan	re	PART	REP	VertbForm=Conv	2	fixed	2:fixed	_
+3	reganan	re	PART	REP	VerbForm=Conv	2	fixed	2:fixed	_
 4	didi	didi	PRON	_	Deixis=Remt|Number=Sing|PronType=Dem	6	obj	6:obj	_
 5	dre	dre	ADV	_	_	6	advmod	6:advmod	_
 6	la	la	AUX	_	VerbForm=Inf	0	root	0:root	_
@@ -4920,7 +4920,7 @@
 9	pha	pha	VERB	_	VerbForm=Inf	12	ccomp	12:ccomp	_
 10	thohn	thohn	ADP	_	VerbForm=Inf	9	compound:svc	9:compound:svc	_
 11	tha	tha	AUX	_	Mood=Des	9	aux	9:aux	_
-12	reganan	re	VERB	SiM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+12	reganan	re	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
 13	laha	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pqp|VerbForm=Fin	12	aux	12:aux	SpacesAfter=\n
 
 # sent_id = film_Bridge_299
