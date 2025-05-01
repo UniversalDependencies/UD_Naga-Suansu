@@ -2774,7 +2774,7 @@
 4	insurance	insurance	NOUN	_	Number=Sing	6	nmod	6:nmod	OrigLang=en
 5	policy	policy	NOUN	_	Number=Sing	4	flat	4:flat	OrigLang=en
 6	$100,000	$100,000	NUM	_	NumForm=Word|NumType=Card	7	obj	7:obj	_
-7	laganan	la	VERB	_	VerbForm=Conv	17	advcl	17:advcl	_
+7	laganan	la	VERB	_	VerbForm=Conv	17	advcl	17:advcl	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	7:punct	_
 9	tornadonan	tornado	NOUN	_	Case=Erg|Number=Sing	10	nsubj	10:nsubj	OrigLang=en
 10	thekhia	thekhia	VERB	_	VerbForm=Inf	6	conj	6:conj	_
