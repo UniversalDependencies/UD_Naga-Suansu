@@ -55,7 +55,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Ivani, Jessica K.; Tulchynska Kira
+Contributors: Ivani, Jessica K.; Tulchynska, Kira
 Contributing: here
 Contact: jessica.ivani@uzh.ch; kira.tulchynska@mail.huji.ac.il
 ===============================================================================
