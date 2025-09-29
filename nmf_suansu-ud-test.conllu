@@ -1,1910 +1,3 @@
-# newdoc id = grammar_BivalTyp
-# sent_id = grammar_BivalTyp_1
-# text = Peter ka pheile
-# english = Peter has a headache.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	ka	ka	NOUN	_	Number=Sing	3	obl	3:obl	_
-3	pheile	phei	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_2
-# text = Peter mathehnle
-# english = Peter has the flu.
-1	Peter	Peter	PROPN	_	Number=Sing	2	nsubj	2:nsubj	_
-2	mathehnle	mathehn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_3
-# text = Peter huidi trale.
-# english = (Peter has to go out of the house, but there is a dog barking in the yard.). Peter is afraid of the dog.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	huidi	hui	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	trale	tra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_4
-# text = Peter lhung fiate
-# english = (Two boys are competing to see who can throw a stone the farthest.) Peter threw a stone (first).
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	lhung	lhung	NOUN	_	Number=Sing	3	obj	3:obj	_
-3	fiate	fi	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_5
-# text = Athwenan Peter bya thuthuka wilate.
-# english = (Peter has found a new job.) Now Peter has enough money.
-1	Athwenan	athwenan	ADV	_	_	5	advmod	5:advmod	_
-2	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-3	bya	bya	NOUN	_	Number=Sing	5	obj	5:obj	_
-4	thuthuka	thuthuka	ADJ	_	Degree=Pos	3	amod	3:amod	_
-5	wilate	wi	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	5:punct	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_6
-# text = Peterdi Maria thrwale
-# english = (Maria is Peter's grandfather.) Peter resembles Maria
-1	Peterdi	Peter	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-2	Maria	Maria	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-3	thrwale	thrwa	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_7
-# text = Peter Mariadi hehnle
-# english = Peter believes Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	hehnle	hehn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-
-# sent_id = grammar_BivalTyp_8
-# text = Peter lairakdi luate
-# english = Peter took a book (from the shelf).
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	lairakdi	lairak	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	luate	lua	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_9
-# text = Peter rhui ska thaile
-# english = Peter sees a house.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	rhui	rhui	NOUN	_	Number=Sing	4	obj	4:obj	_
-3	ska	ska	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
-4	thaile	thai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_10
-# text = Mazokwoan ngammedi li kumda phungle
-# english = Age influences memory.
-1	Mazokwoan	mazokwoan	VERB	_	VerbForm=Inf	2	xcomp	2:xcomp	_
-2-3	ngammedi	_	_	_	_	_	_	_	_
-2	ngamme	ngamme	VERB	_	VerbForm=Inf	6	csubj	6:csubj	_
-3	di	di	SCONJ	NMLZ	_	2	mark	2:mark	_
-4	li	li	ADV	ASC	_	2	advmod:emph	2:advmod:emph	_
-5	kumda	kum	NOUN	_	Case=Abl|Number=Sing	6	obl	6:obl	_
-6	phungle	phung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_11
-# text = Peter Mariadi rue
-# english = Peter encountered Maria (accidentally, on the street). / P ran into Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	rue	ru	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_12
-# text = Peter rhuinahn dhohnte
-# english = Peter entered the house.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	rhuinahn	rhui	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
-3	dhohnte	dhohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_13
-# text = Peternan Mariadi thwate
-# english = (Peter and Maria played chess.) Peter beat Maria
-1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	thwate	thw	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_14
-# text = Peter rhuida sahnte
-# english = Peter went out of the house.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	rhuida	rhui	NOUN	_	Case=Abl|Number=Sing	3	obl	3:obl	_
-3	sahnte	sahn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_15
-# text = Peter themokdi bithaile
-# english = Peter is driving the cow (to the pasture).
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	themokdi	themok	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	bithaile	bithaile	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-
-# sent_id = grammar_BivalTyp_16
-# text = Peternan thungzadi thewungae
-# english = Peter bent the branch.
-1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
-2	thungzadi	thungza	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	thewungae	thewung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_17
-# text = Peternan Mariadi “Athoo trumlehn call the ra” re runge
-# english = Peter told Maria: ‘Call me this evening’.
-1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	11	nsubj	11:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	11	obj	11:obj	_
-3	“	“	PUNCT	_	_	7	punct	7:punct	SpaceAfter=No
-4	Athoo	athoo	ADV	_	_	7	advmod	7:advmod	_
-5	trumlehn	trumlehn	NOUN	_	Number=Sing	7	obl	7:obl	_
-6	call	call	VERB	_	VerbForm=Inf	7	xcomp	7:xcomp	OrigLang=en
-7	the	the	VERB	_	VerbForm=Inf	11	ccomp	11:ccomp	_
-8	ra	ra	AUX	_	Mood=Imp	7	aux	7:aux	SpaceAfter=No
-9	”	”	PUNCT	_	_	7	punct	7:punct	_
-10	re	re	PART	REP	_	7	mark	7:mark	_
-11	runge	rung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_18
-# text = Peter lairak laphule
-# english = Peter is holding a book (in his hands).
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	lairak	lairak	NOUN	_	Number=Sing	3	obj	3:obj	_
-3	laphule	laphu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_19
-# text = Peter Mariadi veyingloe
-# english = (Peter had an argument with Maria, Maria went away, Peter went after her.) Peter caught up with Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	veyingloe	veyinglo	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_20
-# text = Peter themokdi themoknui thaate
-# english = Peter milked the cow.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	themokdi	themok	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-3	themoknui	themoknui	NOUN	_	Number=Sing	4	compound	4:compound	_
-4	thaate	tha	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_21
-# text = Peter veraikha rinahn vethiate
-# english = (Peter was crossing the river in a boat.) Peter reached the bank.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	veraikha	veraikha	NOUN	_	Number=Sing	4	obl	4:obl	_
-3	rinahn	ri	ADP	_	Case=Loc	2	case	2:case	_
-4	vethiate	vethi	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_22
-# text = Peter szyapnahn tae
-# english = (The wall was covered with fresh paint.) Peter touched the wall (and got dirty).
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	szyapnahn	szyap	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
-3	tae	ta	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_23
-# text = Peter Mariadi nungganan lale
-# english = Peter is fighting with Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	nungganan	nung	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_24
-# text = Peter Mariadi baszule
-# english = Peter is friends with Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	baszule	baszu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_25
-# text = Peter Mariadi phanung woanle
-# english = (Peter has a thoughtful look.) Peter is thinking about Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	phanung	phanung	VERB	_	_	4	compound:svc	4:compound:svc	_
-4	woanle	woan	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_26
-# text = Peternan appledi thea
-# english = Peter ate an apple.
-1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
-2	appledi	apple	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	OrigLang=en
-3	thea	the	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_27
-# text = Peternan khithedi ngae
-# english = Peter fried the fish.
-1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
-2	khithedi	khithe	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	ngae	nga	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_28
-# text = Peter Mariadi pyahnganan lale
-# english = (Peter and Maria have arranged to meet at 2 PeterMaria at the post office.) Peter is waiting for Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	pyahnganan	pyahn	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_29
-# text = Peter laipui ska yahndi maliate
-# english = (Peter had already visited this town and knew that there is a shorter road. When he went there once again this time, however, he chose the longer road.) Peter forgot (about) the other road.
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-2	laipui	laipui	NOUN	_	Number=Sing	5	obj	5:obj	_
-3	ska	ska	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
-4	yahndi	yahn	ADJ	_	Case=Top|Degree=Pos	2	amod	2:amod	_
-5	maliate	mali	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_30
-# text = Mazokwoan ngammedi li kumda phungle
-# english = Memory depends on age.
-1	Mazokwoan	mazokwoan	VERB	_	VerbForm=Inf	2	xcomp	2:xcomp	_
-2-3	ngammedi	_	_	_	_	_	_	_	_
-2	ngamme	ngamme	VERB	_	VerbForm=Inf	6	csubj	6:csubj	_
-3	di	di	SCONJ	NMLZ	_	2	mark	2:mark	_
-4	li	li	ADV	ASC	_	2	advmod:emph	2:advmod:emph	_
-5	kumda	kum	NOUN	_	Case=Abl|Number=Sing	6	obl	6:obl	_
-6	phungle	phung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_31
-# text = Peter Mariadi thyie
-# english = (Peter tried to open the door himself, but he didn’t manage. Then…) Peter called Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	thyie	thyi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_32
-# text = Peter Mariadi mathetha kum ska keilate
-# english = Peter got to know Maria a year ago.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	mathetha	mathet	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pqp|VerbForm=Fin	6	csubj	6:csubj	_
-4	kum	kum	NOUN	_	Number=Sing	6	obl	6:obl	_
-5	ska	ska	NUM	_	NumForm=Word|NumType=Card	4	nummod	4:nummod	_
-6	keilate	kei	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_33
-# text = Peter Mariadi mathetle
-# english = Peter knows Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	mathetle	mathet	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_34
-# text = Peter guitar khohnganan lale
-# english = (What is Peter doing?) Peter is playing the guitar
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	guitar	guitar	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
-3	khohnganan	khohn	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_35
-# text = Peter Mariadi rumale
-# english = (Peter owes Maria a huge sum of money, which he cannot return. Instead of this…) Peter avoids Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	rumale	ru	VERB	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_36
-# text = Peter maszoo zehn samme
-# english = Peter made a mousetrap
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	maszoo	maszoo	NOUN	_	Number=Sing	3	compound	3:compound	_
-3	zehn	zehn	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	samme	samm	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_37
-# text = Peter Mariadi katheszaganan lale
-# english = (Maria did something very stupid. Now,) Peter is making fun of Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	katheszaganan	kathesza	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_38
-# text = Peter car wile
-# english = Peter has a car
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	car	car	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
-3	wile	wi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_39
-# text = Peter bava chabi kapiuganan lale
-# english = Peter is looking for his keys.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
-3	chabi	chabi	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	kapiuganan	kapiu	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_40
-# text = Peternan pidi rha nunge
-# english = Peter painted the fence.
-1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
-2	pidi	pi	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-3	rha	rha	NOUN	_	Number=Sing	4	compound	4:compound	_
-4	nunge	nung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_41
-# text = Huinan Peterdi makaj
-# english = A dog bit Peter
-1	Huinan	hui	NOUN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
-2	Peterdi	Peter	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	makaj	maka	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_42
-# text = Peter bava rhui mahnate
-# english = (There was a fire in the village. As a result) Peter lost his house
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
-3	rhui	rhui	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	mahnate	mahn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_43
-# text = Peter miawidi chokla gase theganan lale
-# english = (The cat sprang out of the house.) Peter is trying to catch the cat
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-2	miawidi	miawi	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	chokla	chokla	VERB	_	VerbForm=Inf	5	advcl	5:advcl	_
-4	gase	gase	SCONJ	PURP	_	3	mark	3:mark	_
-5	theganan	the	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-6	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	5:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_44
-# text = Peternan thungdi theshakka.
-# english = Peter broke a stick.
-1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
-2	thungdi	thung	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	theshakka	theshakk	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_45
-# text = Peter Mariala maswetmiganan lale
-# english = (Peter tells Maria that she is very beautiful.) Peter is flattering Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariala	Maria	PROPN	_	Case=Dat|Number=Sing	3	iobj	3:iobj	_
-3	maswetmiganan	maswetmi	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_46
-# text = Peter Mariadi laithile
-# english = Peter loves Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	laithile	laithi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_47
-# text = Peter handkerchief kafiaganan lale
-# english = (Look, there’s Peter on the other side of the river.) Peter is waving a handkerchief
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	handkerchief	handkerchief	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
-3	kafiaganan	kafia	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_48
-# text = Peter car katha phanungganan lale
-# english = Peter is dreaming of a new car.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	car	car	NOUN	_	Number=Sing	4	obj	4:obj	_
-3	katha	katha	ADJ	_	Degree=Pos	2	amod	2:amod	_
-4	phanungganan	phanung	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_49
-# text = Peternan kelasdi phuie
-# english = Peter washed the cup
-1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
-2	kelasdi	kelas	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	phuie	phui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_50
-# text = Peter theni dhohnte
-# english = Peter put on his trousers.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	theni	theni	NOUN	_	Number=Sing	3	obj	3:obj	_
-3	dhohnte	dhohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_51
-# text = Hadi compass re thyile
-# english = (A boy saw his father’s compass and asked what this was. The father answered him:) ‘This tool is called a compass.’
-1	Hadi	hadi	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	4	obj	4:obj	_
-2	compass	compass	NOUN	_	Number=Sing	4	obl	4:obl	OrigLang=en
-3	re	re	PART	REP	_	2	case	2:case	_
-4	thyile	thyi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_52
-# text = Peter ba neola danti mie.
-# english = (Peter’s son was misbehaving.) Peter punished his son.
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
-3	neola	neo	NOUN	_	Case=Dat|Number=Sing	5	iobj	5:iobj	_
-4	danti	danti	NOUN	_	Number=Sing	5	obj	5:obj	_
-5	mie	mi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	5:punct	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_53
-# text = Hwehnnan fishermandi attackthee
-# english = A bear attacked a fisherman.
-1	Hwehnnan	hwehn	NOUN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
-2	fishermandi	fisherman	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	OrigLang=en
-3	attackthee	attackthe	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_54
-# text = Bucketdi rhui puiate
-# english = (There was a bucket near the house during the rain.) The bucket filled with water
-1	Bucketdi	bucket	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	OrigLang=en
-2	rhui	rhui	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
-3	puiate	pui	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_55
-# text = Peter bava chabidi ruate
-# english = Peter found his keys.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
-3	chabidi	chabi	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	ruate	ru	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_56
-# text = Peter lupa zukhani keikapmate.
-# english = (Peter wants to buy a ticket. He counts his money and finds out that…) Peter is short / lacks 200 rupees.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	lupa	lupa	NOUN	_	Number=Sing	4	obj	4:obj	_
-3	zukhani	zukhani	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
-4	keikapmate	keikap	VERB	COMPL	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_57
-# text = Peter Mariadi matrehnle
-# english = Peter hates Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	matrehnle	matrahn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_58
-# text = Peter hai putrehndi manungle
-# english = Peter likes this shirt.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	hai	hai	DET	_	Deixis=Prox|PronType=Dem	3	det	3:det	_
-3	putrehndi	putrehn	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	manungle	manung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_59
-# text = Peter bya tarkar thelate.
-# english = (Peter’s house was burglarised with all the valuables taken. As a consequence,) Peter needs money.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	bya	bya	NOUN	_	Number=Sing	3	obj	3:obj	_
-3	tarkar	tarkar	VERB	_	_	4	xcomp	4:xcomp	_
-4	thelate	thelate	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_60
-# text = Citydi wallda rivaikapre wile
-# english = Walls surround the city.
-1	Citydi	city	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	OrigLang=en
-2	wallda	wall	NOUN	_	Case=Abl|Number=Sing	4	obl	4:obl	OrigLang=en
-3	rivaikapre	rivaikap	VERB	_	_	4	compound	4:compound	_
-4	wile	wi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_61
-# text = Peterva bya zukathai chilate.
-# english = (Peter had 10000 rupees, but he bought a phone, so now) Peter has 800 rupees left.
-1	Peterva	Peter	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	2:nmod:poss	_
-2	bya	bya	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	zukathai	zukathai	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
-4	chilate	chi	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_62
-# text = Peter wizala rung kiate
-# english = (The teacher asked Peter what his parents’ names are.) Peter answered the teacher.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	wizala	wiza	NOUN	_	Case=Dat|Number=Sing	3	iobj	3:iobj	_
-3	rung	rung	VERB	_	_	4	compound:svc	4:compound:svc	_
-4	kiate	ki	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_63
-# text = Peter koktapung shammate
-# english = Peter opened a can.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	koktapung	koktapung	NOUN	_	Number=Sing	3	obj	3:obj	_
-3	shammate	shamm	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_64
-# text = Garhe, ava putrehndi chale nahnvada
-# english = (Maria told Peter that they have identical shirts. Peter answered her,) ‘No, my shirt is different from yours (, it is darker).’
-1	Garhe	garhe	INTJ	_	Polarity=Neg	5	discourse	5:discourse	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	1:punct	_
-3	ava	a	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	putrehndi	putrehn	NOUN	_	Case=Top|Number=Sing	5	nsubj	5:nsubj	_
-5	chale	cha	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-6	nahnvada	nahn	PRON	_	Case=GenAbl|Number=Sing|Person=2|PronType=Prs	5	obl	5:obl	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_65
-# text = Peter nua
-# english = (Peter and Maria started out to school together, but) Peter fell behind Maria
-1	Peter	Peter	PROPN	_	Number=Sing	2	nsubj	2:nsubj	_
-2	nua	nua	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_66
-# text = Peter khohn katha thaile
-# english = Peter is ploughing the field.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	khohn	khohn	NOUN	_	Number=Sing	3	obj	3:obj	_
-3	katha	katha	VERB	_	_	4	compound:svc	4:compound:svc	_
-4	thaile	thai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_67
-# text = A gae tha yi manamle
-# english = (I was mending my car.) My hands smell like / smell of gasoline.
-1	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
-2	gae	gae	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
-3	tha	tha	NOUN	_	Number=Sing	4	compound	4:compound	_
-4	yi	yi	NOUN	_	Number=Sing	5	obj	5:obj	_
-5	manamle	manam	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_68
-# text = Peter chuhnate
-# english = (Peter saw that the shop is on the other side of the road.) Peter crossed the road (and entered the shop).
-1	Peter	Peter	PROPN	_	Number=Sing	2	nsubj	2:nsubj	_
-2	chuhnate	chuhn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_69
-# text = Peter lhehn bathanahn gaszu the
-# english = Peter sang a beautiful song.
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-2	lhehn	lhehn	NOUN	_	Number=Sing	5	obj	5:obj	_
-3	bathanahn	bathanahn	ADV	_	_	4	advmod	4:advmod	_
-4	gaszu	gaszu	ADJ	_	Degree=Pos	2	amod	2:amod	_
-5	the	the	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_70
-# text = Peter letter rakke
-# english = Peter wrote a letter.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	letter	letter	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
-3	rakke	rakk	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_71
-# text = Peter themoknuidi mohnte
-# english = (Peter was given a glass of milk by his mother.) Peter drank the milk.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	themoknuidi	themoknui	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	mohnte	mohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_72
-# text = Peter misz ska lwae
-# english = Peter melted a piece of lead.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	misz	misz	NOUN	_	Number=Sing	4	obj	4:obj	_
-3	ska	ska	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
-4	lwae	lwa	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_73
-# text = Suate, hai ksahndi ava theranahn bakle
-# english = (A girl tries a belt in the shop and says), ‘Great, this belt matches my dress.’
-1	Suate	su	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	7	discourse	7:discourse	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	1:punct	_
-3	hai	hai	DET	_	Deixis=Prox|PronType=Dem	4	det	4:det	_
-4	ksahndi	ksahn	NOUN	_	Case=Top|Number=Sing	7	nsubj	7:nsubj	_
-5	ava	a	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	nmod:poss	6:nmod:poss	_
-6	theranahn	thera	NOUN	_	Case=Loc|Number=Sing	7	obl	7:obl	_
-7	bakle	bak	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_74
-# text = Peter badi maneo dhohn cityda thate
-# english = Peter left his native city.
-1	Peter	Peter	PROPN	_	Number=Sing	6	nsubj	6:nsubj	_
-2	badi	ba	PRON	_	Case=Top|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
-3	maneo	maneo	VERB	_	VerbForm=Inf	5	acl	5:acl	_
-4	dhohn	dhohn	VERB	_	VerbForm=Inf	3	compound:prt	3:compound:prt	_
-5	cityda	city	NOUN	_	Case=Abl|Number=Sing	6	obl	6:obl	OrigLang=en
-6	thate	tha	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_75
-# text = Tye carpetnan floor mazohndi thekhamle
-# english = The carpet covers the whole floor.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	carpetnan	carpet	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	OrigLang=en
-3	floor	floor	NOUN	_	Number=Sing	5	obj	5:obj	OrigLang=en
-4	mazohndi	mazohn	ADJ	_	Case=Top|Degree=Pos	3	amod	3:amod	_
-5	thekhamle	thekham	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_76
-# text = Peter tye rhuidi szuraire mazok woanle
-# english = Peter remembers the house (where he grew up) well.
-1	Peter	Peter	PROPN	_	Number=Sing	6	nsubj	6:nsubj	_
-2	tye	tye	DET	_	Deixis=Remt|PronType=Dem	3	det	3:det	_
-3	rhuidi	rhui	NOUN	_	Case=Top|Number=Sing	6	obj	6:obj	_
-4	szuraire	szurai	ADJ	_	Degree=Pos	5	amod	5:amod	_
-5	mazok	mazok	NOUN	_	Number=Sing	6	compound	6:compound	_
-6	woanle	woan	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_77
-# text = Peter Mariala mating pange
-# english = (Maria didn’t manage to do her homework by herself.) Peter helped Maria
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	Mariala	Maria	PROPN	_	Case=Dat|Number=Sing	4	iobj	4:iobj	_
-3	mating	mating	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	pange	pang	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_78
-# text = Peter English phabtale.
-# english = Peter understands English.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	English	English	PROPN	_	Number=Sing	3	obj	3:obj	_
-3	phabtale	phabta	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_79
-# text = Thungrai rhuinahn chalokke
-# english = Lightning struck the house.
-1	Thungrai	thungrai	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	rhuinahn	rhui	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
-3	chalokke	chalokk	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_80
-# text = Peter ba khalailehnda razorda zapzue
-# english = Peter cut himself with a razor.
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	_
-3	khalailehnda	khalailehnda	DET	REFL	Reflex=Yes	2	det	2:det	_
-4	razorda	razor	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	OrigLang=en
-5	zapzue	zapzu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_81
-# text = Kelas tablenahn maniahn wiate
-# english = (The table was recently covered with paint. Peter didn’t know this and placed his glass on it.) The glass got stuck to the table.
-1	Kelas	kelas	NOUN	_	Number=Sing	4	nsubj	3:nsubj:xsubj|4:nsubj	_
-2	tablenahn	table	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	OrigLang=en
-3	maniahn	maniahn	VERB	_	VerbForm=Inf	4	xcomp	4:xcomp	_
-4	wiate	wi	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
-
-# sent_id = grammar_BivalTyp_82
-# text = Peter Mariadi thomate
-# english = (Peter played chess with Maria) Peter lost to Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	thomate	tho	VERB	COMPL	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_83
-# text = Peter letterdi ruweda nungai
-# english = (Peter received a letter from Maria) Peter was glad about the letter.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	letterdi	letter	NOUN	_	Case=Top|Number=Sing	3	compound	3:compound	OrigLang=en
-3	ruweda	ruwe	NOUN	NMLZ	Aspect=Imp|Case=Abl|Number=Sing|VerbForm=Vnoun	4	obl	4:obl	_
-4	nungai	nunga	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_84
-# text = Peter Marianahn bahnganan lale
-# english = (I am looking for Peter When I enter the room I see that) Peter is speaking with Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Marianahn	Maria	PROPN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
-3	bahnganan	bahn	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_85
-# text = Maria beneo maneo.
-# english = Maria gave birth to a son.
-1	Maria	Maria	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	beneo	beneo	NOUN	_	Number=Sing	3	obj	3:obj	_
-3	maneo	maneo	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_86
-# text = Peter gae taiprai ra kelasdi filhia.
-# english = Peter dropped the glass.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj|6:nsubj	_
-2	gae	gae	NOUN	_	Number=Sing	3	compound	3:compound	_
-3	taiprai	taiprai	VERB	_	VerbForm=Inf	0	root	0:root	_
-4	ra	ra	ADV	CONJ*	_	6	advmod	6:advmod	_
-5	kelasdi	kelas	NOUN	_	Case=Top|Number=Sing	6	nsubj	6:nsubj	_
-6	filhia	filhia	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	SpaceAfter=No
-7	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_87
-# text = Peternan towndi govern thele
-# english = Peter runs our town.
-1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
-2	towndi	town	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	OrigLang=en
-3	govern	govern	VERB	_	VerbForm=Inf	4	xcomp	4:xcomp	OrigLang=en
-4	thele	the	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_88
-# text = Peter Mariadi khashale
-# english = Peter misses Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	khashale	khasha	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_89
-# text = Peter Maria suisuile
-# english = Peter follows Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Maria	Maria	PROPN	_	Number=Sing	3	obj	3:obj	_
-3	suisuile	suisui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_90
-# text = Peter thegwehnda kohnte
-# english = Peter got down from the horse.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	thegwehnda	thegwehn	NOUN	_	Case=Abl|Number=Sing	3	obl	3:obl	_
-3	kohnte	kohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_91
-# text = Peter radio lhunganan lale
-# english = (What is Peter doing?)  Peter is listening to radio.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	radio	radio	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
-3	lhunganan	lhun	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_92
-# text = Peter nenan ba theva runge chule
-# english = (Maria is a mischievous boy, but)  Peter always listens to / obeys his mother.
-1	Peter	Peter	PROPN	_	Number=Sing	6	nsubj	6:nsubj	_
-2	nenan	nenan	ADV	CONTR	_	1	advmod	1:advmod	_
-3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	theva	the	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	5:nmod:poss	_
-5	runge	runge	NOUN	NMLZ	Aspect=Imp|Number=Sing|VerbForm=Vnoun	6	obj	6:obj	_
-6	chule	chu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\n
-
-# sent_id = grammar_BivalTyp_93
-# text = Peter music kwehn chule
-# english = Peter hears the music.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	music	music	NOUN	_	Number=Sing	3	compound	3:compound	OrigLang=en
-3	kwehn	kwehn	NOUN	_	_	4	obj	4:obj	_
-4	chule	chu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_94
-# text = Kaferui themoknuinahn mixthiate
-# english = (Some honey was put in a jar of milk and stirred.)  The honey got mixed with the milk.
-1	Kaferui	kaferui	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	themoknuinahn	themoknui	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
-3	mixthiate	mixthi	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	OrigLang=en|SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_95
-# text = Peter nyahnmai swehnswehn mailare yoanganan lale
-# english = Peter is looking at the clouds (trying to determine if it will rain).
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-2	nyahnmai	nyahnmai	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
-3	swehnswehn	swehnswehn	ADJ	_	Degree=Pos	5	ccomp	5:ccomp	_
-4	mailare	mailare	SCONJ	_	_	3	mark	3:mark	_
-5	yoanganan	yoan	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-6	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	5:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_96
-# text = Peter bava putrehn rithiate
-# english = Peter took off his shirt.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
-3	putrehn	putrehn	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	rithiate	rithi	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\n
-
-# sent_id = grammar_BivalTyp_97
-# text = Peter molehnnahn Maria remahne
-# english = (Peter sleeps) Peter dreams about Maria Peter molehn-nahn Maria re-mahnn-e
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	molehnnahn	molehn	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
-3	Maria	Maria	PROPN	_	Number=Sing	4	obj	4:obj	_
-4	remahne	remahn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_98
-# text = Peter Marianan rungenahndi ay re
-# english = (Maria told Peter that their son should learn Hindi)  Peter agreed with Maria
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	Marianan	Maria	PROPN	_	Case=Erg|Number=Sing	3	compound	3:compound	_
-3	rungenahndi	runge	NOUN	NMLZ	Aspect=Imp|Case=LocTop|Number=Sing|VerbForm=Vnoun	4	obj	4:obj	_
-4	ay	ay	INTJ	_	_	0	root	0:root	_
-5	re	re	PART	REP	_	4	mark	4:mark	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_99
-# text = Peter Mariadi rae
-# english = Peter had a quarrel with Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	rae	ra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_100
-# text = Hai kelasdi lupa lhohnphange dale
-# english = This cup costs 50 rupees.
-1	Hai	hai	DET	_	Deixis=Prox|PronType=Dem	2	det	2:det	_
-2	kelasdi	kelas	NOUN	_	Case=Top|Number=Sing	5	nsubj	5:nsubj	_
-3	lupa	lupa	NOUN	_	Number=Sing	5	obj	5:obj	_
-4	lhohnphange	lhohnphange	NUM	_	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
-5	dale	da	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_101
-# text = Peter henahn kappe
-# english = Peter shot at the bird. (He missed.)
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	henahn	he	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
-3	kappe	kapp	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_102
-# text = Peter sugar phrai dhohnte
-# english = Peter poured the sugar (into the cup).
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	sugar	sugar	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
-3	phrai	phrai	VERB	_	_	0	root	0:root	_
-4	dhohnte	dhohn	ADP	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	3	compound:prt	3:compound:prt	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_103
-# text = Peter bava chabi chate
-# english = Peter lost his keys.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
-3	chabi	chabi	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	chate	ch	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_104
-# text = Thungbam rhui athoongenahn dhohnte
-# english = (This tree has very heavy wood. I threw a log in the river.)  The log sank in the water.
-1	Thungbam	thungbam	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	rhui	rhui	NOUN	_	Number=Sing	4	obl	4:obl	_
-3	athoongenahn	athoonge	ADP	_	Case=Loc	2	case	2:case	_
-4	dhohnte	dhohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_105
-# text = Peternan Mariadi mathai.
-# english = Peter killed Maria
-1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	mathai	mathai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\s\n
-
-# sent_id = grammar_BivalTyp_106
-# text = Peternan Mariadi rae
-# english = Peter hit Maria
-1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	rae	ra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\n
-
-# sent_id = grammar_BivalTyp_107
-# text = Peter Mariadi mathokke
-# english = Peter kissed Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	mathokke	mathokk	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_108
-# text = Peter lairak gaswe ska phrei
-# english = Peter read an interesting book.
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-2	lairak	lairak	NOUN	_	Number=Sing	5	obj	5:obj	_
-3	gaswe	gaswe	ADJ	_	Degree=Pos	2	amod	2:amod	_
-4	ska	ska	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
-5	phrei	phre	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_109
-# text = Peter ba gae thaithai rei
-# english = Peter moved his finger.
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-3	gae	gae	NOUN	_	Number=Sing	4	compound	4:compound	_
-4	thaithai	thaithai	NOUN	_	Number=Sing	5	obj	5:obj	_
-5	rei	re	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_110
-# text = Peter Mariala respect mile
-# english = Peter respects Maria
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	Mariala	Maria	PROPN	_	Case=Dat|Number=Sing	4	iobj	4:iobj	_
-3	respect	respect	NOUN	_	Number=Sing	4	obj	4:obj	OrigLang=en
-4	mile	mi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_111
-# text = Peter khohnlohn makhadi matrehnle
-# english = Peter is squeamish about dirty dishes.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	khohnlohn	khohnlohn	NOUN	_	Number=Sing	4	obj	4:obj	_
-3	makhadi	makha	ADJ	_	Case=Top|Degree=Pos	2	amod	2:amod	_
-4	matrehnle	matrahn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_112
-# text = Peter ba neodi nungszwa woanle.
-# english = (Peter’s son does well at school.)  Peter is OK/content/satisfied with his son.
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
-3	neodi	neo	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
-4	nungszwa	nungszwa	ADV	_	_	5	advmod	5:advmod	_
-5	woanle	woan	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	5:punct	SpacesAfter=\s\n
-
-# sent_id = grammar_BivalTyp_113
-# text = Peter Mariadi laithia
-# english = Peter fell in love with Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	laithia	laithi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_114
-# text = Peter Mariadi hehnle
-# english = (Peter and Maria have a happy family. Maria never deceives Peter)  Peter trusts Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	hehnle	hehn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_115
-# text = Peter ba theva kathekhanahndi phabtale
-# english = (Peter’s mother is very ill.)  Peter sympathises with his mother.
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
-3	theva	the	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	4:nmod:poss	_
-4	kathekhanahndi	kathekhanahn	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
-5	phabtale	phabta	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_116
-# text = Peter Maria thia thayoan re mazokle
-# english = (Maria has a car, and Peter doesn't).  Peter envies Maria
-1	Peter	Peter	PROPN	_	Number=Sing	6	nsubj	4:nsubj:xsubj|6:nsubj	_
-2	Maria	Maria	PROPN	_	Number=Sing	4	obj	4:obj	_
-3	thia	thia	VERB	_	VerbForm=Inf	4	compound:svc	4:compound:svc	_
-4	thayoan	thayoan	VERB	_	VerbForm=Inf	6	xcomp	6:xcomp	_
-5	re	re	PART	REP	_	4	mark	4:mark	_
-6	mazokle	mazokle	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_117
-# text = Peter Mariadi malungphzganan lale
-# english = Peter is angry with Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	malungphzganan	malungphz	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_118
-# text = Peter hai giftdi rueda wehnthoke
-# english = (Maria made Peter an expensive gift.)  Peter was surprised at this gift.
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-2	hai	hai	DET	_	Deixis=Prox|PronType=Dem	3	det	3:det	_
-3	giftdi	gift	NOUN	_	Case=Top|Number=Sing	4	compound	4:compound	OrigLang=en
-4	rueda	rue	NOUN	NMLZ	Aspect=Imp|Case=Abl|Number=Sing|VerbForm=Vnoun	5	obj	5:obj	_
-5	wehnthoke	wehnthok	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_119
-# text = Peter za manungle
-# english = Peter loves tea.
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	za	za	NOUN	_	Number=Sing	3	obj	3:obj	_
-3	manungle	manung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\n
-
-# sent_id = grammar_BivalTyp_120
-# text = Peter za tra mohn mule
-# english = (After being in cold water)  Peter enjoys hot tea.
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	4:nsubj:xsubj|5:nsubj	_
-2	za	za	NOUN	_	Number=Sing	4	obj	4:obj	_
-3	tra	tra	ADJ	_	Degree=Pos	2	amod	2:amod	_
-4	mohn	mohn	VERB	_	VerbForm=Inf	5	xcomp	5:xcomp	_
-5	mule	mu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\n
-
-# sent_id = grammar_BivalTyp_121
-# text = Peter mobile phone katha ska manungle
-# english = Peter wants a new mobile phone.
-1	Peter	Peter	PROPN	_	Number=Sing	6	nsubj	6:nsubj	_
-2	mobile	mobile	NOUN	_	Number=Sing	3	compound	3:compound	OrigLang=en
-3	phone	phone	NOUN	_	Number=Sing	6	obj	6:obj	_
-4	katha	katha	ADJ	_	Degree=Pos	3	amod	3:amod	_
-5	ska	ska	NUM	_	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
-6	manungle	manung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_122
-# text = Peter Mariadi nungaikhama lale
-# english = (Why doesn’t Peter speak with Maria?)  Peter has a grudge against Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	nungaikhama	nungai	VERB	_	Aspect=Perf|Degree=Pos|Polarity=Neg|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_123
-# text = Peter nungnahn thezuate Maria dai
-# english = (Maria called Peter an idiot.)  Peter took offense at Maria / P got cross with Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	nungnahn	nung	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
-3	thezuate	thezu	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	Maria	Maria	PROPN	_	Number=Sing	3	obl	3:obl	_
-5	dai	dai	AUX	_	Mood=Jus	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_124
-# text = Peter Mariadi bathanahn nungaima muate
-# english = Peter greatly upset Maria (He told her that he had spent all the money.)
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	4:nsubj:xsubj|5:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	5	obj	5:obj	_
-3	bathanahn	bathanahn	ADV	_	_	4	advmod	4:advmod	_
-4	nungaima	nungai	VERB	_	Polarity=Neg	5	xcomp	5:xcomp	_
-5	muate	mu	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_125
-# text = Peter hai towndi bathanahn wehnthoke
-# english = (Peter arrived in the capital.)  Peter marvelled at / was struck by / was impressed by this town.
-1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
-2	hai	hai	DET	_	Deixis=Prox|PronType=Dem	3	det	3:det	_
-3	towndi	town	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	OrigLang=en
-4	bathanahn	bathanahn	ADV	_	_	5	advmod	5:advmod	_
-5	wehnthoke	wehnthok	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\n
-
-# sent_id = grammar_BivalTyp_126
-# text = Peter Mariadi matrehnle.
-# english = Peter despises Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	matrehnle	matrahn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\s\n
-
-# sent_id = grammar_BivalTyp_127_1
-# text = Peter ba neobedi nungaimate
-# english = (Peter’s son got bad marks in school once again.)  Peter got upset with his son
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
-3	neobedi	neobe	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	nungaimate	nungai	VERB	COMPL	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\s\n
-
-# sent_id = grammar_BivalTyp_127_2
-# text = Peter nungaima ba neobeva lohnda
-# english = Peter got upset because of his son.
-1	Peter	Peter	PROPN	_	Number=Sing	2	nsubj	2:nsubj	_
-2	nungaima	nungai	ADJ	_	Degree=Pos|Polarity=Neg	0	root	0:root	_
-3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	neobeva	neobe	NOUN	_	Case=Gen|Number=Sing	2	obl	2:obl	_
-5	lohnda	lohnda	ADP	CAUS	_	4	case	4:case	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_128
-# text = Peter ba neolewidi malungphzganan lale
-# english = (Peter has a very bad disposition. Look, once again…)  Peter is getting irritated with his daughter.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
-3	neolewidi	neolewi	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	malungphzganan	malungphz	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_129
-# text = Peter Mariadi prehnle
-# english = Peter is fond of Maria
-1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	prehnle	prehn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_BivalTyp_130
-# text = Peter ba khlaidi kathale
-# english = (Peter is the smallest in his class.)  Peter is shy / embarassed about his height.
-1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
-2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
-3	khlaidi	khlai	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	kathale	katha	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# newdoc id = grammar_ValPal
-# sent_id = grammar_ValPal_1
-# text = Hwen ska rue
-# english = A bear appeared
-1	Hwen	hwen	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	ska	ska	NUM	_	NumForm=Word|NumType=Card	1	nummod	1:nummod	_
-3	rue	ru	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_2
-# text = ba anahn question thokke ska nue
-# english = She asked me a difficult question
-1	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	_
-2	anahn	a	PRON	_	Case=Loc|Number=Sing|Person=1|PronType=Prs	6	obl	6:obl	_
-3	question	question	NOUN	_	Number=Sing	6	obj	6:obj	OrigLang=en
-4	thokke	thokke	ADJ	_	Degree=Pos	3	amod	3:amod	_
-5	ska	ska	NUM	_	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
-6	nue	nu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_3
-# text = Tye baneonandi tye puirawinahn gase phara nue
-# english = The man asked the woman about a place to rent.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneonandi	baneo	NOUN	_	Case=ErgTop|Number=Sing	7	nsubj	7:nsubj	_
-3	tye	tye	DET	_	Deixis=Remt|PronType=Dem	4	det	4:det	_
-4	puirawinahn	puirawi	NOUN	_	Case=Loc|Number=Sing	7	iobj	7:iobj	_
-5	gase	gase	ADP	PURP	_	6	case	6:case	_
-6	phara	phara	NOUN	_	Number=Sing	7	obl	7:obl	_
-7	nue	nu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_4
-# text = Tye neonan babethinahn bya bahnne
-# english = The boy asked his parents for money.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neonan	neo	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
-3	babethinahn	babethi	NOUN	_	Case=Loc|Number=Sing	5	obl	5:obl	_
-4	bya	bya	NOUN	_	Number=Sing	5	obj	5:obj	_
-5	bahnne	bahnn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_5
-# text = Jessicanan Jasonnahn mating bahnne
-# english = Jessica asked Jason for help
-1	Jessicanan	Jessica	PROPN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
-2	Jasonnahn	Jason	PROPN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
-3	mating	mating	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	bahnne	bahnn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_6
-# text = Tye snipernan politiciandi mathaie
-# english = The sniper assassinated the politician.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	snipernan	sniper	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
-3	politiciandi	politician	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	OrigLang=en
-4	mathaie	mathai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_7
-# text = Hai phzdi kathathahndanan thera e
-# english = This piece of cloth is actually a dress.
-1	Hai	hai	DET	_	Deixis=Prox|PronType=Dem	2	det	2:det	_
-2	phzdi	phz	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
-3	kathathahndanan	kathathahndanan	ADV	_	_	4	advmod	4:advmod	_
-4	thera	thera	NOUN	_	Number=Sing	0	root	0:root	_
-5	e	e	AUX	_	_	4	cop	4:cop	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_8
-# text = Tye baneodi thethae miszu
-# english = This man is a hunter.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneodi	baneo	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
-3	thethae	thethae	NOUN	NMLZ	Aspect=Imp|Number=Sing|VerbForm=Vnoun	4	acl	4:acl	_
-4	miszu	miszu	NOUN	_	Number=Sing	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_9
-# text = lightdi iale
-# english = The light is bright.
-1	lightdi	light	NOUN	_	Case=Top|Number=Sing	2	nsubj	2:nsubj	_
-2	iale	ia	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_10
-# text = Tye baneodi problemnan themaganan lale
-# english = The man is burdened with a problem.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneodi	baneo	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-3	problemnan	problem	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
-4	themaganan	the	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_11
-# text = Tye rhuidi zwetle
-# english = The water is cold.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	rhuidi	rhui	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
-3	zwetle	zwet	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_12
-# text = lhaidi phuile
-# english = The ground is dry.
-1	lhaidi	lhai	NOUN	_	Case=Top|Number=Sing	2	nsubj	2:nsubj	_
-2	phuile	phui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_13
-# text = bava phanungedi mathoongeda chule
-# english = His reasoning is far from the truth.
-1	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
-2-3	phanungedi	_	_	_	_	_	_	_	_
-2	phanunge	phanunge	VERB	_	VerbForm=Inf	5	csubj	5:csubj	_
-3	di	di	SCONJ	NMLZ	_	2	mark	2:mark	_
-4	mathoongeda	mathoonge	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
-5	chule	chu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_14
-# text = puirawidi nungae
-# english = The woman is glad.
-1	puirawidi	puirawi	NOUN	_	Case=Top|Number=Sing	2	nsubj	2:nsubj	_
-2	nungae	nungae	NOUN	NMLZ	Aspect=Imp|Number=Sing|VerbForm=Vnoun	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_15
-# text = Tye neodi mathilate
-# english = The baby is hungry.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neodi	neo	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
-3	mathilate	math	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
-
-# sent_id = grammar_ValPal_16
-# text = Tye neodi kathe late
-# english = The little boy is sick.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neodi	neo	NOUN	_	Case=Top|Number=Sing	4	nsubj	3:nsubj:xsubj|4:nsubj	_
-3	kathe	kathe	ADJ	_	Degree=Pos	4	xcomp	4:xcomp	_
-4	late	la	AUX	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_17
-# text = Neo mungdi Jason rele
-# english = The man was named Jason
-1	Neo	neo	NOUN	_	Number=Sing	2	compound	2:compound	_
-2	mungdi	mung	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
-3	Jason	Jason	PROPN	_	_	4	obj	4:obj	_
-4	rele	re	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_18
-# text = Tye bathanahn kanale
-# english = This is severely needed.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	3	nsubj	3:nsubj	_
-2	bathanahn	bathanahn	ADV	_	_	3	advmod	3:advmod	_
-3	kanale	kana	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_19
-# text = Tye leneo zazudi zhuie
-# english = The little girl was sad.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	leneo	leneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	zazudi	zazudi	ADJ	_	Case=Top|Degree=Pos	2	amod	2:amod	_
-4	zhuie	zhui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_20
-# text = Tye baneodi zhuie bava cha maramda
-# english = The man is sad about his loss.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneodi	baneo	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
-3	zhuie	zhui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	5:nmod:poss	_
-5	cha	cha	NOUN	_	Number=Sing	3	obl	3:obl	_
-6	maramda	maramda	ADP	_	_	5	case	5:case	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_21
-# text = Tye neonan phuiraidi thungda rae
-# english = The boy beat the snake with a stick.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neonan	neo	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
-3	phuiraidi	phuirai	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
-4	thungda	thung	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
-5	rae	ra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_22
-# text = A moktrae
-# english = I blink (my eyes).
-1	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
-2	moktrae	moktra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_23
-# text = Rhui myuhlate
-# english = The water is boiling.
-1	Rhui	rhui	NOUN	_	Number=Sing	2	nsubj	2:nsubj	_
-2	myuhlate	myuh	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
-
-# sent_id = grammar_ValPal_24
-# text = Aludi mlame
-# english = The cook boiled the potatoes.
-1	Aludi	alu	NOUN	_	Case=Top|Number=Sing	2	nsubj	2:nsubj	_
-2	mlame	mlam	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_25
-# text = Tye neonandi windowdi lhungda thekhiae
-# english = The boy broke the window with a stone.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neonandi	neo	NOUN	_	Case=ErgTop|Number=Sing	5	nsubj	5:nsubj	`
-3	windowdi	window	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	OrigLang=en
-4	lhungda	lhung	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
-5	thekhiae	thekhia	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_26
-# text = Tye leneonan Ala papwehn laremie
-# english = The girl brought flowers to me.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	leneonan	leneo	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
-3	Ala	a	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	5:iobj	_
-4	papwehn	papwehn	NOUN	_	Number=Sing	5	obj	5:obj	_
-5	laremie	laremi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_27
-# text = Tye baneophanan thungda rhui samme
-# english = The men built a house out of wood.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneophanan	baneo	NOUN	_	Case=Erg|Number=Plur	5	nsubj	5:nsubj	_
-3	thungda	thung	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
-4	rhui	rhui	NOUN	_	Number=Sing	5	obj	5:obj	_
-5	samme	samm	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_28
-# text = Tye rhuidi tralate
-# english = The house is burning.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	rhuidi	rhui	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
-3	tralate	tra	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
-
-# sent_id = grammar_ValPal_29
-# text = Tye neo bava report carddi rakkae
-# english = The boy burnt his report card.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
-3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	report	report	NOUN	_	Number=Sing	6	obj	6:obj	OrigLang=en
-5	carddi	card	NOUN	_	Case=Top|Number=Sing	4	flat	4:flat	OrigLang=en
-6	rakkae	rakka	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_30
-# text = Tye baneo bava leneo laithiedi thyie
-# english = The man called his girlfriend.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneo	baneo	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
-3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	leneo	leneo	NOUN	_	Number=Sing	6	obj	6:obj	_
-5	laithiedi	laithie	NOUN	NMLZ	Aspect=Imp|Case=Top|Number=Sing|VerbForm=Vnoun	4	compound	4:compound	_
-6	thyie	thyi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_31
-# text = Tye boat khalehnkhamate
-# english = The boat capsized
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	boat	boat	NOUN	_	Number=Sing	3	nsubj	3:nsubj	OrigLang=en
-3	khalehnkhamate	khalehnkham	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_32
-# text = Tye baneo boxphadi marketnahn lathate
-# english = The men carried the boxes to the market.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneo	baneo	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
-3	boxphadi	box	NOUN	_	Case=Top|Number=Plur	5	obj	5:obj	OrigLang=en
-4	marketnahn	market	NOUN	_	Case=Loc|Number=Sing	5	obl	5:obl	OrigLang=en
-5	lathate	lath	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_33
-# text = Tye neonan maszoodi rhuida yingchate
-# english = The boy chased the mouse from the house.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neonan	neo	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
-3	maszoodi	maszoo	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
-4	rhuida	rhui	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
-5	yingchate	yingch	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_34
-# text = Tye leneonan floordi thechue
-# english = The girl cleaned the floor.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	leneonan	leneo	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
-3	floordi	floor	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	OrigLang=en
-4	thechue	thechu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_35
-# text = Tye baneopha tharungnahn khlaikiate
-# english = The men climbed (up) the tree.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneopha	baneo	NOUN	_	Number=Plur	4	nsubj	4:nsubj	_
-3	tharungnahn	tharung	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
-4	khlaikiate	khlaiki	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_36
-# text = Tye baneonan khorohndi khamganan lale
-# english = Then man closes the door.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneonan	baneo	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
-3	khorohndi	khorohn	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	khamganan	kham	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_37
-# text = Tye neo anohnnahn woane
-# english = The boy came (to the village).
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	anohnnahn	anohn	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
-4	woane	woan	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_38
-# text = Tye neo re
-# english = The boy came.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
-3	re	re	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_39
-# text = Tye neo anohnda woane
-# english = The boy came from the village.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	anohnda	anohn	NOUN	_	Case=Abl|Number=Sing	4	obl	4:obl	_
-4	woane	woan	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_40
-# text = Tye puirawiphanan thedi wate
-# english = The women cooked the meat.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawiphanan	puirawi	NOUN	_	Case=Erg|Number=Plur	4	nsubj	4:nsubj	_
-3	thedi	the	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	wate	wa	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_41
-# text = Tye duh makhe
-# english = The old man coughed.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	duh	duh	NOUN	_	_	3	nsubj	3:nsubj	_
-3	makhe	makh	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_42
-# text = Tye baneo A tha thida makhe
-# english = The man choughed at my face.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneo	baneo	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
-3	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	tha	tha	NOUN	_	Number=Sing	6	obl	6:obl	_
-5	thida	thida	ADP	_	_	4	case	4:case	_
-6	makhe	makh	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_43
-# text = Tye puirawinan neodi blanketda thekhamate
-# english = The woman covered the boy with a blanket.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawinan	puirawi	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
-3	neodi	neo	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
-4	blanketda	blanket	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	OrigLang=en
-5	thekhamate	thekham	VERB	_	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_44
-# text = Tye neo leipakwothai khamungnahn namphohn dhohnte
-# english = The boy crammed peanuts into his mouth.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
-3	leipakwothai	leipakwothai	NOUN	_	Number=Sing	6	obj	6:obj	_
-4	khamungnahn	khamung	NOUN	_	Case=Loc|Number=Sing	6	obl	6:obl	_
-5	namphohn	namphohn	VERB	_	VerbForm=Inf	6	compound:svc	6:compound:svc	_
-6	dhohnte	dhohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_45
-# text = Tye neopha laipuidi chuhne
-# english = The boys crossed the road.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neopha	neo	NOUN	_	Number=Plur	4	nsubj	4:nsubj	_
-3	laipuidi	laipui	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	chuhne	chuhn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_46
-# text = Tye neodi traiganan lale
-# english = The baby is crying.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neodi	neo	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
-3	traiganan	trai	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_47
-# text = Tye puirawi bava chaha maramda traie
-# english = The woman cried about her loss.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawi	puirawi	ADV	_	_	6	nsubj	6:nsubj	_
-3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	chaha	cha	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pqp|VerbForm=Fin	6	obl	6:obl	_
-5	maramda	maramda	ADP	_	_	4	case	4:case	_
-6	traie	trai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_48
-# text = Tye puirawi jehndi shuri mayingeda kachate
-# english = The woman cut the bread with a sharp knife.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawi	puirawi	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
-3	jehndi	jehn	NOUN	_	Case=Top|Number=Sing	6	obj	6:obj	_
-4	shuri	shuri	NOUN	_	Number=Sing	6	obl	6:obl	_
-5	mayingeda	mayinge	ADJ	_	Case=Abl|Degree=Pos	4	amod	4:amod	_
-6	kachate	kach	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_49
-# text = Tye puirawila nungszwa mi thile
-# english = The woman deserves credit.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawila	puirawi	NOUN	_	Case=Dat|Number=Sing	4	iobj	4:iobj	_
-3	nungszwa	nungszwa	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	mi	mi	VERB	_	VerbForm=Inf	5	xcomp	5:xcomp	_
-5	thile	thi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_50
-# text = phuirai zhaate
-# english = The snake died.
-1	phuirai	phuirai	NOUN	_	Number=Sing	2	nsubj	2:nsubj	_
-2	zhaate	zha	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_51
-# text = Tye puirawi alu thyiganan lale
-# english = The woman is digging for potatoes.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawi	puirawi	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	alu	alu	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	thyiganan	thyi	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_52
-# text = Tye bale bava thaidi theate
-# english = The man did his work.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	bale	ba	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	5	nsubj	5:nsubj	_
-3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	thaidi	thai	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
-5	theate	the	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_53
-# text = Tye puirawidi phanungganan lale
-# english = The woman is dreaming.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawidi	puirawi	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
-3	phanungganan	phanung	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_54
-# text = Tye athi ba neolewila thera themiate
-# english = The mother dressed her daughter
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	athi	athi	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
-3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	neolewila	neolewi	NOUN	_	Case=Dat|Number=Sing	6	iobj	6:iobj	_
-5	thera	thera	NOUN	_	Number=Sing	6	obj	6:obj	_
-6	themiate	themi	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_55
-# text = Tye baneo bathanahn coffee yaknan mohne
-# english = The man drank strong coffee
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneo	baneo	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
-3	bathanahn	bathanahn	ADV	_	_	5	advmod	5:advmod	_
-4	coffee	coffee	NOUN	_	Number=Sing	6	obj	6:obj	OrigLang=en
-5	yaknan	yaknan	ADJ	_	Degree=Pos	4	amod	4:amod	_
-6	mohne	mohn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_56
-# text = Tye baneo bava boatdi khrai thai
-# english = The man drove out his boat.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneo	baneo	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
-3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	boatdi	boat	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	OrigLang=en
-5	khrai	khrai	VERB	_	VerbForm=Inf	0	root	0:root	_
-6	thai	tha	ADP	_	Aspect=Imp|Mood=Ind|Tense=Past	5	compound:prt	5:compound:prt	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_57
-# text = Tye leneo kelasdi fi lhia
-# english = The girl dropped the cup.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	leneo	leneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	kelasdi	kelas	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	fi	fi	VERB	_	VerbForm=Inf	0	root	0:root	_
-5	lhia	lhi	ADV	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	4	compound:prt	4:compound:prt	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_58
-# text = Tye baneodi veraikhanahn kathamganan lale
-# english = The man is dronwning in a river.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneodi	baneo	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
-3	veraikhanahn	veraikha	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
-4	kathamganan	katham	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
-5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_59
-# text = Thamoknan lhaidi thepuiate
-# english = The sun has dried out the ground.
-1	Thamoknan	Thamok	NOUN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
-2	lhaidi	lhai	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	thepuiate	thepui	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_60
-# text = Tye neonan thaithaidi thea
-# english = The boy ate the fruit.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neonan	neo	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
-3	thaithaidi	thaithai	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	thea	thea	VERB	_	VerbForm=Inf	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_61
-# text = Tye baneo rhuinahn dhohnte
-# english = The man entered (the house).
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneo	baneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	rhuinahn	rhui	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
-4	dhohnte	dhohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_62
-# text = Tye rhui puiate
-# english = The house fell.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	rhui	rhui	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
-3	puiate	pui	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_63
-# text = Tye baneo hwendi trae
-# english = The man feared the bear.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneo	baneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	hwendi	hwen	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	trae	tra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_64
-# text = A magungle
-# english = I'm cold.
-1	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
-2	magungle	magung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_65
-# text = Ava gaephyahn kaprakle
-# english = My arm is hurting
-1	Ava	a	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
-2	gaephyahn	gaephyahn	NOUN	_	Number=Sing	3	obj	3:obj	_
-3	kaprakle	kaprak	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_66
-# text = Tye neo kathe tha
-# english = The boy felt sick.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	3	obj	3:obj	_
-3	kathe	kathe	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	tha	tha	ADV	_	_	3	compound:prt	3:compound:prt	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_67
-# text = Tye neodi thungelate
-# english = The baby is sleepy.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neodi	neo	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
-3	thungelate	thunge	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
-
-# sent_id = grammar_ValPal_68
-# text = Tye baneonan tharungdi ramme
-# english = The man felled the tree.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneonan	baneo	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
-3	tharungdi	tharung	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	ramme	ramm	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_69
-# text = Tye leneonan kelasdi rhuida thepuiate
-# english = The girl filled the glass with water.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	leneonan	leneo	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
-3	kelasdi	kelas	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
-4	rhuida	rhui	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
-5	thepuiate	thepui	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_70
-# text = Tye baneopha leneopha suisuie
-# english = The boys followed the girls.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneopha	baneo	NOUN	_	Number=Plur	4	nsubj	4:nsubj	_
-3	leneopha	leneo	NOUN	_	Number=Plur	4	obj	4:obj	_
-4	suisuie	suisui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
-
-# sent_id = grammar_ValPal_71
-# text = Tye hwennan baneodi thetrae
-# english = The bear frightened the man.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	hwennan	hwen	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
-3	baneodi	baneo	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	thetrae	thetra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_72
-# text = Tye baneo ba baswevada letter ska rue
-# english = The man got a letter from his friend.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneo	baneo	NOUN	_	Number=Sing	7	nsubj	7:nsubj	_
-3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	baswevada	baswe	NOUN	_	Case=GenAbl|Number=Sing	7	obl	7:obl	_
-5	letter	letter	NOUN	_	Number=Sing	7	obj	7:obj	OrigLang=en
-6	ska	ska	NUM	_	NumForm=Word|NumType=Card	5	nummod	5:nummod	_
-7	rue	ru	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_73
-# text = Tye leneo gari rue
-# english = The girl got a car.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	leneo	leneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	gari	gari	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	rue	ru	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_74
-# text = Tye leneo thera theate
-# english = The girl got dressed.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	leneo	leneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	thera	thera	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	theate	the	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_75
-# text = Tye puirawi bathanahn nungaie
-# english = The woman got excited.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawi	puirawi	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	bathanahn	bathanahn	ADV	_	_	4	advmod	4:advmod	_
-4	nungaie	nungai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_76
-# text = Hainan neopha lairakphadi mia
-# english = We gave the books to the children.
-1	Hainan	hai	PRON	_	Case=Erg|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
-2	neopha	neo	NOUN	_	Number=Plur	4	iobj	4:iobj	_
-3	lairakphadi	lairak	NOUN	_	Case=Top|Number=Plur	4	obj	4:obj	_
-4	mia	mi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_77
-# text = Tye puirawi baneo manyuate
-# english = The woman gave birth to a baby boy.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawi	puirawi	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	baneo	baneo	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	manyuate	manyu	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_78
-# text = Tye puirawi marketnahn ve
-# english = The woman went to the market.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawi	puirawi	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	marketnahn	market	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	OrigLang=en
-4	ve	ve	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_79
-# text = mazohn szuka szunan thaile babyahn
-# english = Everything goes well for him.
-1	mazohn	mazohn	DET	_	PronType=Tot	2	det	2:det	_
-2	szuka	szuka	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	szunan	szunan	ADV	_	_	4	advmod	4:advmod	_
-4	thaile	thai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-5	babyahn	ba	PRON	_	Case=Ben|Number=Sing|Person=3|PronType=Prs	4	obl	4:obl	_
-
-# sent_id = grammar_ValPal_80
-# text = Tye jehndi Jessicabyahn
-# english = The bread is for Jessica
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	jehndi	jehn	NOUN	_	Case=Top|Number=Sing	0	root	0:root	_
-3	Jessicabyahn	Jessica	PROPN	_	Number=Sing	2	obl	2:obl	_
-
-# sent_id = grammar_ValPal_81
-# text = Tye puirawi azadi dhohnphokda rungate
-# english = The women ground the seeds (with mortar and pestle).
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawi	puirawi	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
-3	azadi	aza	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
-4	dhohnphokda	dhohnphok	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
-5	rungate	rung	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_82
-# text = Tye puirawi kathung ru rahn re nungda thaile
-# english = Tye puirawi kathung rurahn re nungda thaile
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawi	puirawi	NOUN	_	Number=Sing	8	nsubj	8:nsubj	_
-3	kathung	kathung	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-4	ru	ru	VERB	IRR	VerbForm=Inf	8	ccomp	8:ccomp	_
-5	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	4	aux	4:aux	_
-6	re	re	PART	REP	_	4	mark	4:mark	_
-7	nungda	nung	NOUN	_	Case=Abl|Number=Sing	8	obl	8:obl	_
-8	thaile	thai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_83
-# text = Tye neo hwen khwehn chue
-# english = The boy heard the bear.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
-3	hwen	hwen	NOUN	_	Number=Sing	4	compound	4:compound	_
-4	khwehn	khwehn	NOUN	_	Number=Sing	5	obj	5:obj	_
-5	chue	chu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_84
-# text = A neophala mating mie
-# english = I helped the boys.
-1	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
-2	neophala	neo	NOUN	_	Case=Dat|Number=Plur	4	iobj	4:iobj	_
-3	mating	a	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	mie	mi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_85
-# text = Tye neo chahoidi ba thedi thai muma gase thezhuia
-# english = The boy hid the frog from his mother.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	9	nsubj	9:nsubj	_
-3	chahoidi	chahoi	NOUN	_	Case=Top|Number=Sing	9	obj	9:obj	_
-4	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	5:nmod:poss	_
-5	thedi	the	NOUN	_	Case=Top|Number=Sing	7	obj	6:nsubj:xsubj|7:obj	_
-6	thai	thai	VERB	_	VerbForm=Inf	7	xcomp	7:xcomp	_
-7	muma	mu	VERB	_	Polarity=Neg|VerbForm=Inf	9	advcl	9:advcl	_
-8	gase	gase	SCONJ	PURP	_	7	mark	7:mark	_
-9	thezhuia	thezhui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_86
-# text = Tye neo phuiraidi thungda rae
-# english = The boy hit the snake with a stick.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
-3	phuiraidi	phuirai	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
-4	thungda	thung	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
-5	rae	ra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_87
-# text = Tye athi ba neobedi thahnne
-# english = The mother hugged her little boy.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	athi	athi	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
-3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	neobedi	neobe	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
-5	thahnne	thahnn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_88
-# text = Tye baneo the thuhle
-# english = The man hunts for animals.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneo	baneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	the	the	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	thuhle	thuh	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_89
-# text = Tye baneo ba gaenahn thezue
-# english = The man hurts his hand.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	baneo	baneo	ADV	_	_	5	nsubj	5:nsubj	_
-3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	gaenahn	gae	NOUN	_	Case=Loc|Number=Sing	5	obl	5:obl	_
-5	thezue	thezu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_90
-# text = Tye leneo praie
-# english = The girl jumped.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	leneo	leneo	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
-3	praie	prai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_91
-# text = Tye neo fencedi ra zwehnne
-# english = The boy jumped over the fence.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	fencedi	fence	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	OrigLang=en
-4	ra	ra	VERB	_	VerbForm=Inf	0	root	0:root	_
-5	zwehnne	zwehnn	ADP	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	4	compound:prt	4:compound:prt	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_92
-# text = Tye balenan bava yoangathiedi thungda rathaia
-# english = The man killed his enemy with a club.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	balenan	bale	NOUN	_	Case=Erg|Number=Sing	6	nsubj	6:nsubj	_
-3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	yoangathiedi	yoangathi	NOUN	_	Case=Top|Number=Sing	6	obj	6:obj	_
-5	thungda	thung	NOUN	_	Case=Abl|Number=Sing	6	obl	6:obl	_
-6	rathaia	rathai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
-
-# sent_id = grammar_ValPal_93
-# text = Tye leneo baneodi mathette
-# english = The girl knew the boy.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	leneo	leneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	baneodi	baneo	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
-4	mathette	mathet	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_94
-# text = Leneo manuie
-# english = The girl laughed.
-1	Leneo	leneo	NOUN	_	Number=Sing	2	obj	2:obj	_
-2	manuie	manui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_95
-# text = Tye puirawi huiva maramda manuie
-# english = The woman laught about the dog.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	puirawi	puirawi	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
-3	huiva	hui	NOUN	_	Case=Gen|Number=Sing	5	obl	5:obl	_
-4	maramda	maramda	ADP	_	_	3	case	3:case	_
-5	manuie	manui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_96
-# text = Leneo lhehndi luilae
-# english = The girl learnt the song.
-1	Leneo	leneo	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
-2	lhehndi	lhehn	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	luilae	luila	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_97
-# text = Tye neo anohnda thate
-# english = The boy left the village.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	anohnda	anohn	NOUN	_	Case=Abl|Number=Sing	4	obl	4:obl	_
-4	thate	tha	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_98
-# text = Tye neo bava dolly kathadi manunge
-# english = The boy liked his new toy.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
-3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
-4	dolly	dolly	NOUN	_	Number=Sing	6	obj	6:obj	_
-5	kathadi	katha	ADJ	_	Case=Top|Degree=Pos	4	amod	4:amod	_
-6	manunge	manung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_99
-# text = Tye neo lhehn lhune
-# english = The boy listened to the music.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neo	neo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
-3	lhehn	lhehn	NOUN	_	Number=Sing	4	obj	4:obj	_
-4	lhune	lhun	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_100
-# text = Duhpha townnahn bathale
-# english = The old people live in town.
-1	Duhpha	duh	NOUN	_	Number=Plur	3	nsubj	3:nsubj	_
-2	townnahn	town	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
-3	bathale	batha	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
-# sent_id = grammar_ValPal_101
-# text = Tye lathemiszu khramdi trucknahn thammate
-# english = The farmer loaded hay onto the truck.
-1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	lathemiszu	lathemiszu	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
-3	khramdi	khram	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
-4	trucknahn	truck	NOUN	_	Case=Loc|Number=Sing	5	obl	5:obl	_
-5	thammate	thamm	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
-
 # newdoc id = film_Bridge
 # sent_id = film_Bridge_1
 # text = Next khamedi Broad Street
@@ -2418,7 +511,7 @@
 # english = It's self- evident.
 1	Rungma	rung	VERB	_	Polarity=Neg|VerbForm=Inf	6	advcl	6:advcl	_
 2	lali	lali	SCONJ	_	_	1	mark	1:mark	_
-3	drekhalai	drekhalai	DET	_	Reflex=Yes	4	det	4:det	_
+3	drekhalai	drekhalai	DET	_	PronType=Prs|Reflex=Yes	4	det	4:det	_
 4	lehnda	lehn	NOUN	_	Case=Abl|Number=Sing	6	obl	6:obl	_
 5	li	li	ADV	ASC	_	4	advmod:emph	4:advmod:emph	_
 6	phabtale	phabta	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -2514,7 +607,7 @@
 17	thengammaganan	thengam	VERB	SIM.CVB	Aspect=Prog|Polarity=Neg|VerbForm=Conv	20	advcl	20:advcl	_
 18	miszu	miszu	NOUN	_	Number=Sing	20	obl	20:obl	_
 19	phangenahn	phange	NUM	_	Case=Loc|NumForm=Word|NumType=Card	18	nummod	18:nummod	_
-20	thunge	thunge	VERB	_	_	12	conj	12:conj	_
+20	thunge	thunge	VERB	_	VerbForm=Inf	12	conj	12:conj	_
 21	ga	ga	AUX	_	Evident=Nfh	20	aux	20:aux	SpaceAfter=No
 22	.	.	PUNCT	_	_	12	punct	12:punct	_
 
@@ -3076,7 +1169,7 @@
 # text = Bunan Soviet spy choklaha, nahnnan badi defend the rahn reha.
 # english = The Soviet spy they caught, we want you to defend him.
 1	Bunan	bu	PRON	_	Case=Erg|Number=Plur|Person=3|PronType=Prs	4	obj	4:obj	_
-2	Soviet	Soviet	NOUN	_	Number=Sing	4	obj	4:obj	OrigLang=en
+2	Soviet	Soviet	NOUN	_	Number=Sing	1	appos	1:appos	OrigLang=en
 3	spy	spy	NOUN	_	Number=Sing	2	flat	2:flat	OrigLang=en
 4	choklaha	chokla	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pqp|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	9:punct	_
@@ -3245,7 +1338,7 @@
 # english = You distinguished yourself at Nuremberg.
 1	Chathadi	chatha	PRON	_	Case=Top|Number=Sing|PronType=Ind	3	obj	3:obj	_
 2	nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	_
-3	szumahn	szu	VERB	_	Degree=Cmp	5	xcomp	5:xcomp	_
+3	szumahn	szu	VERB	_	Degree=Cmp|VerbForm=Inf	5	xcomp	5:xcomp	_
 4	yahre	yahre	ADV	_	_	3	advmod	3:advmod	_
 5	the	the	VERB	_	VerbForm=Inf	0	root	0:root	_
 6	Nurembergda	Nuremberg	PROPN	_	Case=Abl|Number=Sing	5	obl	5:obl	SpaceAfter=No
@@ -3968,7 +2061,7 @@
 # text = Miszudi amahn thok la gu.
 # english = Every person matters.
 1	Miszudi	miszu	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
-2	amahn	a	VERB	_	Degree=Cmp	4	obl	4:obl	_
+2	amahn	a	NOUN	_	Number=Sing	4	obl	4:obl	_
 3	thok	thok	ADJ	_	Degree=Pos	4	xcomp	4:xcomp	_
 4	la	la	AUX	_	VerbForm=Inf	0	root	0:root	_
 5	gu	gu	AUX	_	Evident=Fh	4	aux	4:aux	SpaceAfter=No
@@ -4129,7 +2222,7 @@
 4	maramnahn	maram	NOUN	_	Case=Loc|Number=Sing	7	obl	7:obl	_
 5	jaangaphat	jaangaphat	NOUN	_	Number=Sing	7	obl	7:obl	_
 6	gase	gase	ADP	PURP	_	5	case	5:case	_
-7	thema	the	VERB	_	VerbForm=Fin	0	root	0:root	_
+7	thema	the	VERB	_	Polarity=Neg|VerbForm=Inf	0	root	0:root	_
 8	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	7	aux	7:aux	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
@@ -4152,7 +2245,7 @@
 7	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	_
 8	badi	ba	PRON	_	Case=Top|Number=Sing|Person=3|PronType=Prs	9	obj	9:obj	_
 9	ay	ay	INTJ	_	ExtPos=VERB|Polarity=Pos	3	conj	3:conj	_
-10	re	re	VERB	_	Polarity=Neg	9	fixed	9:fixed	_
+10	re	re	VERB	_	VerbForm=Inf	9	fixed	9:fixed	_
 11	lama	la	AUX	_	Polarity=Neg|VerbForm=Inf	9	aux	9:aux	SpaceAfter=No
 12	?	?	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
@@ -4310,7 +2403,7 @@
 12	rai	rai	ADV	COLL	VerbForm=Inf	11	compound:prt	11:compound:prt	_
 13	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	11	aux	11:aux	_
 14	re	re	ADV	_	_	0	root	0:root	_
-15	rema	re	VERB	_	Polarity=Neg	14	conj	14:conj	_
+15	rema	re	VERB	_	Polarity=Neg|VerbForm=Inf	14	conj	14:conj	_
 16	nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj|15:nsubj	SpaceAfter=No
 17	?	?	PUNCT	_	_	14	punct	14:punct	SpacesAfter=\n
 
@@ -4373,7 +2466,7 @@
 # text = Tye Ava credentials te.
 # english = These are my credentials.
 1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	3	det	3:det	_
-2	Ava	a	PRON	_	Case=Gen|Number=Sing|Person=1	3	nmod:poss	3:nmod:poss	_
+2	Ava	a	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nmod:poss	3:nmod:poss	_
 3	credentials	credentials	NOUN	_	Number=Sing	0	root	0:root	OrigLang=en
 4	te	te	INTJ	_	_	3	discourse	3:discourse	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
@@ -5242,4 +3335,1911 @@
 3	didinan	didi	PRON	_	Case=Erg|Deixis=Remt|PronType=Dem	5	nsubj	5:nsubj	_
 4	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	5	obj	5:obj	_
 5	te	te	VERB	_	VerbForm=Inf	0	root	0:root	SpacesAfter=\n
+
+# newdoc id = grammar_BivalTyp
+# sent_id = grammar_BivalTyp_1
+# text = Peter ka pheile
+# english = Peter has a headache.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	ka	ka	NOUN	_	Number=Sing	3	obl	3:obl	_
+3	pheile	phei	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_2
+# text = Peter mathehnle
+# english = Peter has the flu.
+1	Peter	Peter	PROPN	_	Number=Sing	2	nsubj	2:nsubj	_
+2	mathehnle	mathehn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_3
+# text = Peter huidi trale.
+# english = (Peter has to go out of the house, but there is a dog barking in the yard.). Peter is afraid of the dog.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	huidi	hui	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	trale	tra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_4
+# text = Peter lhung fiate
+# english = (Two boys are competing to see who can throw a stone the farthest.) Peter threw a stone (first).
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	lhung	lhung	NOUN	_	Number=Sing	3	obj	3:obj	_
+3	fiate	fi	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_5
+# text = Athwenan Peter bya thuthuka wilate.
+# english = (Peter has found a new job.) Now Peter has enough money.
+1	Athwenan	athwenan	ADV	_	_	5	advmod	5:advmod	_
+2	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+3	bya	bya	NOUN	_	Number=Sing	5	obj	5:obj	_
+4	thuthuka	thuthuka	ADJ	_	Degree=Pos	3	amod	3:amod	_
+5	wilate	wi	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	5:punct	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_6
+# text = Peterdi Maria thrwale
+# english = (Maria is Peter's grandfather.) Peter resembles Maria
+1	Peterdi	Peter	PROPN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
+2	Maria	Maria	PROPN	_	Number=Sing	3	obj	3:obj	_
+3	thrwale	thrwa	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_7
+# text = Peter Mariadi hehnle
+# english = Peter believes Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	hehnle	hehn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+
+# sent_id = grammar_BivalTyp_8
+# text = Peter lairakdi luate
+# english = Peter took a book (from the shelf).
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	lairakdi	lairak	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	luate	lua	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_9
+# text = Peter rhui ska thaile
+# english = Peter sees a house.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	rhui	rhui	NOUN	_	Number=Sing	4	obj	4:obj	_
+3	ska	ska	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
+4	thaile	thai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_10
+# text = Mazokwoan ngammedi li kumda phungle
+# english = Age influences memory.
+1	Mazokwoan	mazokwoan	VERB	_	VerbForm=Inf	2	xcomp	2:xcomp	_
+2-3	ngammedi	_	_	_	_	_	_	_	_
+2	ngamme	ngamme	VERB	_	VerbForm=Inf	6	csubj	6:csubj	_
+3	di	di	SCONJ	NMLZ	_	2	mark	2:mark	_
+4	li	li	ADV	ASC	_	2	advmod:emph	2:advmod:emph	_
+5	kumda	kum	NOUN	_	Case=Abl|Number=Sing	6	obl	6:obl	_
+6	phungle	phung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_11
+# text = Peter Mariadi rue
+# english = Peter encountered Maria (accidentally, on the street). / P ran into Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	rue	ru	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_12
+# text = Peter rhuinahn dhohnte
+# english = Peter entered the house.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	rhuinahn	rhui	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
+3	dhohnte	dhohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_13
+# text = Peternan Mariadi thwate
+# english = (Peter and Maria played chess.) Peter beat Maria
+1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	thwate	thw	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_14
+# text = Peter rhuida sahnte
+# english = Peter went out of the house.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	rhuida	rhui	NOUN	_	Case=Abl|Number=Sing	3	obl	3:obl	_
+3	sahnte	sahn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_15
+# text = Peter themokdi bithaile
+# english = Peter is driving the cow (to the pasture).
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	themokdi	themok	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	bithaile	bithaile	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+
+# sent_id = grammar_BivalTyp_16
+# text = Peternan thungzadi thewungae
+# english = Peter bent the branch.
+1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
+2	thungzadi	thungza	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	thewungae	thewung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_17
+# text = Peternan Mariadi “Athoo trumlehn call the ra” re runge
+# english = Peter told Maria: ‘Call me this evening’.
+1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	11	nsubj	11:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	11	obj	11:obj	_
+3	“	“	PUNCT	_	_	7	punct	7:punct	SpaceAfter=No
+4	Athoo	athoo	ADV	_	_	7	advmod	7:advmod	_
+5	trumlehn	trumlehn	NOUN	_	Number=Sing	7	obl	7:obl	_
+6	call	call	VERB	_	VerbForm=Inf	7	xcomp	7:xcomp	OrigLang=en
+7	the	the	VERB	_	VerbForm=Inf	11	ccomp	11:ccomp	_
+8	ra	ra	AUX	_	Mood=Imp	7	aux	7:aux	SpaceAfter=No
+9	”	”	PUNCT	_	_	7	punct	7:punct	_
+10	re	re	PART	REP	_	7	mark	7:mark	_
+11	runge	rung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_18
+# text = Peter lairak laphule
+# english = Peter is holding a book (in his hands).
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	lairak	lairak	NOUN	_	Number=Sing	3	obj	3:obj	_
+3	laphule	laphu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_19
+# text = Peter Mariadi veyingloe
+# english = (Peter had an argument with Maria, Maria went away, Peter went after her.) Peter caught up with Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	veyingloe	veyinglo	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_20
+# text = Peter themokdi themoknui thaate
+# english = Peter milked the cow.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	themokdi	themok	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+3	themoknui	themoknui	NOUN	_	Number=Sing	4	compound	4:compound	_
+4	thaate	tha	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_21
+# text = Peter veraikha rinahn vethiate
+# english = (Peter was crossing the river in a boat.) Peter reached the bank.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	veraikha	veraikha	NOUN	_	Number=Sing	4	obl	4:obl	_
+3	rinahn	ri	ADP	_	Case=Loc	2	case	2:case	_
+4	vethiate	vethi	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_22
+# text = Peter szyapnahn tae
+# english = (The wall was covered with fresh paint.) Peter touched the wall (and got dirty).
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	szyapnahn	szyap	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
+3	tae	ta	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_23
+# text = Peter Mariadi nungganan lale
+# english = Peter is fighting with Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	nungganan	nung	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_24
+# text = Peter Mariadi baszule
+# english = Peter is friends with Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	baszule	baszu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_25
+# text = Peter Mariadi phanung woanle
+# english = (Peter has a thoughtful look.) Peter is thinking about Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	phanung	phanung	VERB	_	VerbForm=Inf	4	compound:svc	4:compound:svc	_
+4	woanle	woan	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_26
+# text = Peternan appledi thea
+# english = Peter ate an apple.
+1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
+2	appledi	apple	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	OrigLang=en
+3	thea	the	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_27
+# text = Peternan khithedi ngae
+# english = Peter fried the fish.
+1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
+2	khithedi	khithe	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	ngae	nga	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_28
+# text = Peter Mariadi pyahnganan lale
+# english = (Peter and Maria have arranged to meet at 2 PeterMaria at the post office.) Peter is waiting for Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	pyahnganan	pyahn	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_29
+# text = Peter laipui ska yahndi maliate
+# english = (Peter had already visited this town and knew that there is a shorter road. When he went there once again this time, however, he chose the longer road.) Peter forgot (about) the other road.
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	laipui	laipui	NOUN	_	Number=Sing	5	obj	5:obj	_
+3	ska	ska	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
+4	yahndi	yahn	ADJ	_	Case=Top|Degree=Pos	2	amod	2:amod	_
+5	maliate	mali	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_30
+# text = Mazokwoan ngammedi li kumda phungle
+# english = Memory depends on age.
+1	Mazokwoan	mazokwoan	VERB	_	VerbForm=Inf	2	xcomp	2:xcomp	_
+2-3	ngammedi	_	_	_	_	_	_	_	_
+2	ngamme	ngamme	VERB	_	VerbForm=Inf	6	csubj	6:csubj	_
+3	di	di	SCONJ	NMLZ	_	2	mark	2:mark	_
+4	li	li	ADV	ASC	_	2	advmod:emph	2:advmod:emph	_
+5	kumda	kum	NOUN	_	Case=Abl|Number=Sing	6	obl	6:obl	_
+6	phungle	phung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_31
+# text = Peter Mariadi thyie
+# english = (Peter tried to open the door himself, but he didn’t manage. Then…) Peter called Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	thyie	thyi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_32
+# text = Peter Mariadi mathetha kum ska keilate
+# english = Peter got to know Maria a year ago.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	mathetha	mathet	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pqp|VerbForm=Fin	6	csubj	6:csubj	_
+4	kum	kum	NOUN	_	Number=Sing	6	obl	6:obl	_
+5	ska	ska	NUM	_	NumForm=Word|NumType=Card	4	nummod	4:nummod	_
+6	keilate	kei	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_33
+# text = Peter Mariadi mathetle
+# english = Peter knows Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	mathetle	mathet	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_34
+# text = Peter guitar khohnganan lale
+# english = (What is Peter doing?) Peter is playing the guitar
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	guitar	guitar	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
+3	khohnganan	khohn	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_35
+# text = Peter Mariadi rumale
+# english = (Peter owes Maria a huge sum of money, which he cannot return. Instead of this…) Peter avoids Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	rumale	ru	VERB	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_36
+# text = Peter maszoo zehn samme
+# english = Peter made a mousetrap
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	maszoo	maszoo	NOUN	_	Number=Sing	3	compound	3:compound	_
+3	zehn	zehn	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	samme	samm	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_37
+# text = Peter Mariadi katheszaganan lale
+# english = (Maria did something very stupid. Now,) Peter is making fun of Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	katheszaganan	kathesza	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_38
+# text = Peter car wile
+# english = Peter has a car
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	car	car	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
+3	wile	wi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_39
+# text = Peter bava chabi kapiuganan lale
+# english = Peter is looking for his keys.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	chabi	chabi	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	kapiuganan	kapiu	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_40
+# text = Peternan pidi rha nunge
+# english = Peter painted the fence.
+1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
+2	pidi	pi	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+3	rha	rha	NOUN	_	Number=Sing	4	compound	4:compound	_
+4	nunge	nung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_41
+# text = Huinan Peterdi makaj
+# english = A dog bit Peter
+1	Huinan	hui	NOUN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
+2	Peterdi	Peter	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	makaj	maka	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_42
+# text = Peter bava rhui mahnate
+# english = (There was a fire in the village. As a result) Peter lost his house
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	rhui	rhui	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	mahnate	mahn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_43
+# text = Peter miawidi chokla gase theganan lale
+# english = (The cat sprang out of the house.) Peter is trying to catch the cat
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	miawidi	miawi	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	chokla	chokla	VERB	_	VerbForm=Inf	5	advcl	5:advcl	_
+4	gase	gase	SCONJ	PURP	_	3	mark	3:mark	_
+5	theganan	the	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+6	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	5:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_44
+# text = Peternan thungdi theshakka.
+# english = Peter broke a stick.
+1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
+2	thungdi	thung	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	theshakka	theshakk	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_45
+# text = Peter Mariala maswetmiganan lale
+# english = (Peter tells Maria that she is very beautiful.) Peter is flattering Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariala	Maria	PROPN	_	Case=Dat|Number=Sing	3	iobj	3:iobj	_
+3	maswetmiganan	maswetmi	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_46
+# text = Peter Mariadi laithile
+# english = Peter loves Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	laithile	laithi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_47
+# text = Peter handkerchief kafiaganan lale
+# english = (Look, there’s Peter on the other side of the river.) Peter is waving a handkerchief
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	handkerchief	handkerchief	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
+3	kafiaganan	kafia	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_48
+# text = Peter car katha phanungganan lale
+# english = Peter is dreaming of a new car.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	car	car	NOUN	_	Number=Sing	4	obj	4:obj	_
+3	katha	katha	ADJ	_	Degree=Pos	2	amod	2:amod	_
+4	phanungganan	phanung	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_49
+# text = Peternan kelasdi phuie
+# english = Peter washed the cup
+1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
+2	kelasdi	kelas	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	phuie	phui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_50
+# text = Peter theni dhohnte
+# english = Peter put on his trousers.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	theni	theni	NOUN	_	Number=Sing	3	obj	3:obj	_
+3	dhohnte	dhohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_51
+# text = Hadi compass re thyile
+# english = (A boy saw his father’s compass and asked what this was. The father answered him:) ‘This tool is called a compass.’
+1	Hadi	hadi	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	4	obj	4:obj	_
+2	compass	compass	NOUN	_	Number=Sing	4	obl	4:obl	OrigLang=en
+3	re	re	PART	REP	_	2	case	2:case	_
+4	thyile	thyi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_52
+# text = Peter ba neola danti mie.
+# english = (Peter’s son was misbehaving.) Peter punished his son.
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	neola	neo	NOUN	_	Case=Dat|Number=Sing	5	iobj	5:iobj	_
+4	danti	danti	NOUN	_	Number=Sing	5	obj	5:obj	_
+5	mie	mi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	5:punct	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_53
+# text = Hwehnnan fishermandi attackthee
+# english = A bear attacked a fisherman.
+1	Hwehnnan	hwehn	NOUN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
+2	fishermandi	fisherman	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	OrigLang=en
+3	attackthee	attackthe	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_54
+# text = Bucketdi rhui puiate
+# english = (There was a bucket near the house during the rain.) The bucket filled with water
+1	Bucketdi	bucket	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	OrigLang=en
+2	rhui	rhui	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
+3	puiate	pui	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_55
+# text = Peter bava chabidi ruate
+# english = Peter found his keys.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	chabidi	chabi	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	ruate	ru	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_56
+# text = Peter lupa zukhani keikapmate.
+# english = (Peter wants to buy a ticket. He counts his money and finds out that…) Peter is short / lacks 200 rupees.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	lupa	lupa	NOUN	_	Number=Sing	4	obj	4:obj	_
+3	zukhani	zukhani	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
+4	keikapmate	keikap	VERB	COMPL	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_57
+# text = Peter Mariadi matrehnle
+# english = Peter hates Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	matrehnle	matrahn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_58
+# text = Peter hai putrehndi manungle
+# english = Peter likes this shirt.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	hai	hai	DET	_	Deixis=Prox|PronType=Dem	3	det	3:det	_
+3	putrehndi	putrehn	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	manungle	manung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_59
+# text = Peter bya tarkar thelate.
+# english = (Peter’s house was burglarised with all the valuables taken. As a consequence,) Peter needs money.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	bya	bya	NOUN	_	Number=Sing	3	obj	3:obj	_
+3	tarkar	tarkar	VERB	_	VerbForm=Inf	4	xcomp	4:xcomp	_
+4	thelate	thelate	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_60
+# text = Citydi wallda rivaikapre wile
+# english = Walls surround the city.
+1	Citydi	city	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	OrigLang=en
+2	wallda	wall	NOUN	_	Case=Abl|Number=Sing	4	obl	4:obl	OrigLang=en
+3	rivaikapre	rivaikap	VERB	_	VerbForm=Inf	4	compound	4:compound	_
+4	wile	wi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_61
+# text = Peterva bya zukathai chilate.
+# english = (Peter had 10000 rupees, but he bought a phone, so now) Peter has 800 rupees left.
+1	Peterva	Peter	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	2:nmod:poss	_
+2	bya	bya	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	zukathai	zukathai	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
+4	chilate	chi	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_62
+# text = Peter wizala rung kiate
+# english = (The teacher asked Peter what his parents’ names are.) Peter answered the teacher.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	wizala	wiza	NOUN	_	Case=Dat|Number=Sing	3	iobj	3:iobj	_
+3	rung	rung	VERB	_	VerbForm=Inf	4	compound:svc	4:compound:svc	_
+4	kiate	ki	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_63
+# text = Peter koktapung shammate
+# english = Peter opened a can.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	koktapung	koktapung	NOUN	_	Number=Sing	3	obj	3:obj	_
+3	shammate	shamm	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_64
+# text = Garhe, ava putrehndi chale nahnvada
+# english = (Maria told Peter that they have identical shirts. Peter answered her,) ‘No, my shirt is different from yours (, it is darker).’
+1	Garhe	garhe	INTJ	_	Polarity=Neg	5	discourse	5:discourse	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	1:punct	_
+3	ava	a	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	putrehndi	putrehn	NOUN	_	Case=Top|Number=Sing	5	nsubj	5:nsubj	_
+5	chale	cha	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+6	nahnvada	nahn	PRON	_	Case=GenAbl|Number=Sing|Person=2|PronType=Prs	5	obl	5:obl	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_65
+# text = Peter nua
+# english = (Peter and Maria started out to school together, but) Peter fell behind Maria
+1	Peter	Peter	PROPN	_	Number=Sing	2	nsubj	2:nsubj	_
+2	nua	nua	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_66
+# text = Peter khohn katha thaile
+# english = Peter is ploughing the field.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	khohn	khohn	NOUN	_	Number=Sing	3	obj	3:obj	_
+3	katha	katha	VERB	_	VerbForm=Inf	4	compound:svc	4:compound:svc	_
+4	thaile	thai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_67
+# text = A gae tha yi manamle
+# english = (I was mending my car.) My hands smell like / smell of gasoline.
+1	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
+2	gae	gae	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
+3	tha	tha	NOUN	_	Number=Sing	4	compound	4:compound	_
+4	yi	yi	NOUN	_	Number=Sing	5	obj	5:obj	_
+5	manamle	manam	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_68
+# text = Peter chuhnate
+# english = (Peter saw that the shop is on the other side of the road.) Peter crossed the road (and entered the shop).
+1	Peter	Peter	PROPN	_	Number=Sing	2	nsubj	2:nsubj	_
+2	chuhnate	chuhn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_69
+# text = Peter lhehn bathanahn gaszu the
+# english = Peter sang a beautiful song.
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	lhehn	lhehn	NOUN	_	Number=Sing	5	obj	5:obj	_
+3	bathanahn	bathanahn	ADV	_	_	4	advmod	4:advmod	_
+4	gaszu	gaszu	ADJ	_	Degree=Pos	2	amod	2:amod	_
+5	the	the	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_70
+# text = Peter letter rakke
+# english = Peter wrote a letter.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	letter	letter	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
+3	rakke	rakk	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_71
+# text = Peter themoknuidi mohnte
+# english = (Peter was given a glass of milk by his mother.) Peter drank the milk.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	themoknuidi	themoknui	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	mohnte	mohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_72
+# text = Peter misz ska lwae
+# english = Peter melted a piece of lead.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	misz	misz	NOUN	_	Number=Sing	4	obj	4:obj	_
+3	ska	ska	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
+4	lwae	lwa	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_73
+# text = Suate, hai ksahndi ava theranahn bakle
+# english = (A girl tries a belt in the shop and says), ‘Great, this belt matches my dress.’
+1	Suate	su	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	7	discourse	7:discourse	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	1:punct	_
+3	hai	hai	DET	_	Deixis=Prox|PronType=Dem	4	det	4:det	_
+4	ksahndi	ksahn	NOUN	_	Case=Top|Number=Sing	7	nsubj	7:nsubj	_
+5	ava	a	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	nmod:poss	6:nmod:poss	_
+6	theranahn	thera	NOUN	_	Case=Loc|Number=Sing	7	obl	7:obl	_
+7	bakle	bak	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_74
+# text = Peter badi maneo dhohn cityda thate
+# english = Peter left his native city.
+1	Peter	Peter	PROPN	_	Number=Sing	6	nsubj	6:nsubj	_
+2	badi	ba	PRON	_	Case=Top|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
+3	maneo	maneo	VERB	_	VerbForm=Inf	5	acl	5:acl	_
+4	dhohn	dhohn	VERB	_	VerbForm=Inf	3	compound:prt	3:compound:prt	_
+5	cityda	city	NOUN	_	Case=Abl|Number=Sing	6	obl	6:obl	OrigLang=en
+6	thate	tha	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_75
+# text = Tye carpetnan floor mazohndi thekhamle
+# english = The carpet covers the whole floor.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	carpetnan	carpet	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	OrigLang=en
+3	floor	floor	NOUN	_	Number=Sing	5	obj	5:obj	OrigLang=en
+4	mazohndi	mazohn	ADJ	_	Case=Top|Degree=Pos	3	amod	3:amod	_
+5	thekhamle	thekham	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_76
+# text = Peter tye rhuidi szuraire mazok woanle
+# english = Peter remembers the house (where he grew up) well.
+1	Peter	Peter	PROPN	_	Number=Sing	6	nsubj	6:nsubj	_
+2	tye	tye	DET	_	Deixis=Remt|PronType=Dem	3	det	3:det	_
+3	rhuidi	rhui	NOUN	_	Case=Top|Number=Sing	6	obj	6:obj	_
+4	szuraire	szurai	ADJ	_	Degree=Pos	5	amod	5:amod	_
+5	mazok	mazok	NOUN	_	Number=Sing	6	compound	6:compound	_
+6	woanle	woan	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_77
+# text = Peter Mariala mating pange
+# english = (Maria didn’t manage to do her homework by herself.) Peter helped Maria
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	Mariala	Maria	PROPN	_	Case=Dat|Number=Sing	4	iobj	4:iobj	_
+3	mating	mating	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	pange	pang	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_78
+# text = Peter English phabtale.
+# english = Peter understands English.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	English	English	PROPN	_	Number=Sing	3	obj	3:obj	_
+3	phabtale	phabta	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_79
+# text = Thungrai rhuinahn chalokke
+# english = Lightning struck the house.
+1	Thungrai	thungrai	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	rhuinahn	rhui	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
+3	chalokke	chalokk	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_80
+# text = Peter ba khalailehnda razorda zapzue
+# english = Peter cut himself with a razor.
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	_
+3	khalailehnda	khalailehnda	DET	REFL	PronType=Prs|Reflex=Yes	2	det	2:det	_
+4	razorda	razor	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	OrigLang=en
+5	zapzue	zapzu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_81
+# text = Kelas tablenahn maniahn wiate
+# english = (The table was recently covered with paint. Peter didn’t know this and placed his glass on it.) The glass got stuck to the table.
+1	Kelas	kelas	NOUN	_	Number=Sing	4	nsubj	3:nsubj:xsubj|4:nsubj	_
+2	tablenahn	table	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	OrigLang=en
+3	maniahn	maniahn	VERB	_	VerbForm=Inf	4	xcomp	4:xcomp	_
+4	wiate	wi	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+
+# sent_id = grammar_BivalTyp_82
+# text = Peter Mariadi thomate
+# english = (Peter played chess with Maria) Peter lost to Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	thomate	tho	VERB	COMPL	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_83
+# text = Peter letterdi ruweda nungai
+# english = (Peter received a letter from Maria) Peter was glad about the letter.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	letterdi	letter	NOUN	_	Case=Top|Number=Sing	3	compound	3:compound	OrigLang=en
+3	ruweda	ruwe	NOUN	NMLZ	Aspect=Imp|Case=Abl|Number=Sing|VerbForm=Vnoun	4	obl	4:obl	_
+4	nungai	nunga	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_84
+# text = Peter Marianahn bahnganan lale
+# english = (I am looking for Peter When I enter the room I see that) Peter is speaking with Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Marianahn	Maria	PROPN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
+3	bahnganan	bahn	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_85
+# text = Maria beneo maneo.
+# english = Maria gave birth to a son.
+1	Maria	Maria	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	beneo	beneo	NOUN	_	Number=Sing	3	obj	3:obj	_
+3	maneo	maneo	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_86
+# text = Peter gae taiprai ra kelasdi filhia.
+# english = Peter dropped the glass.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj|6:nsubj	_
+2	gae	gae	NOUN	_	Number=Sing	3	compound	3:compound	_
+3	taiprai	taiprai	VERB	_	VerbForm=Inf	0	root	0:root	_
+4	ra	ra	ADV	CONJ*	_	6	advmod	6:advmod	_
+5	kelasdi	kelas	NOUN	_	Case=Top|Number=Sing	6	nsubj	6:nsubj	_
+6	filhia	filhia	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_87
+# text = Peternan towndi govern thele
+# english = Peter runs our town.
+1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
+2	towndi	town	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	OrigLang=en
+3	govern	govern	VERB	_	VerbForm=Inf	4	xcomp	4:xcomp	OrigLang=en
+4	thele	the	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_88
+# text = Peter Mariadi khashale
+# english = Peter misses Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	khashale	khasha	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_89
+# text = Peter Maria suisuile
+# english = Peter follows Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Maria	Maria	PROPN	_	Number=Sing	3	obj	3:obj	_
+3	suisuile	suisui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_90
+# text = Peter thegwehnda kohnte
+# english = Peter got down from the horse.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	thegwehnda	thegwehn	NOUN	_	Case=Abl|Number=Sing	3	obl	3:obl	_
+3	kohnte	kohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_91
+# text = Peter radio lhunganan lale
+# english = (What is Peter doing?)  Peter is listening to radio.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	radio	radio	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
+3	lhunganan	lhun	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_92
+# text = Peter nenan ba theva runge chule
+# english = (Maria is a mischievous boy, but)  Peter always listens to / obeys his mother.
+1	Peter	Peter	PROPN	_	Number=Sing	6	nsubj	6:nsubj	_
+2	nenan	nenan	ADV	CONTR	_	1	advmod	1:advmod	_
+3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	theva	the	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	5:nmod:poss	_
+5	runge	runge	NOUN	NMLZ	Aspect=Imp|Number=Sing|VerbForm=Vnoun	6	obj	6:obj	_
+6	chule	chu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\n
+
+# sent_id = grammar_BivalTyp_93
+# text = Peter music kwehn chule
+# english = Peter hears the music.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	music	music	NOUN	_	Number=Sing	3	compound	3:compound	OrigLang=en
+3	kwehn	kwehn	NOUN	_	_	4	obj	4:obj	_
+4	chule	chu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_94
+# text = Kaferui themoknuinahn mixthiate
+# english = (Some honey was put in a jar of milk and stirred.)  The honey got mixed with the milk.
+1	Kaferui	kaferui	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	themoknuinahn	themoknui	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
+3	mixthiate	mixthi	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	OrigLang=en|SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_95
+# text = Peter nyahnmai swehnswehn mailare yoanganan lale
+# english = Peter is looking at the clouds (trying to determine if it will rain).
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	nyahnmai	nyahnmai	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
+3	swehnswehn	swehnswehn	ADJ	_	Degree=Pos	5	ccomp	5:ccomp	_
+4	mailare	mailare	SCONJ	_	_	3	mark	3:mark	_
+5	yoanganan	yoan	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+6	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	5:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_96
+# text = Peter bava putrehn rithiate
+# english = Peter took off his shirt.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	putrehn	putrehn	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	rithiate	rithi	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\n
+
+# sent_id = grammar_BivalTyp_97
+# text = Peter molehnnahn Maria remahne
+# english = (Peter sleeps) Peter dreams about Maria Peter molehn-nahn Maria re-mahnn-e
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	molehnnahn	molehn	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
+3	Maria	Maria	PROPN	_	Number=Sing	4	obj	4:obj	_
+4	remahne	remahn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_98
+# text = Peter Marianan rungenahndi ay re
+# english = (Maria told Peter that their son should learn Hindi)  Peter agreed with Maria
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	Marianan	Maria	PROPN	_	Case=Erg|Number=Sing	3	compound	3:compound	_
+3	rungenahndi	runge	NOUN	NMLZ	Aspect=Imp|Case=LocTop|Number=Sing|VerbForm=Vnoun	4	obj	4:obj	_
+4	ay	ay	INTJ	_	_	0	root	0:root	_
+5	re	re	PART	REP	_	4	mark	4:mark	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_99
+# text = Peter Mariadi rae
+# english = Peter had a quarrel with Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	rae	ra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_100
+# text = Hai kelasdi lupa lhohnphange dale
+# english = This cup costs 50 rupees.
+1	Hai	hai	DET	_	Deixis=Prox|PronType=Dem	2	det	2:det	_
+2	kelasdi	kelas	NOUN	_	Case=Top|Number=Sing	5	nsubj	5:nsubj	_
+3	lupa	lupa	NOUN	_	Number=Sing	5	obj	5:obj	_
+4	lhohnphange	lhohnphange	NUM	_	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
+5	dale	da	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_101
+# text = Peter henahn kappe
+# english = Peter shot at the bird. (He missed.)
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	henahn	he	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
+3	kappe	kapp	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_102
+# text = Peter sugar phrai dhohnte
+# english = Peter poured the sugar (into the cup).
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	sugar	sugar	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
+3	phrai	phrai	VERB	_	VerbForm=Inf	0	root	0:root	_
+4	dhohnte	dhohn	ADP	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	3	compound:prt	3:compound:prt	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_103
+# text = Peter bava chabi chate
+# english = Peter lost his keys.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	chabi	chabi	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	chate	ch	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_104
+# text = Thungbam rhui athoongenahn dhohnte
+# english = (This tree has very heavy wood. I threw a log in the river.)  The log sank in the water.
+1	Thungbam	thungbam	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	rhui	rhui	NOUN	_	Number=Sing	4	obl	4:obl	_
+3	athoongenahn	athoonge	ADP	_	Case=Loc	2	case	2:case	_
+4	dhohnte	dhohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_105
+# text = Peternan Mariadi mathai.
+# english = Peter killed Maria
+1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	mathai	mathai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\s\n
+
+# sent_id = grammar_BivalTyp_106
+# text = Peternan Mariadi rae
+# english = Peter hit Maria
+1	Peternan	Peter	PROPN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	rae	ra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\n
+
+# sent_id = grammar_BivalTyp_107
+# text = Peter Mariadi mathokke
+# english = Peter kissed Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	mathokke	mathokk	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_108
+# text = Peter lairak gaswe ska phrei
+# english = Peter read an interesting book.
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	lairak	lairak	NOUN	_	Number=Sing	5	obj	5:obj	_
+3	gaswe	gaswe	ADJ	_	Degree=Pos	2	amod	2:amod	_
+4	ska	ska	NUM	_	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
+5	phrei	phre	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_109
+# text = Peter ba gae thaithai rei
+# english = Peter moved his finger.
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+3	gae	gae	NOUN	_	Number=Sing	4	compound	4:compound	_
+4	thaithai	thaithai	NOUN	_	Number=Sing	5	obj	5:obj	_
+5	rei	re	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_110
+# text = Peter Mariala respect mile
+# english = Peter respects Maria
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	Mariala	Maria	PROPN	_	Case=Dat|Number=Sing	4	iobj	4:iobj	_
+3	respect	respect	NOUN	_	Number=Sing	4	obj	4:obj	OrigLang=en
+4	mile	mi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_111
+# text = Peter khohnlohn makhadi matrehnle
+# english = Peter is squeamish about dirty dishes.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	khohnlohn	khohnlohn	NOUN	_	Number=Sing	4	obj	4:obj	_
+3	makhadi	makha	ADJ	_	Case=Top|Degree=Pos	2	amod	2:amod	_
+4	matrehnle	matrahn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_112
+# text = Peter ba neodi nungszwa woanle.
+# english = (Peter’s son does well at school.)  Peter is OK/content/satisfied with his son.
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	neodi	neo	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
+4	nungszwa	nungszwa	ADV	_	_	5	advmod	5:advmod	_
+5	woanle	woan	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	5:punct	SpacesAfter=\s\n
+
+# sent_id = grammar_BivalTyp_113
+# text = Peter Mariadi laithia
+# english = Peter fell in love with Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	laithia	laithi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_114
+# text = Peter Mariadi hehnle
+# english = (Peter and Maria have a happy family. Maria never deceives Peter)  Peter trusts Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	hehnle	hehn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_115
+# text = Peter ba theva kathekhanahndi phabtale
+# english = (Peter’s mother is very ill.)  Peter sympathises with his mother.
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	theva	the	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	4:nmod:poss	_
+4	kathekhanahndi	kathekhanahn	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
+5	phabtale	phabta	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_116
+# text = Peter Maria thia thayoan re mazokle
+# english = (Maria has a car, and Peter doesn't).  Peter envies Maria
+1	Peter	Peter	PROPN	_	Number=Sing	6	nsubj	4:nsubj:xsubj|6:nsubj	_
+2	Maria	Maria	PROPN	_	Number=Sing	4	obj	4:obj	_
+3	thia	thia	VERB	_	VerbForm=Inf	4	compound:svc	4:compound:svc	_
+4	thayoan	thayoan	VERB	_	VerbForm=Inf	6	xcomp	6:xcomp	_
+5	re	re	PART	REP	_	4	mark	4:mark	_
+6	mazokle	mazokle	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_117
+# text = Peter Mariadi malungphzganan lale
+# english = Peter is angry with Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	malungphzganan	malungphz	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_118
+# text = Peter hai giftdi rueda wehnthoke
+# english = (Maria made Peter an expensive gift.)  Peter was surprised at this gift.
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	hai	hai	DET	_	Deixis=Prox|PronType=Dem	3	det	3:det	_
+3	giftdi	gift	NOUN	_	Case=Top|Number=Sing	4	compound	4:compound	OrigLang=en
+4	rueda	rue	NOUN	NMLZ	Aspect=Imp|Case=Abl|Number=Sing|VerbForm=Vnoun	5	obj	5:obj	_
+5	wehnthoke	wehnthok	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_119
+# text = Peter za manungle
+# english = Peter loves tea.
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	za	za	NOUN	_	Number=Sing	3	obj	3:obj	_
+3	manungle	manung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\n
+
+# sent_id = grammar_BivalTyp_120
+# text = Peter za tra mohn mule
+# english = (After being in cold water)  Peter enjoys hot tea.
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	4:nsubj:xsubj|5:nsubj	_
+2	za	za	NOUN	_	Number=Sing	4	obj	4:obj	_
+3	tra	tra	ADJ	_	Degree=Pos	2	amod	2:amod	_
+4	mohn	mohn	VERB	_	VerbForm=Inf	5	xcomp	5:xcomp	_
+5	mule	mu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\n
+
+# sent_id = grammar_BivalTyp_121
+# text = Peter mobile phone katha ska manungle
+# english = Peter wants a new mobile phone.
+1	Peter	Peter	PROPN	_	Number=Sing	6	nsubj	6:nsubj	_
+2	mobile	mobile	NOUN	_	Number=Sing	3	compound	3:compound	OrigLang=en
+3	phone	phone	NOUN	_	Number=Sing	6	obj	6:obj	_
+4	katha	katha	ADJ	_	Degree=Pos	3	amod	3:amod	_
+5	ska	ska	NUM	_	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
+6	manungle	manung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_122
+# text = Peter Mariadi nungaikhama lale
+# english = (Why doesn’t Peter speak with Maria?)  Peter has a grudge against Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	nungaikhama	nungai	VERB	_	Aspect=Perf|Degree=Pos|Polarity=Neg|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_123
+# text = Peter nungnahn thezuate Maria dai
+# english = (Maria called Peter an idiot.)  Peter took offense at Maria / P got cross with Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	nungnahn	nung	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
+3	thezuate	thezu	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	Maria	Maria	PROPN	_	Number=Sing	3	obl	3:obl	_
+5	dai	dai	AUX	_	Mood=Jus	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_124
+# text = Peter Mariadi bathanahn nungaima muate
+# english = Peter greatly upset Maria (He told her that he had spent all the money.)
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	4:nsubj:xsubj|5:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	5	obj	5:obj	_
+3	bathanahn	bathanahn	ADV	_	_	4	advmod	4:advmod	_
+4	nungaima	nungai	VERB	_	Polarity=Neg|VerbForm=Inf	5	xcomp	5:xcomp	_
+5	muate	mu	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_125
+# text = Peter hai towndi bathanahn wehnthoke
+# english = (Peter arrived in the capital.)  Peter marvelled at / was struck by / was impressed by this town.
+1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
+2	hai	hai	DET	_	Deixis=Prox|PronType=Dem	3	det	3:det	_
+3	towndi	town	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	OrigLang=en
+4	bathanahn	bathanahn	ADV	_	_	5	advmod	5:advmod	_
+5	wehnthoke	wehnthok	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\n
+
+# sent_id = grammar_BivalTyp_126
+# text = Peter Mariadi matrehnle.
+# english = Peter despises Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	matrehnle	matrahn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\s\n
+
+# sent_id = grammar_BivalTyp_127_1
+# text = Peter ba neobedi nungaimate
+# english = (Peter’s son got bad marks in school once again.)  Peter got upset with his son
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	neobedi	neobe	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	nungaimate	nungai	VERB	COMPL	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\s\s\n
+
+# sent_id = grammar_BivalTyp_127_2
+# text = Peter nungaima ba neobeva lohnda
+# english = Peter got upset because of his son.
+1	Peter	Peter	PROPN	_	Number=Sing	2	nsubj	2:nsubj	_
+2	nungaima	nungai	ADJ	_	Degree=Pos|Polarity=Neg	0	root	0:root	_
+3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	neobeva	neobe	NOUN	_	Case=Gen|Number=Sing	2	obl	2:obl	_
+5	lohnda	lohnda	ADP	CAUS	_	4	case	4:case	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_128
+# text = Peter ba neolewidi malungphzganan lale
+# english = (Peter has a very bad disposition. Look, once again…)  Peter is getting irritated with his daughter.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	neolewidi	neolewi	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	malungphzganan	malungphz	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_129
+# text = Peter Mariadi prehnle
+# english = Peter is fond of Maria
+1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	prehnle	prehn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_BivalTyp_130
+# text = Peter ba khlaidi kathale
+# english = (Peter is the smallest in his class.)  Peter is shy / embarassed about his height.
+1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
+2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	_
+3	khlaidi	khlai	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	kathale	katha	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# newdoc id = grammar_ValPal
+# sent_id = grammar_ValPal_1
+# text = Hwen ska rue
+# english = A bear appeared
+1	Hwen	hwen	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	ska	ska	NUM	_	NumForm=Word|NumType=Card	1	nummod	1:nummod	_
+3	rue	ru	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_2
+# text = ba anahn question thokke ska nue
+# english = She asked me a difficult question
+1	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	_
+2	anahn	a	PRON	_	Case=Loc|Number=Sing|Person=1|PronType=Prs	6	obl	6:obl	_
+3	question	question	NOUN	_	Number=Sing	6	obj	6:obj	OrigLang=en
+4	thokke	thokke	ADJ	_	Degree=Pos	3	amod	3:amod	_
+5	ska	ska	NUM	_	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
+6	nue	nu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_3
+# text = Tye baneonandi tye puirawinahn gase phara nue
+# english = The man asked the woman about a place to rent.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneonandi	baneo	NOUN	_	Case=ErgTop|Number=Sing	7	nsubj	7:nsubj	_
+3	tye	tye	DET	_	Deixis=Remt|PronType=Dem	4	det	4:det	_
+4	puirawinahn	puirawi	NOUN	_	Case=Loc|Number=Sing	7	iobj	7:iobj	_
+5	gase	gase	ADP	PURP	_	6	case	6:case	_
+6	phara	phara	NOUN	_	Number=Sing	7	obl	7:obl	_
+7	nue	nu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_4
+# text = Tye neonan babethinahn bya bahnne
+# english = The boy asked his parents for money.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neonan	neo	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
+3	babethinahn	babethi	NOUN	_	Case=Loc|Number=Sing	5	obl	5:obl	_
+4	bya	bya	NOUN	_	Number=Sing	5	obj	5:obj	_
+5	bahnne	bahnn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_5
+# text = Jessicanan Jasonnahn mating bahnne
+# english = Jessica asked Jason for help
+1	Jessicanan	Jessica	PROPN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
+2	Jasonnahn	Jason	PROPN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
+3	mating	mating	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	bahnne	bahnn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_6
+# text = Tye snipernan politiciandi mathaie
+# english = The sniper assassinated the politician.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	snipernan	sniper	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
+3	politiciandi	politician	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	OrigLang=en
+4	mathaie	mathai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_7
+# text = Hai phzdi kathathahndanan thera e
+# english = This piece of cloth is actually a dress.
+1	Hai	hai	DET	_	Deixis=Prox|PronType=Dem	2	det	2:det	_
+2	phzdi	phz	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
+3	kathathahndanan	kathathahndanan	ADV	_	_	4	advmod	4:advmod	_
+4	thera	thera	NOUN	_	Number=Sing	0	root	0:root	_
+5	e	e	AUX	_	_	4	cop	4:cop	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_8
+# text = Tye baneodi thethae miszu
+# english = This man is a hunter.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneodi	baneo	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
+3	thethae	thethae	NOUN	NMLZ	Aspect=Imp|Number=Sing|VerbForm=Vnoun	4	acl	4:acl	_
+4	miszu	miszu	NOUN	_	Number=Sing	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_9
+# text = lightdi iale
+# english = The light is bright.
+1	lightdi	light	NOUN	_	Case=Top|Number=Sing	2	nsubj	2:nsubj	_
+2	iale	ia	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_10
+# text = Tye baneodi problemnan themaganan lale
+# english = The man is burdened with a problem.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneodi	baneo	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+3	problemnan	problem	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
+4	themaganan	the	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_11
+# text = Tye rhuidi zwetle
+# english = The water is cold.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	rhuidi	rhui	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
+3	zwetle	zwet	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_12
+# text = lhaidi phuile
+# english = The ground is dry.
+1	lhaidi	lhai	NOUN	_	Case=Top|Number=Sing	2	nsubj	2:nsubj	_
+2	phuile	phui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_13
+# text = bava phanungedi mathoongeda chule
+# english = His reasoning is far from the truth.
+1	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
+2-3	phanungedi	_	_	_	_	_	_	_	_
+2	phanunge	phanunge	VERB	_	VerbForm=Inf	5	csubj	5:csubj	_
+3	di	di	SCONJ	NMLZ	_	2	mark	2:mark	_
+4	mathoongeda	mathoonge	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
+5	chule	chu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_14
+# text = puirawidi nungae
+# english = The woman is glad.
+1	puirawidi	puirawi	NOUN	_	Case=Top|Number=Sing	2	nsubj	2:nsubj	_
+2	nungae	nungae	NOUN	NMLZ	Aspect=Imp|Number=Sing|VerbForm=Vnoun	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_15
+# text = Tye neodi mathilate
+# english = The baby is hungry.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neodi	neo	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
+3	mathilate	math	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+
+# sent_id = grammar_ValPal_16
+# text = Tye neodi kathe late
+# english = The little boy is sick.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neodi	neo	NOUN	_	Case=Top|Number=Sing	4	nsubj	3:nsubj:xsubj|4:nsubj	_
+3	kathe	kathe	ADJ	_	Degree=Pos	4	xcomp	4:xcomp	_
+4	late	la	AUX	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_17
+# text = Neo mungdi Jason rele
+# english = The man was named Jason
+1	Neo	neo	NOUN	_	Number=Sing	2	compound	2:compound	_
+2	mungdi	mung	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
+3	Jason	Jason	PROPN	_	_	4	obj	4:obj	_
+4	rele	re	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_18
+# text = Tye bathanahn kanale
+# english = This is severely needed.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	3	nsubj	3:nsubj	_
+2	bathanahn	bathanahn	ADV	_	_	3	advmod	3:advmod	_
+3	kanale	kana	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_19
+# text = Tye leneo zazudi zhuie
+# english = The little girl was sad.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	leneo	leneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	zazudi	zazudi	ADJ	_	Case=Top|Degree=Pos	2	amod	2:amod	_
+4	zhuie	zhui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_20
+# text = Tye baneodi zhuie bava cha maramda
+# english = The man is sad about his loss.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneodi	baneo	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
+3	zhuie	zhui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	5:nmod:poss	_
+5	cha	cha	NOUN	_	Number=Sing	3	obl	3:obl	_
+6	maramda	maramda	ADP	_	_	5	case	5:case	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_21
+# text = Tye neonan phuiraidi thungda rae
+# english = The boy beat the snake with a stick.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neonan	neo	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
+3	phuiraidi	phuirai	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
+4	thungda	thung	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
+5	rae	ra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_22
+# text = A moktrae
+# english = I blink (my eyes).
+1	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
+2	moktrae	moktra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_23
+# text = Rhui myuhlate
+# english = The water is boiling.
+1	Rhui	rhui	NOUN	_	Number=Sing	2	nsubj	2:nsubj	_
+2	myuhlate	myuh	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+
+# sent_id = grammar_ValPal_24
+# text = Aludi mlame
+# english = The cook boiled the potatoes.
+1	Aludi	alu	NOUN	_	Case=Top|Number=Sing	2	nsubj	2:nsubj	_
+2	mlame	mlam	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_25
+# text = Tye neonandi windowdi lhungda thekhiae
+# english = The boy broke the window with a stone.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neonandi	neo	NOUN	_	Case=ErgTop|Number=Sing	5	nsubj	5:nsubj	_
+3	windowdi	window	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	OrigLang=en
+4	lhungda	lhung	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
+5	thekhiae	thekhia	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_26
+# text = Tye leneonan Ala papwehn laremie
+# english = The girl brought flowers to me.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	leneonan	leneo	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
+3	Ala	a	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	5:iobj	_
+4	papwehn	papwehn	NOUN	_	Number=Sing	5	obj	5:obj	_
+5	laremie	laremi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_27
+# text = Tye baneophanan thungda rhui samme
+# english = The men built a house out of wood.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneophanan	baneo	NOUN	_	Case=Erg|Number=Plur	5	nsubj	5:nsubj	_
+3	thungda	thung	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
+4	rhui	rhui	NOUN	_	Number=Sing	5	obj	5:obj	_
+5	samme	samm	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_28
+# text = Tye rhuidi tralate
+# english = The house is burning.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	rhuidi	rhui	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
+3	tralate	tra	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+
+# sent_id = grammar_ValPal_29
+# text = Tye neo bava report carddi rakkae
+# english = The boy burnt his report card.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
+3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	report	report	NOUN	_	Number=Sing	6	obj	6:obj	OrigLang=en
+5	carddi	card	NOUN	_	Case=Top|Number=Sing	4	flat	4:flat	OrigLang=en
+6	rakkae	rakka	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_30
+# text = Tye baneo bava leneo laithiedi thyie
+# english = The man called his girlfriend.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneo	baneo	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
+3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	leneo	leneo	NOUN	_	Number=Sing	6	obj	6:obj	_
+5	laithiedi	laithie	NOUN	NMLZ	Aspect=Imp|Case=Top|Number=Sing|VerbForm=Vnoun	4	compound	4:compound	_
+6	thyie	thyi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_31
+# text = Tye boat khalehnkhamate
+# english = The boat capsized
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	boat	boat	NOUN	_	Number=Sing	3	nsubj	3:nsubj	OrigLang=en
+3	khalehnkhamate	khalehnkham	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_32
+# text = Tye baneo boxphadi marketnahn lathate
+# english = The men carried the boxes to the market.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneo	baneo	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
+3	boxphadi	box	NOUN	_	Case=Top|Number=Plur	5	obj	5:obj	OrigLang=en
+4	marketnahn	market	NOUN	_	Case=Loc|Number=Sing	5	obl	5:obl	OrigLang=en
+5	lathate	lath	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_33
+# text = Tye neonan maszoodi rhuida yingchate
+# english = The boy chased the mouse from the house.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neonan	neo	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
+3	maszoodi	maszoo	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
+4	rhuida	rhui	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
+5	yingchate	yingch	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_34
+# text = Tye leneonan floordi thechue
+# english = The girl cleaned the floor.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	leneonan	leneo	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
+3	floordi	floor	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	OrigLang=en
+4	thechue	thechu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_35
+# text = Tye baneopha tharungnahn khlaikiate
+# english = The men climbed (up) the tree.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneopha	baneo	NOUN	_	Number=Plur	4	nsubj	4:nsubj	_
+3	tharungnahn	tharung	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
+4	khlaikiate	khlaiki	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_36
+# text = Tye baneonan khorohndi khamganan lale
+# english = Then man closes the door.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneonan	baneo	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
+3	khorohndi	khorohn	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	khamganan	kham	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_37
+# text = Tye neo anohnnahn woane
+# english = The boy came (to the village).
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	anohnnahn	anohn	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
+4	woane	woan	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_38
+# text = Tye neo re
+# english = The boy came.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
+3	re	re	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_39
+# text = Tye neo anohnda woane
+# english = The boy came from the village.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	anohnda	anohn	NOUN	_	Case=Abl|Number=Sing	4	obl	4:obl	_
+4	woane	woan	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_40
+# text = Tye puirawiphanan thedi wate
+# english = The women cooked the meat.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawiphanan	puirawi	NOUN	_	Case=Erg|Number=Plur	4	nsubj	4:nsubj	_
+3	thedi	the	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	wate	wa	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_41
+# text = Tye duh makhe
+# english = The old man coughed.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	duh	duh	NOUN	_	_	3	nsubj	3:nsubj	_
+3	makhe	makh	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_42
+# text = Tye baneo A tha thida makhe
+# english = The man choughed at my face.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneo	baneo	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
+3	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	tha	tha	NOUN	_	Number=Sing	6	obl	6:obl	_
+5	thida	thida	ADP	_	_	4	case	4:case	_
+6	makhe	makh	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_43
+# text = Tye puirawinan neodi blanketda thekhamate
+# english = The woman covered the boy with a blanket.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawinan	puirawi	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
+3	neodi	neo	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
+4	blanketda	blanket	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	OrigLang=en
+5	thekhamate	thekham	VERB	_	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_44
+# text = Tye neo leipakwothai khamungnahn namphohn dhohnte
+# english = The boy crammed peanuts into his mouth.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
+3	leipakwothai	leipakwothai	NOUN	_	Number=Sing	6	obj	6:obj	_
+4	khamungnahn	khamung	NOUN	_	Case=Loc|Number=Sing	6	obl	6:obl	_
+5	namphohn	namphohn	VERB	_	VerbForm=Inf	6	compound:svc	6:compound:svc	_
+6	dhohnte	dhohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_45
+# text = Tye neopha laipuidi chuhne
+# english = The boys crossed the road.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neopha	neo	NOUN	_	Number=Plur	4	nsubj	4:nsubj	_
+3	laipuidi	laipui	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	chuhne	chuhn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_46
+# text = Tye neodi traiganan lale
+# english = The baby is crying.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neodi	neo	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
+3	traiganan	trai	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_47
+# text = Tye puirawi bava chaha maramda traie
+# english = The woman cried about her loss.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawi	puirawi	ADV	_	_	6	nsubj	6:nsubj	_
+3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	chaha	cha	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pqp|VerbForm=Fin	6	obl	6:obl	_
+5	maramda	maramda	ADP	_	_	4	case	4:case	_
+6	traie	trai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_48
+# text = Tye puirawi jehndi shuri mayingeda kachate
+# english = The woman cut the bread with a sharp knife.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawi	puirawi	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
+3	jehndi	jehn	NOUN	_	Case=Top|Number=Sing	6	obj	6:obj	_
+4	shuri	shuri	NOUN	_	Number=Sing	6	obl	6:obl	_
+5	mayingeda	mayinge	ADJ	_	Case=Abl|Degree=Pos	4	amod	4:amod	_
+6	kachate	kach	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_49
+# text = Tye puirawila nungszwa mi thile
+# english = The woman deserves credit.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawila	puirawi	NOUN	_	Case=Dat|Number=Sing	4	iobj	4:iobj	_
+3	nungszwa	nungszwa	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	mi	mi	VERB	_	VerbForm=Inf	5	xcomp	5:xcomp	_
+5	thile	thi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_50
+# text = phuirai zhaate
+# english = The snake died.
+1	phuirai	phuirai	NOUN	_	Number=Sing	2	nsubj	2:nsubj	_
+2	zhaate	zha	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_51
+# text = Tye puirawi alu thyiganan lale
+# english = The woman is digging for potatoes.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawi	puirawi	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	alu	alu	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	thyiganan	thyi	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_52
+# text = Tye bale bava thaidi theate
+# english = The man did his work.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	bale	ba	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	5	nsubj	5:nsubj	_
+3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	thaidi	thai	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
+5	theate	the	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_53
+# text = Tye puirawidi phanungganan lale
+# english = The woman is dreaming.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawidi	puirawi	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
+3	phanungganan	phanung	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+4	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_54
+# text = Tye athi ba neolewila thera themiate
+# english = The mother dressed her daughter
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	athi	athi	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
+3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	neolewila	neolewi	NOUN	_	Case=Dat|Number=Sing	6	iobj	6:iobj	_
+5	thera	thera	NOUN	_	Number=Sing	6	obj	6:obj	_
+6	themiate	themi	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_55
+# text = Tye baneo bathanahn coffee yaknan mohne
+# english = The man drank strong coffee
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneo	baneo	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
+3	bathanahn	bathanahn	ADV	_	_	5	advmod	5:advmod	_
+4	coffee	coffee	NOUN	_	Number=Sing	6	obj	6:obj	OrigLang=en
+5	yaknan	yaknan	ADJ	_	Degree=Pos	4	amod	4:amod	_
+6	mohne	mohn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_56
+# text = Tye baneo bava boatdi khrai thai
+# english = The man drove out his boat.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneo	baneo	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
+3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	boatdi	boat	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	OrigLang=en
+5	khrai	khrai	VERB	_	VerbForm=Inf	0	root	0:root	_
+6	thai	tha	ADP	_	Aspect=Imp|Mood=Ind|Tense=Past	5	compound:prt	5:compound:prt	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_57
+# text = Tye leneo kelasdi fi lhia
+# english = The girl dropped the cup.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	leneo	leneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	kelasdi	kelas	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	fi	fi	VERB	_	VerbForm=Inf	0	root	0:root	_
+5	lhia	lhi	ADV	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	4	compound:prt	4:compound:prt	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_58
+# text = Tye baneodi veraikhanahn kathamganan lale
+# english = The man is dronwning in a river.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneodi	baneo	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
+3	veraikhanahn	veraikha	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
+4	kathamganan	katham	VERB	SIM.CVB	Aspect=Prog|VerbForm=Conv	0	root	0:root	_
+5	lale	la	AUX	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_59
+# text = Thamoknan lhaidi thepuiate
+# english = The sun has dried out the ground.
+1	Thamoknan	Thamok	NOUN	_	Case=Erg|Number=Sing	3	nsubj	3:nsubj	_
+2	lhaidi	lhai	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	thepuiate	thepui	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_60
+# text = Tye neonan thaithaidi thea
+# english = The boy ate the fruit.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neonan	neo	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
+3	thaithaidi	thaithai	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	thea	thea	VERB	_	VerbForm=Inf	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_61
+# text = Tye baneo rhuinahn dhohnte
+# english = The man entered (the house).
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneo	baneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	rhuinahn	rhui	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	_
+4	dhohnte	dhohn	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_62
+# text = Tye rhui puiate
+# english = The house fell.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	rhui	rhui	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
+3	puiate	pui	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_63
+# text = Tye baneo hwendi trae
+# english = The man feared the bear.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneo	baneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	hwendi	hwen	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	trae	tra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_64
+# text = A magungle
+# english = I'm cold.
+1	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
+2	magungle	magung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_65
+# text = Ava gaephyahn kaprakle
+# english = My arm is hurting
+1	Ava	a	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
+2	gaephyahn	gaephyahn	NOUN	_	Number=Sing	3	obj	3:obj	_
+3	kaprakle	kaprak	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_66
+# text = Tye neo kathe tha
+# english = The boy felt sick.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	3	obj	3:obj	_
+3	kathe	kathe	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	tha	tha	ADV	_	_	3	compound:prt	3:compound:prt	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_67
+# text = Tye neodi thungelate
+# english = The baby is sleepy.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neodi	neo	NOUN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
+3	thungelate	thunge	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+
+# sent_id = grammar_ValPal_68
+# text = Tye baneonan tharungdi ramme
+# english = The man felled the tree.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneonan	baneo	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
+3	tharungdi	tharung	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	ramme	ramm	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_69
+# text = Tye leneonan kelasdi rhuida thepuiate
+# english = The girl filled the glass with water.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	leneonan	leneo	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
+3	kelasdi	kelas	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
+4	rhuida	rhui	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
+5	thepuiate	thepui	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_70
+# text = Tye baneopha leneopha suisuie
+# english = The boys followed the girls.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneopha	baneo	NOUN	_	Number=Plur	4	nsubj	4:nsubj	_
+3	leneopha	leneo	NOUN	_	Number=Plur	4	obj	4:obj	_
+4	suisuie	suisui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+
+# sent_id = grammar_ValPal_71
+# text = Tye hwennan baneodi thetrae
+# english = The bear frightened the man.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	hwennan	hwen	NOUN	_	Case=Erg|Number=Sing	4	nsubj	4:nsubj	_
+3	baneodi	baneo	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	thetrae	thetra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_72
+# text = Tye baneo ba baswevada letter ska rue
+# english = The man got a letter from his friend.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneo	baneo	NOUN	_	Number=Sing	7	nsubj	7:nsubj	_
+3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	baswevada	baswe	NOUN	_	Case=GenAbl|Number=Sing	7	obl	7:obl	_
+5	letter	letter	NOUN	_	Number=Sing	7	obj	7:obj	OrigLang=en
+6	ska	ska	NUM	_	NumForm=Word|NumType=Card	5	nummod	5:nummod	_
+7	rue	ru	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_73
+# text = Tye leneo gari rue
+# english = The girl got a car.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	leneo	leneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	gari	gari	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	rue	ru	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_74
+# text = Tye leneo thera theate
+# english = The girl got dressed.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	leneo	leneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	thera	thera	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	theate	the	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_75
+# text = Tye puirawi bathanahn nungaie
+# english = The woman got excited.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawi	puirawi	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	bathanahn	bathanahn	ADV	_	_	4	advmod	4:advmod	_
+4	nungaie	nungai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_76
+# text = Hainan neopha lairakphadi mia
+# english = We gave the books to the children.
+1	Hainan	hai	PRON	_	Case=Erg|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
+2	neopha	neo	NOUN	_	Number=Plur	4	iobj	4:iobj	_
+3	lairakphadi	lairak	NOUN	_	Case=Top|Number=Plur	4	obj	4:obj	_
+4	mia	mi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_77
+# text = Tye puirawi baneo manyuate
+# english = The woman gave birth to a baby boy.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawi	puirawi	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	baneo	baneo	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	manyuate	manyu	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_78
+# text = Tye puirawi marketnahn ve
+# english = The woman went to the market.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawi	puirawi	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	marketnahn	market	NOUN	_	Case=Loc|Number=Sing	4	obl	4:obl	OrigLang=en
+4	ve	ve	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_79
+# text = mazohn szuka szunan thaile babyahn
+# english = Everything goes well for him.
+1	mazohn	mazohn	DET	_	PronType=Tot	2	det	2:det	_
+2	szuka	szuka	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	szunan	szunan	ADV	_	_	4	advmod	4:advmod	_
+4	thaile	thai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	babyahn	ba	PRON	_	Case=Ben|Number=Sing|Person=3|PronType=Prs	4	obl	4:obl	_
+
+# sent_id = grammar_ValPal_80
+# text = Tye jehndi Jessicabyahn
+# english = The bread is for Jessica
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	jehndi	jehn	NOUN	_	Case=Top|Number=Sing	0	root	0:root	_
+3	Jessicabyahn	Jessica	PROPN	_	Number=Sing	2	obl	2:obl	_
+
+# sent_id = grammar_ValPal_81
+# text = Tye puirawi azadi dhohnphokda rungate
+# english = The women ground the seeds (with mortar and pestle).
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawi	puirawi	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
+3	azadi	aza	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
+4	dhohnphokda	dhohnphok	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
+5	rungate	rung	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_82
+# text = Tye puirawi kathung ru rahn re nungda thaile
+# english = Tye puirawi kathung rurahn re nungda thaile
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawi	puirawi	NOUN	_	Number=Sing	8	nsubj	8:nsubj	_
+3	kathung	kathung	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+4	ru	ru	VERB	IRR	VerbForm=Inf	8	ccomp	8:ccomp	_
+5	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	4	aux	4:aux	_
+6	re	re	PART	REP	_	4	mark	4:mark	_
+7	nungda	nung	NOUN	_	Case=Abl|Number=Sing	8	obl	8:obl	_
+8	thaile	thai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_83
+# text = Tye neo hwen khwehn chue
+# english = The boy heard the bear.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
+3	hwen	hwen	NOUN	_	Number=Sing	4	compound	4:compound	_
+4	khwehn	khwehn	NOUN	_	Number=Sing	5	obj	5:obj	_
+5	chue	chu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_84
+# text = A neophala mating mie
+# english = I helped the boys.
+1	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
+2	neophala	neo	NOUN	_	Case=Dat|Number=Plur	4	iobj	4:iobj	_
+3	mating	a	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	mie	mi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_85
+# text = Tye neo chahoidi ba thedi thai muma gase thezhuia
+# english = The boy hid the frog from his mother.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	9	nsubj	9:nsubj	_
+3	chahoidi	chahoi	NOUN	_	Case=Top|Number=Sing	9	obj	9:obj	_
+4	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	5:nmod:poss	_
+5	thedi	the	NOUN	_	Case=Top|Number=Sing	7	obj	6:nsubj:xsubj|7:obj	_
+6	thai	thai	VERB	_	VerbForm=Inf	7	xcomp	7:xcomp	_
+7	muma	mu	VERB	_	Polarity=Neg|VerbForm=Inf	9	advcl	9:advcl	_
+8	gase	gase	SCONJ	PURP	_	7	mark	7:mark	_
+9	thezhuia	thezhui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_86
+# text = Tye neo phuiraidi thungda rae
+# english = The boy hit the snake with a stick.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
+3	phuiraidi	phuirai	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
+4	thungda	thung	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
+5	rae	ra	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_87
+# text = Tye athi ba neobedi thahnne
+# english = The mother hugged her little boy.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	athi	athi	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
+3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	neobedi	neobe	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
+5	thahnne	thahnn	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_88
+# text = Tye baneo the thuhle
+# english = The man hunts for animals.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneo	baneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	the	the	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	thuhle	thuh	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_89
+# text = Tye baneo ba gaenahn thezue
+# english = The man hurts his hand.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	baneo	baneo	ADV	_	_	5	nsubj	5:nsubj	_
+3	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	gaenahn	gae	NOUN	_	Case=Loc|Number=Sing	5	obl	5:obl	_
+5	thezue	thezu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_90
+# text = Tye leneo praie
+# english = The girl jumped.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	leneo	leneo	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
+3	praie	prai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_91
+# text = Tye neo fencedi ra zwehnne
+# english = The boy jumped over the fence.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	fencedi	fence	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	OrigLang=en
+4	ra	ra	VERB	_	VerbForm=Inf	0	root	0:root	_
+5	zwehnne	zwehnn	ADP	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	4	compound:prt	4:compound:prt	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_92
+# text = Tye balenan bava yoangathiedi thungda rathaia
+# english = The man killed his enemy with a club.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	balenan	bale	NOUN	_	Case=Erg|Number=Sing	6	nsubj	6:nsubj	_
+3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	yoangathiedi	yoangathi	NOUN	_	Case=Top|Number=Sing	6	obj	6:obj	_
+5	thungda	thung	NOUN	_	Case=Abl|Number=Sing	6	obl	6:obl	_
+6	rathaia	rathai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+
+# sent_id = grammar_ValPal_93
+# text = Tye leneo baneodi mathette
+# english = The girl knew the boy.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	leneo	leneo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	baneodi	baneo	NOUN	_	Case=Top|Number=Sing	4	obj	4:obj	_
+4	mathette	mathet	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_94
+# text = Leneo manuie
+# english = The girl laughed.
+1	Leneo	leneo	NOUN	_	Number=Sing	2	obj	2:obj	_
+2	manuie	manui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_95
+# text = Tye puirawi huiva maramda manuie
+# english = The woman laught about the dog.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	puirawi	puirawi	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
+3	huiva	hui	NOUN	_	Case=Gen|Number=Sing	5	obl	5:obl	_
+4	maramda	maramda	ADP	_	_	3	case	3:case	_
+5	manuie	manui	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_96
+# text = Leneo lhehndi luilae
+# english = The girl learnt the song.
+1	Leneo	leneo	NOUN	_	Number=Sing	3	nsubj	3:nsubj	_
+2	lhehndi	lhehn	NOUN	_	Case=Top|Number=Sing	3	obj	3:obj	_
+3	luilae	luila	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_97
+# text = Tye neo anohnda thate
+# english = The boy left the village.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	anohnda	anohn	NOUN	_	Case=Abl|Number=Sing	4	obl	4:obl	_
+4	thate	tha	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_98
+# text = Tye neo bava dolly kathadi manunge
+# english = The boy liked his new toy.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	6	nsubj	6:nsubj	_
+3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
+4	dolly	dolly	NOUN	_	Number=Sing	6	obj	6:obj	_
+5	kathadi	katha	ADJ	_	Case=Top|Degree=Pos	4	amod	4:amod	_
+6	manunge	manung	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_99
+# text = Tye neo lhehn lhune
+# english = The boy listened to the music.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	neo	neo	NOUN	_	Number=Sing	4	nsubj	4:nsubj	_
+3	lhehn	lhehn	NOUN	_	Number=Sing	4	obj	4:obj	_
+4	lhune	lhun	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_100
+# text = Duhpha townnahn bathale
+# english = The old people live in town.
+1	Duhpha	duh	NOUN	_	Number=Plur	3	nsubj	3:nsubj	_
+2	townnahn	town	NOUN	_	Case=Loc|Number=Sing	3	obl	3:obl	_
+3	bathale	batha	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
+
+# sent_id = grammar_ValPal_101
+# text = Tye lathemiszu khramdi trucknahn thammate
+# english = The farmer loaded hay onto the truck.
+1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
+2	lathemiszu	lathemiszu	NOUN	_	Number=Sing	5	nsubj	5:nsubj	_
+3	khramdi	khram	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	_
+4	trucknahn	truck	NOUN	_	Case=Loc|Number=Sing	5	obl	5:obl	_
+5	thammate	thamm	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
