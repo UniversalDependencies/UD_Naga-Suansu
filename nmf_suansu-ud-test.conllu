@@ -511,7 +511,7 @@
 # english = It's self- evident.
 1	Rungma	rung	VERB	_	Polarity=Neg|VerbForm=Inf	6	advcl	6:advcl	_
 2	lali	lali	SCONJ	_	_	1	mark	1:mark	_
-3	drekhalai	drekhalai	ADV	_	Reflex=Yes	4	advmod	4:advmod	_
+3	drekhalai	drekhalai	ADV	_	_	4	advmod	4:advmod	_
 4	lehnda	lehn	NOUN	_	Case=Abl|Number=Sing	6	obl	6:obl	_
 5	li	li	ADV	ASC	_	4	advmod:emph	4:advmod:emph	_
 6	phabtale	phabta	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -3975,7 +3975,7 @@
 # english = Peter cut himself with a razor.
 1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
 2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	_
-3	khalailehnda	khalailehnda	ADV	REFL	Reflex=Yes	5	advmod	5:advmod	_
+3	khalailehnda	khalailehnda	ADV	REFL	_	5	advmod	5:advmod	_
 4	razorda	razor	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	OrigLang=en
 5	zapzue	zapzu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
