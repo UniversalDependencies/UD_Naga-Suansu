@@ -4865,7 +4865,7 @@
 3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
 4	boatdi	boat	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	OrigLang=en
 5	khrai	khrai	VERB	_	VerbForm=Inf	0	root	0:root	_
-6	thai	tha	ADP	_	Aspect=Imp|Mood=Ind|Tense=Past	5	compound:prt	5:compound:prt	SpacesAfter=\n
+6	thai	tha	ADP	_	Aspect=Imp|Tense=Past	5	compound:prt	5:compound:prt	SpacesAfter=\n
 
 # sent_id = grammar_ValPal_57
 # text = Tye leneo kelasdi fi lhia
