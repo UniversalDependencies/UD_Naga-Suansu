@@ -40,8 +40,8 @@
 # sent_id = grammar_BivalTyp_6
 # text = Peterdi Maria thrwale
 # english = (Maria is Peter's grandfather.) Peter resembles Maria
-1	Peterdi	Peter	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-2	Maria	Maria	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
+1	Peterdi	Peter	PROPN	_	Case=Top|Number=Sing	3	nsubj	3:nsubj	_
+2	Maria	Maria	PROPN	_	Number=Sing	3	obj	3:obj	_
 3	thrwale	thrwa	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
 # sent_id = grammar_BivalTyp_7
@@ -191,7 +191,7 @@
 # english = (Peter has a thoughtful look.) Peter is thinking about Maria
 1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
 2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	3	obj	3:obj	_
-3	phanung	phanung	VERB	_	_	4	compound:svc	4:compound:svc	_
+3	phanung	phanung	VERB	_	VerbForm=Inf	4	compound:svc	4:compound:svc	_
 4	woanle	woan	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
 # sent_id = grammar_BivalTyp_26
@@ -463,7 +463,7 @@
 # english = (Peter’s house was burglarised with all the valuables taken. As a consequence,) Peter needs money.
 1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
 2	bya	bya	NOUN	_	Number=Sing	3	obj	3:obj	_
-3	tarkar	tarkar	VERB	_	_	4	xcomp	4:xcomp	_
+3	tarkar	tarkar	VERB	_	VerbForm=Inf	4	xcomp	4:xcomp	_
 4	thelate	thelate	VERB	be-COMPL	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
@@ -472,7 +472,7 @@
 # english = Walls surround the city.
 1	Citydi	city	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	OrigLang=en
 2	wallda	wall	NOUN	_	Case=Abl|Number=Sing	4	obl	4:obl	OrigLang=en
-3	rivaikapre	rivaikap	VERB	_	_	4	compound	4:compound	_
+3	rivaikapre	rivaikap	VERB	_	VerbForm=Inf	4	compound	4:compound	_
 4	wile	wi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
 # sent_id = grammar_BivalTyp_61
@@ -489,7 +489,7 @@
 # english = (The teacher asked Peter what his parents’ names are.) Peter answered the teacher.
 1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
 2	wizala	wiza	NOUN	_	Case=Dat|Number=Sing	3	iobj	3:iobj	_
-3	rung	rung	VERB	_	_	4	compound:svc	4:compound:svc	_
+3	rung	rung	VERB	_	VerbForm=Inf	4	compound:svc	4:compound:svc	_
 4	kiate	ki	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
 # sent_id = grammar_BivalTyp_63
@@ -520,7 +520,7 @@
 # english = Peter is ploughing the field.
 1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
 2	khohn	khohn	NOUN	_	Number=Sing	3	obj	3:obj	_
-3	katha	katha	VERB	_	_	4	compound:svc	4:compound:svc	_
+3	katha	katha	VERB	_	VerbForm=Inf	4	compound:svc	4:compound:svc	_
 4	thaile	thai	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
 # sent_id = grammar_BivalTyp_67
@@ -637,7 +637,7 @@
 # english = Peter cut himself with a razor.
 1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	5:nsubj	_
 2	ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	_
-3	khalailehnda	khalailehnda	DET	REFL	Reflex=Yes	2	det	2:det	_
+3	khalailehnda	khalailehnda	ADV	REFL	_	5	advmod	5:advmod	_
 4	razorda	razor	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	OrigLang=en
 5	zapzue	zapzu	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
@@ -816,7 +816,7 @@
 # english = Peter poured the sugar (into the cup).
 1	Peter	Peter	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
 2	sugar	sugar	NOUN	_	Number=Sing	3	obj	3:obj	OrigLang=en
-3	phrai	phrai	VERB	_	_	0	root	0:root	_
+3	phrai	phrai	VERB	_	VerbForm=Inf	0	root	0:root	_
 4	dhohnte	dhohn	ADP	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	3	compound:prt	3:compound:prt	SpacesAfter=\n
 
 # sent_id = grammar_BivalTyp_103
@@ -1000,7 +1000,7 @@
 1	Peter	Peter	PROPN	_	Number=Sing	5	nsubj	4:nsubj:xsubj|5:nsubj	_
 2	Mariadi	Maria	PROPN	_	Case=Top|Number=Sing	5	obj	5:obj	_
 3	bathanahn	bathanahn	ADV	_	_	4	advmod	4:advmod	_
-4	nungaima	nungai	VERB	_	Polarity=Neg	5	xcomp	5:xcomp	_
+4	nungaima	nungai	VERB	_	Polarity=Neg|VerbForm=Inf	5	xcomp	5:xcomp	_
 5	muate	mu	VERB	COMPL	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
 # sent_id = grammar_BivalTyp_125
@@ -1255,7 +1255,7 @@
 # text = Tye neonandi windowdi lhungda thekhiae
 # english = The boy broke the window with a stone.
 1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	2	det	2:det	_
-2	neonandi	neo	NOUN	_	Case=ErgTop|Number=Sing	5	nsubj	5:nsubj	`
+2	neonandi	neo	NOUN	_	Case=ErgTop|Number=Sing	5	nsubj	5:nsubj	_
 3	windowdi	window	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	OrigLang=en
 4	lhungda	lhung	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
 5	thekhiae	thekhia	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
@@ -1527,7 +1527,7 @@
 3	bava	ba	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	4:nmod:poss	_
 4	boatdi	boat	NOUN	_	Case=Top|Number=Sing	5	obj	5:obj	OrigLang=en
 5	khrai	khrai	VERB	_	VerbForm=Inf	0	root	0:root	_
-6	thai	tha	ADP	_	Aspect=Imp|Mood=Ind|Tense=Past	5	compound:prt	5:compound:prt	SpacesAfter=\n
+6	thai	tha	ADP	_	Aspect=Imp|Tense=Past	5	compound:prt	5:compound:prt	SpacesAfter=\n
 
 # sent_id = grammar_ValPal_57
 # text = Tye leneo kelasdi fi lhia
@@ -2418,7 +2418,7 @@
 # english = It's self- evident.
 1	Rungma	rung	VERB	_	Polarity=Neg|VerbForm=Inf	6	advcl	6:advcl	_
 2	lali	lali	SCONJ	_	_	1	mark	1:mark	_
-3	drekhalai	drekhalai	DET	_	Reflex=Yes	4	det	4:det	_
+3	drekhalai	drekhalai	ADV	_	_	4	advmod	4:advmod	_
 4	lehnda	lehn	NOUN	_	Case=Abl|Number=Sing	6	obl	6:obl	_
 5	li	li	ADV	ASC	_	4	advmod:emph	4:advmod:emph	_
 6	phabtale	phabta	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -2514,7 +2514,7 @@
 17	thengammaganan	thengam	VERB	SIM.CVB	Aspect=Prog|Polarity=Neg|VerbForm=Conv	20	advcl	20:advcl	_
 18	miszu	miszu	NOUN	_	Number=Sing	20	obl	20:obl	_
 19	phangenahn	phange	NUM	_	Case=Loc|NumForm=Word|NumType=Card	18	nummod	18:nummod	_
-20	thunge	thunge	VERB	_	_	12	conj	12:conj	_
+20	thunge	thunge	VERB	_	VerbForm=Inf	12	conj	12:conj	_
 21	ga	ga	AUX	_	Evident=Nfh	20	aux	20:aux	SpaceAfter=No
 22	.	.	PUNCT	_	_	12	punct	12:punct	_
 
@@ -3076,7 +3076,7 @@
 # text = Bunan Soviet spy choklaha, nahnnan badi defend the rahn reha.
 # english = The Soviet spy they caught, we want you to defend him.
 1	Bunan	bu	PRON	_	Case=Erg|Number=Plur|Person=3|PronType=Prs	4	obj	4:obj	_
-2	Soviet	Soviet	NOUN	_	Number=Sing	4	obj	4:obj	OrigLang=en
+2	Soviet	Soviet	NOUN	_	Number=Sing	1	appos	1:appos	OrigLang=en
 3	spy	spy	NOUN	_	Number=Sing	2	flat	2:flat	OrigLang=en
 4	choklaha	chokla	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pqp|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	9:punct	_
@@ -3245,7 +3245,7 @@
 # english = You distinguished yourself at Nuremberg.
 1	Chathadi	chatha	PRON	_	Case=Top|Number=Sing|PronType=Ind	3	obj	3:obj	_
 2	nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	_
-3	szumahn	szu	VERB	_	Degree=Cmp	5	xcomp	5:xcomp	_
+3	szumahn	szu	VERB	_	Degree=Cmp|VerbForm=Inf	5	xcomp	5:xcomp	_
 4	yahre	yahre	ADV	_	_	3	advmod	3:advmod	_
 5	the	the	VERB	_	VerbForm=Inf	0	root	0:root	_
 6	Nurembergda	Nuremberg	PROPN	_	Case=Abl|Number=Sing	5	obl	5:obl	SpaceAfter=No
@@ -3968,7 +3968,7 @@
 # text = Miszudi amahn thok la gu.
 # english = Every person matters.
 1	Miszudi	miszu	NOUN	_	Case=Top|Number=Sing	4	nsubj	4:nsubj	_
-2	amahn	a	VERB	_	Degree=Cmp	4	obl	4:obl	_
+2	amahn	a	NOUN	_	Number=Sing	4	obl	4:obl	_
 3	thok	thok	ADJ	_	Degree=Pos	4	xcomp	4:xcomp	_
 4	la	la	AUX	_	VerbForm=Inf	0	root	0:root	_
 5	gu	gu	AUX	_	Evident=Fh	4	aux	4:aux	SpaceAfter=No
@@ -4129,7 +4129,7 @@
 4	maramnahn	maram	NOUN	_	Case=Loc|Number=Sing	7	obl	7:obl	_
 5	jaangaphat	jaangaphat	NOUN	_	Number=Sing	7	obl	7:obl	_
 6	gase	gase	ADP	PURP	_	5	case	5:case	_
-7	thema	the	VERB	_	VerbForm=Fin	0	root	0:root	_
+7	thema	the	VERB	_	Polarity=Neg|VerbForm=Inf	0	root	0:root	_
 8	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	7	aux	7:aux	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
@@ -4152,7 +4152,7 @@
 7	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	_
 8	badi	ba	PRON	_	Case=Top|Number=Sing|Person=3|PronType=Prs	9	obj	9:obj	_
 9	ay	ay	INTJ	_	ExtPos=VERB|Polarity=Pos	3	conj	3:conj	_
-10	re	re	VERB	_	Polarity=Neg	9	fixed	9:fixed	_
+10	re	re	VERB	_	VerbForm=Inf	9	fixed	9:fixed	_
 11	lama	la	AUX	_	Polarity=Neg|VerbForm=Inf	9	aux	9:aux	SpaceAfter=No
 12	?	?	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
@@ -4310,7 +4310,7 @@
 12	rai	rai	ADV	COLL	VerbForm=Inf	11	compound:prt	11:compound:prt	_
 13	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	11	aux	11:aux	_
 14	re	re	ADV	_	_	0	root	0:root	_
-15	rema	re	VERB	_	Polarity=Neg	14	conj	14:conj	_
+15	rema	re	VERB	_	Polarity=Neg|VerbForm=Inf	14	conj	14:conj	_
 16	nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	14:nsubj|15:nsubj	SpaceAfter=No
 17	?	?	PUNCT	_	_	14	punct	14:punct	SpacesAfter=\n
 
@@ -4373,7 +4373,7 @@
 # text = Tye Ava credentials te.
 # english = These are my credentials.
 1	Tye	tye	DET	_	Deixis=Remt|PronType=Dem	3	det	3:det	_
-2	Ava	a	PRON	_	Case=Gen|Number=Sing|Person=1	3	nmod:poss	3:nmod:poss	_
+2	Ava	a	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nmod:poss	3:nmod:poss	_
 3	credentials	credentials	NOUN	_	Number=Sing	0	root	0:root	OrigLang=en
 4	te	te	INTJ	_	_	3	discourse	3:discourse	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n

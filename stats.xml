@@ -17,23 +17,23 @@
   <tags unique="16">
     <tag name="ADJ">51</tag><!-- katha, theyikke, criminal, gathyee, next, phlee, szuate, thokke, American, atra -->
     <tag name="ADP">28</tag><!-- thohn, lohnda, maramda, dyenan, gase, athoonge, dhohn, maka, mathak, nan -->
-    <tag name="ADV">191</tag><!-- li, re, bathanahn, gare, dre, hano, reganan, szurai, rai, daichu -->
+    <tag name="ADV">193</tag><!-- li, re, bathanahn, gare, dre, hano, reganan, szurai, rai, daichu -->
     <tag name="AUX">176</tag><!-- la, rahn, dai, ga, geraha, e, gu, dila, ra, tha -->
     <tag name="CCONJ">23</tag><!-- riri, rateragu, ranan, gali, larateragu, raganan, ragwenan, reganan, regu, relaili -->
-    <tag name="DET">136</tag><!-- tye, hai, mazohn, gare, drekhalai, khalailehnda, mwe, rigatratrahn, za -->
+    <tag name="DET">134</tag><!-- tye, hai, mazohn, gare, mwe, rigatratrahn, za -->
     <tag name="INTJ">82</tag><!-- ay, ame, wi, garhe, kaima, morning, uh, Good, ma, me -->
-    <tag name="NOUN">669</tag><!-- miszu, neo, baneo, rhui, leneo, puirawi, insurance, runge, client, thathok -->
+    <tag name="NOUN">670</tag><!-- miszu, neo, baneo, rhui, leneo, puirawi, insurance, runge, client, thathok -->
     <tag name="NUM">47</tag><!-- ska, phange, $100,000, 19, 1941, 3, 9:00, khanika, lhohnphange, zukathai -->
     <tag name="PART">50</tag><!-- re, garhe, reha, khama, gala, dinan, la, lagu, zahai -->
     <tag name="PRON">311</tag><!-- a, nahn, ba, hai, bu, didi, thuza, mazohn, tye, hadi -->
     <tag name="PROPN">260</tag><!-- Peter, Maria, Jim, Donovan, Mary, Bar, Bob, Doug, Lieutenant, Lynn -->
     <tag name="PUNCT">387</tag><!-- ., ,, ?, ..., ", !, …, “, ” -->
     <tag name="SCONJ">71</tag><!-- di, ragu, gase, byahn, laiteragu, gu, gasebyahn, re, regwenan, renan -->
-    <tag name="VERB">635</tag><!-- the, rung, la, mi, thai, mu, re, ru, phabta, yoan -->
+    <tag name="VERB">634</tag><!-- the, rung, la, mi, thai, mu, re, ru, phabta, yoan -->
     <tag name="X">6</tag><!-- ,, Cowan, Donovan, Watters, _, and -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="58">
+  <feats unique="57">
     <feat name="Abbr" value="Yes" upos="NOUN,PROPN">2</feat><!-- CIAnahn -->
     <feat name="Aspect" value="Imp" upos="ADP,ADV,AUX,NOUN,PART,VERB">321</feat><!-- lale, rahn, laha, runge, nue, reha, wile, kanale, manungle, rae -->
     <feat name="Aspect" value="Perf" upos="ADP,AUX,NOUN,PART,VERB">103</feat><!-- rahnte, dhohnte, themate, lalate, theate, mathilate, mathunglate, myate, puiate, ruate -->
@@ -50,7 +50,7 @@
     <feat name="Case" value="Loc" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN">73</feat><!-- clientnahn, anahn, phangenahn, rhuinahn, CIAnahn, gaenahn, maganahn, maramnahn, marketnahn, 19nahn -->
     <feat name="Case" value="LocTop" upos="NOUN,NUM">3</feat><!-- desknahndi, phangenahndi, rungenahndi -->
     <feat name="Case" value="Top" upos="ADJ,NOUN,NUM,PRON,PROPN,SCONJ">201</feat><!-- Mariadi, badi, adi, nahndi, neodi, baneodi, kelasdi, rhuidi, thuzadi, haidi -->
-    <feat name="Degree" value="Cmp" upos="ADV,VERB">4</feat><!-- amahn, szumahn, szumahnle, szumahnnan -->
+    <feat name="Degree" value="Cmp" upos="ADV,VERB">3</feat><!-- szumahn, szumahnle, szumahnnan -->
     <feat name="Degree" value="Pos" upos="ADJ,VERB">41</feat><!-- Szuate, katha, next, thokke, American, Atra, criminal, criminalnahn, drungle, gaswe -->
     <feat name="Deixis" value="Prox" upos="ADV,DET,PRON">34</feat><!-- hai, hano, hadi, Haida -->
     <feat name="Deixis" value="Remt" upos="ADV,DET,PRON">117</feat><!-- tye, didi, didinan, dino -->
@@ -65,12 +65,12 @@
     <feat name="Mood" value="Des" upos="AUX">3</feat><!-- tha -->
     <feat name="Mood" value="Hort" upos="AUX">6</feat><!-- ga, diga, raga -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">5</feat><!-- ra, mia, shamma -->
-    <feat name="Mood" value="Ind" upos="ADP,ADV,AUX,PART,VERB">360</feat><!-- lale, laha, dhohnte, nue, reha, wile, kanale, manungle, rae, rue -->
+    <feat name="Mood" value="Ind" upos="ADP,ADV,AUX,PART,VERB">359</feat><!-- lale, laha, dhohnte, nue, reha, wile, kanale, manungle, rae, rue -->
     <feat name="Mood" value="Int" upos="AUX">30</feat><!-- la, lala, dila, dima, lalama -->
     <feat name="Mood" value="Irr" upos="AUX">29</feat><!-- rahn, rahnte -->
     <feat name="Mood" value="Jus" upos="AUX">17</feat><!-- dai, gama -->
     <feat name="Number" value="Plur" upos="NOUN,PRON,PROPN">65</feat><!-- hai, bu, Bunan, trahnpha, Na, banan, baneopha, haidi, hainan, neopha -->
-    <feat name="Number" value="Sing" upos="ADJ,NOUN,PRON,PROPN">1153</feat><!-- Peter, a, nahn, ba, miszu, Mariadi, neo, bava, ava, badi -->
+    <feat name="Number" value="Sing" upos="ADJ,NOUN,PRON,PROPN">1154</feat><!-- Peter, a, nahn, ba, miszu, Mariadi, neo, bava, ava, badi -->
     <feat name="NumForm" value="Digit" upos="NUM">3</feat><!-- 19, 1941da, 19nahn -->
     <feat name="NumForm" value="Word" upos="NUM">43</feat><!-- ska, phange, phangenahn, $100,000, 3, 9:00, khanika, lhohnphange, phangenahndi, skadi -->
     <feat name="NumType" value="Card" upos="NUM">47</feat><!-- ska, phange, phangenahn, $100,000, 19, 1941da, 19nahn, 3, 9:00, Phangema -->
@@ -82,15 +82,14 @@
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">154</feat><!-- tye, hai, didi, hano, hadi, Avadi, Haida, didinan, dino, nahnvadi -->
     <feat name="PronType" value="Ind" upos="DET,PRON">3</feat><!-- Chathadi, rigatratrahn, za -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">35</feat><!-- gare, mwe, mwetheda, thuzadi, thuzanan, thuza, Reda, Thuzala, kanahn, kukunahn -->
-    <feat name="PronType" value="Prs" upos="PRON">262</feat><!-- a, nahn, ba, bava, ava, Anan, badi, hai, adi, nahndi -->
+    <feat name="PronType" value="Prs" upos="PRON">263</feat><!-- a, nahn, ba, bava, ava, Anan, badi, hai, adi, nahndi -->
     <feat name="PronType" value="Tot" upos="DET,PRON">13</feat><!-- mazohn, mazohnnan, mazohndi -->
-    <feat name="Reflex" value="Yes" upos="DET">2</feat><!-- drekhalai, khalailehnda -->
     <feat name="Tense" value="Past" upos="ADP,ADV,AUX,VERB">202</feat><!-- dhohnte, nue, rae, rue, runge, themate, lalate, thea, theate, bahnne -->
     <feat name="Tense" value="Pqp" upos="AUX,NOUN,PART,VERB">46</feat><!-- laha, reha, rungha, choklaha, runghapha, chaha, jaazakha, kaprahate, khayeaha, khurumha -->
     <feat name="Tense" value="Pres" upos="AUX,PART,VERB">116</feat><!-- lale, wile, kanale, manungle, thaile, chule, matrehnle, phabtale, rele, thele -->
     <feat name="VerbForm" value="Conv" upos="PART,VERB">54</feat><!-- rungganan, theganan, yoanganan, bahnganan, malungphzganan, nyamganan, phanungganan, reganan, ruganan, thyiganan -->
-    <feat name="VerbForm" value="Fin" upos="ADP,ADV,AUX,PART,VERB">367</feat><!-- lale, laha, dhohnte, nue, reha, wile, kanale, lala, manungle, rae -->
-    <feat name="VerbForm" value="Inf" upos="ADP,ADV,AUX,VERB">291</feat><!-- la, the, rung, yoan, phabtama, chari, lama, mu, thaima, thungmi -->
+    <feat name="VerbForm" value="Fin" upos="ADP,ADV,AUX,PART,VERB">366</feat><!-- lale, laha, dhohnte, nue, reha, wile, kanale, lala, manungle, rae -->
+    <feat name="VerbForm" value="Inf" upos="ADP,ADV,AUX,VERB">303</feat><!-- la, the, rung, yoan, phabtama, chari, lama, mu, thaima, thungmi -->
     <feat name="VerbForm" value="Vnoun" upos="NOUN">31</feat><!-- runge, theyikke, phehnne, rungedi, runghapha, Tramahnne, dhohnphala, huppe, kathamme, laithiedi -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -98,10 +97,10 @@
     <dep name="acl">10</dep>
     <dep name="acl:relcl">6</dep>
     <dep name="advcl">44</dep>
-    <dep name="advmod">159</dep>
+    <dep name="advmod">161</dep>
     <dep name="advmod:emph">28</dep>
     <dep name="amod">32</dep>
-    <dep name="appos">5</dep>
+    <dep name="appos">6</dep>
     <dep name="aux">156</dep>
     <dep name="case">26</dep>
     <dep name="cc">20</dep>
@@ -113,7 +112,7 @@
     <dep name="cop">5</dep>
     <dep name="csubj">7</dep>
     <dep name="csubj:outer">1</dep>
-    <dep name="det">137</dep>
+    <dep name="det">135</dep>
     <dep name="discourse">46</dep>
     <dep name="fixed">11</dep>
     <dep name="flat">42</dep>
@@ -127,7 +126,7 @@
     <dep name="nsubj:outer">2</dep>
     <dep name="nsubj:pass">1</dep>
     <dep name="nummod">37</dep>
-    <dep name="obj">289</dep>
+    <dep name="obj">288</dep>
     <dep name="obl">153</dep>
     <dep name="orphan">4</dep>
     <dep name="parataxis">28</dep>
