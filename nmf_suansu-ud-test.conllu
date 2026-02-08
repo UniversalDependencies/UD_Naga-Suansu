@@ -1961,7 +1961,7 @@
 # text = Kohn diga.
 # english = Go back down.
 1	Kohn	kohn	VERB	_	VerbForm=Inf	0	root	0:root	_
-2	diga	diga	AUX	HORT	Mood=Hort	1	aux	1:aux	SpaceAfter=No
+2	diga	diga	AUX	HORT	Mood=Hrt	1	aux	1:aux	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = film_Bridge_9
@@ -1969,7 +1969,7 @@
 # english = Excuse me.
 1	Yoan	yoan	VERB	_	VerbForm=Inf	0	root	0:root	_
 2	ra	ra	AUX	_	Mood=Imp	1	aux	1:aux	_
-3	ga	ga	AUX	_	Mood=Hort	1	aux	1:aux	SpacesAfter=\n
+3	ga	ga	AUX	_	Mood=Hrt	1	aux	1:aux	SpacesAfter=\n
 
 # sent_id = film_Bridge_10
 # text = Thaima lehnda
@@ -3594,7 +3594,7 @@
 1	A	a	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
 2	phethe	phethe	VERB	_	VerbForm=Inf	6	ccomp	6:ccomp	_
 3	rai	rai	ADV	COLL	VerbForm=Inf	2	compound:prt	2:compound:prt	_
-4	ga	ga	AUX	_	Mood=Hort	2	aux	2:aux	_
+4	ga	ga	AUX	_	Mood=Hrt	2	aux	2:aux	_
 5	re	re	ADV	_	_	2	advmod	2:advmod	_
 6	rung	rung	VERB	_	VerbForm=Inf	7	compound:svc	7:compound:svc	_
 7	wile	wi	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
@@ -4281,7 +4281,7 @@
 4	,	,	PUNCT	_	_	6	punct	6:punct	_
 5	haida	hai	PRON	_	Case=Abl|Number=Plur|Person=1|PronType=Prs	6	obl	6:obl	_
 6	phethe	phethe	VERB	_	VerbForm=Inf	1	parataxis	1:parataxis	_
-7	ga	ga	AUX	Jus	Mood=Hort	1	aux	1:aux	SpaceAfter=No
+7	ga	ga	AUX	Jus	Mood=Hrt	1	aux	1:aux	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	1:punct	SpacesAfter=\n
 
 # sent_id = film_Bridge_232
@@ -4681,7 +4681,7 @@
 11	kathathahn	kathathahn	ADV	_	_	9	advmod	9:advmod	_
 12	re	re	PART	REP	_	9	mark	9:mark	_
 13	rungami	rungami	NOUN	_	Number=Sing	0	root	0:root	_
-14	raga	raga	AUX	HORT	Mood=Hort	13	aux	13:aux	SpacesAfter=\n
+14	raga	raga	AUX	HORT	Mood=Hrt	13	aux	13:aux	SpacesAfter=\n
 
 # sent_id = film_Bridge_270
 # text = Dreha garhe
@@ -4843,7 +4843,7 @@
 # english = Let 's start here.
 1	Haida	hai	PRON	_	Case=Abl|Deixis=Prox|Number=Sing|PronType=Dem	2	obl	2:obl	_
 2	matha	matha	VERB	_	VerbForm=Inf	0	root	0:root	_
-3	ga	ga	AUX	_	Mood=Hort	2	aux	2:aux	SpacesAfter=\n
+3	ga	ga	AUX	_	Mood=Hrt	2	aux	2:aux	SpacesAfter=\n
 
 # sent_id = film_Bridge_291
 # text = Nahn US governmentbyahn thaithe rahn redi myate rateragu...
