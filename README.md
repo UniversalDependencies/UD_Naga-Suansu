@@ -26,9 +26,12 @@ The UD\_Naga-Suansu treebank consists of various texts translated into Suansu by
 
 # Acknowledgments
 
-This work was supported by the University of Zurich Global Strategy and Partnerships Funding Scheme (Project Fund Level 3) (https://www.global.uzh.ch).
-We gratefully acknowledge the Suansu-speaking community for their continuous support. We also thank Jason M. Vashum for his generous assistance with translation and annotation.
+* This work was supported by the University of Zurich Global Strategy and Partnerships Funding Scheme (Project Fund Level 3) (https://www.global.uzh.ch).
 
+* We gratefully acknowledge the Suansu-speaking community for their continuous support. We also thank Jason M. Vashum for his generous assistance with translation and annotation.
+
+* Kira Tulchynska gratefully acknowledges the financial support of the Jack, Joseph and Morton Mandel School MA Honors Program at the Hebrew University of Jerusalem.
+* 
 ## References
 
 * Say, Sergey (ed.). 2020-. BivalTyp: Typological database of bivalent verbs and their encoding frames. (Available online at https://www.bivaltyp.info, Accessed on 1 April 2025.)
