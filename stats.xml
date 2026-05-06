@@ -63,7 +63,7 @@
     <feat name="Modal" value="Obl" upos="AUX">7</feat><!-- geraha -->
     <feat name="Modal" value="Perm" upos="ADV,VERB">3</feat><!-- chaszuma, kapralaszuma, phehnszuma -->
     <feat name="Mood" value="Des" upos="AUX">3</feat><!-- tha -->
-    <feat name="Mood" value="Hort" upos="AUX">6</feat><!-- ga, diga, raga -->
+    <feat name="Mood" value="Hrt" upos="AUX">6</feat><!-- ga, diga, raga -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">5</feat><!-- ra, mia, shamma -->
     <feat name="Mood" value="Ind" upos="ADP,ADV,AUX,PART,VERB">359</feat><!-- lale, laha, dhohnte, nue, reha, wile, kanale, manungle, rae, rue -->
     <feat name="Mood" value="Int" upos="AUX">30</feat><!-- la, lala, dila, dima, lalama -->
