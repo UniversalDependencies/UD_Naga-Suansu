@@ -5,6 +5,10 @@ UD_Naga-Suansu is a Universal Dependencies (UD) treebank for Suansu (Glottocode:
 - **Training set**: 2945 tokens
 - **Test set**: 157 tokens
 
+# Authors
+Ivani, Jessica K., University of California Santa Barbara
+Tulchynska, Kira, The Hebrew University of Jerusalem
+
 # Introduction
 
 The UD\_Naga-Suansu treebank consists of various texts translated into Suansu by native speakers, then glossed and annotated. The included texts are:
@@ -31,7 +35,7 @@ The UD\_Naga-Suansu treebank consists of various texts translated into Suansu by
 * We gratefully acknowledge the Suansu-speaking community for their continuous support. We also thank Jason M. Vashum for his generous assistance with translation and annotation.
 
 * Kira Tulchynska gratefully acknowledges the financial support of the Jack, Joseph and Morton Mandel School MA Honors Program at the Hebrew University of Jerusalem.
-* 
+  
 ## References
 
 * Say, Sergey (ed.). 2020-. BivalTyp: Typological database of bivalent verbs and their encoding frames. (Available online at https://www.bivaltyp.info, Accessed on 1 April 2025.)
