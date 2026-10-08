@@ -1,6 +1,7 @@
 # newdoc id = grammar_Cairo
 # modality = written
 # sent_id = grammar_Cairo_1
+# parallel_id = cairo/1
 # text = leneonan ba baszuela letter rakke
 # text_en = The girl wrote a letter to her friend.
 1	leneonan	leneo	NOUN	_	Case=Erg|Number=Sing	5	nsubj	5:nsubj	_
@@ -10,6 +11,7 @@
 5	rakke	rakk	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_2
+# parallel_id = cairo/2
 # text = kathung ruganan la rahn
 # text_en = I think that it is raining
 1	kathung	kathung	NOUN	_	Number=Sing	2	nsubj	2:nsubj	_
@@ -18,6 +20,7 @@
 4	rahn	rahn	AUX	_	Aspect=Imp|Mood=Irr	2	aux	2:aux	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_3
+# parallel_id = cairo/3
 # text = Ba lhohn mohn gali churi mathammedi khahn gase thea
 # text_en = He tried to stop smoking and drinking.
 1	Ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	_
@@ -33,6 +36,7 @@
 10	thea	the	VERB	_	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_4
+# parallel_id = cairo/4
 # text = Nahn woan mu ladi la?
 # text_en = Do you want to go?
 1	Nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	_
@@ -45,6 +49,7 @@
 7	?	?	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_5
+# parallel_id = cairo/5
 # text = Sam, windowdi shamma!
 # text_en = Sam, open the window!
 1	Sam	Sam	PROPN	_	Number=Sing	4	vocative	4:vocative	SpaceAfter=No
@@ -54,6 +59,7 @@
 5	!	!	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_6
+# parallel_id = cairo/6
 # text = Banan ba biyedi cardi phui mue.
 # text_en = She made her husband wash the car.
 1	Banan	ba	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	_
@@ -65,6 +71,7 @@
 7	.	.	PUNCT	_	_	6	punct	6:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_7
+# parallel_id = cairo/7
 # text = Peter rhuikhuniyanan pidi rha ahuhn nunge.
 # text_en = Peter’s neighbor painted the fence red.
 1	Peter	Peter	PROPN	_	Number=Sing	2	nmod:poss	2:nmod:poss	_
@@ -76,6 +83,7 @@
 7	.	.	PUNCT	_	_	6	punct	6:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_8
+# parallel_id = cairo/8
 # text = Na badi hai ba szumahnle.
 # text_en = My dad is cooler than yours.
 1	Na	na	PRON	_	Number=Plur|Person=2|PronType=Prs	2	nmod:poss	2:nmod:poss	_
@@ -86,6 +94,7 @@
 6	.	.	PUNCT	_	_	5	punct	5:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_9
+# parallel_id = cairo/9
 # text = Mary bronze thae, Peter silver, rateragu Jane gold re.
 # text_en = Mary won bronze, Peter silver, and Jane gold.
 1	Mary	Mary	PROPN	_	Number=Sing	3	nsubj	3:nsubj	_
@@ -102,6 +111,7 @@
 12	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_10
+# parallel_id = cairo/10
 # text = Iguazudi country tai ka lama, zazu la?
 # text_en = Is Iguazu a big or a small country?
 1	Iguazudi	Iguazu	PROPN	_	Case=Top|Number=Sing	5	nsubj	5:nsubj	_
@@ -115,6 +125,7 @@
 9	?	?	PUNCT	_	_	5	punct	5:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_11
+# parallel_id = cairo/11
 # text = Peter Smithdi larateragu Mary Browndi li redi kapralaszuma.
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
 1	Peter	Peter	PROPN	_	Number=Sing	8	nsubj	8:nsubj	_
@@ -128,6 +139,7 @@
 9	.	.	PUNCT	_	_	8	punct	8:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_12
+# parallel_id = cairo/12
 # text = Thuzanan rak la redi bu thaima.
 # text_en = They have no idea who wrote it.
 1	Thuzanan	thuza	PRON	_	Case=Erg|Number=Sing|PronType=Int	2	nsubj	2:nsubj	_
@@ -141,6 +153,7 @@
 8	.	.	PUNCT	_	_	7	punct	7:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_13
+# parallel_id = cairo/13
 # text = Nahn mwe yoanganan laha la?
 # text_en = What are you looking at?
 1	Nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	_
@@ -151,6 +164,7 @@
 6	?	?	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_14
+# parallel_id = cairo/14
 # text = Nahn mwe matamda woanngam rahn re mazok la?
 # text_en = When do you think you can come?
 1	Nahn	nahn	PRON	_	Number=Sing|Person=2|PronType=Prs	7	nsubj	4:nsubj:xsubj|7:nsubj	_
@@ -164,6 +178,7 @@
 9	?	?	PUNCT	_	_	7	punct	7:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_15
+# parallel_id = cairo/15
 # text = Ba car lue riri ba thaineo bike daichu.
 # text_en = He bought a car but his brother just a bike.
 1	Ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
@@ -177,6 +192,7 @@
 9	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\s\n
 
 # sent_id = grammar_Cairo_16
+# parallel_id = cairo/16
 # text = Peter gali Mary thahnrua ganan kada sahnte.
 # text_en = Peter and Mary hugged each other and then left the room.
 1	Peter	Peter	PROPN	_	Number=Sing	4	nsubj	4:nsubj	_
@@ -189,6 +205,7 @@
 8	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_17
+# parallel_id = cairo/17
 # text = Ba bava gahedi thea geraha riri thai za la reganan ba dani themate.
 # text_en = She should have been doing her hair but for some reason she wouldn't that day.
 1	Ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	_
@@ -207,6 +224,7 @@
 14	.	.	PUNCT	_	_	4	punct	4:punct	SpacesAfter=\s\n
 
 # sent_id = grammar_Cairo_18
+# parallel_id = cairo/18
 # text = Ba thu rai szammaganan a ba sui yinglamaganan laia.
 # text_en = I wasn't able to keep up, because he ran too fast.
 1	Ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	_
@@ -221,6 +239,7 @@
 10	.	.	PUNCT	_	_	8	punct	8:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_19
+# parallel_id = cairo/19
 # text = Hai letterdi Petervada, ashu laramie.
 # text_en = This letter is from Peter and it was delivered yesterday.
 1	Hai	hai	DET	_	Deixis=Prox|PronType=Dem	2	det	2:det	_
@@ -232,6 +251,7 @@
 7	.	.	PUNCT	_	_	3	punct	3:punct	SpacesAfter=\n
 
 # sent_id = grammar_Cairo_20
+# parallel_id = cairo/20
 # text = Ba Parisda mathaikaie, Franceva capitalda.
 # text_en = She grew up in Paris, the capital of France.
 1	Ba	ba	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
